@@ -1,10 +1,10 @@
-import { name, version } from "./package.json";
+import { version } from "./package.json";
 import { program } from "commander";
 import { Contest, getters } from "./src/contest/contest";
 import list from "./src/list";
 
 program
-    .name(name)
+    .name("lsct")
     .version(version)
     .option("-a, --all", "List all contests")
     .option("-d, --days", "Only list contests within a given number of days", "3")
