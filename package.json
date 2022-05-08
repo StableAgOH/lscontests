@@ -19,7 +19,8 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -c --watch"
+    "watch": "rollup -c --watch",
+    "prepack": "yarn build"
   },
   "dependencies": {
     "axios": "^0.27.2",
