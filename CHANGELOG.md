@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/StableAgOH/lscontests/compare/v1.0.1...v1.1.0) (2022-05-08)
+
+
+### Features
+
+* support for listing only the contests information for given OJs ([08c281c](https://github.com/StableAgOH/lscontests/commit/08c281c6feb5bba74319f9066baf7a23a12a11f1))
+
 ## [1.0.1](https://github.com/StableAgOH/lscontests/compare/v1.0.0...v1.0.1) (2022-05-08)
 
 
