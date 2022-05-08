@@ -1,21 +1,21 @@
 import { version } from "./package.json";
-import { program } from "commander";
-import { Contest, getters } from "./src/contest/contest";
+import { Option, program } from "commander";
+import { alloj } from "./src/contest/contest";
 import list from "./src/list";
 
 program
     .name("lsct")
     .version(version)
-    .option("-a, --all", "List all contests")
-    .option("-d, --days", "Only list contests within a given number of days", "3")
+    .option("-d, --days", "Number of days to get contests information", "3")
+    .option("-l, --list", "List all supported OJ")
+    .addOption(new Option("-o, --oj <ojs...>", "OJs to get contests information").choices(alloj))
     .parse();
 
 const opts = program.opts();
 
 async function main() {
-    const cts: Contest[] = [];
-    if (program.args.length === 0 || opts.all) cts.push(...await list(Object.values(getters), opts.days as number));
-    console.log(cts);
+    if (opts.list) console.log(alloj);
+    else console.log(await list(opts.oj, opts.days as number));
 }
 
 main();

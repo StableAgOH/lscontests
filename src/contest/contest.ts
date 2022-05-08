@@ -9,6 +9,15 @@ export interface Contest {
     url: string;
 }
 
-export const getters: Record<string, () => Promise<Contest[]>> = {
-    "codeforces": codeforces,
+export type oj = "cf";
+
+export const alloj: oj[] = ["cf"];
+
+export const getters: Record<oj, () => Promise<Contest[]>> = {
+    "cf": codeforces,
 };
+
+export function getGetterList(ojs: oj[]) {
+    if (!ojs) ojs = alloj;
+    return ojs.map((oj) => getters[oj]);
+}
