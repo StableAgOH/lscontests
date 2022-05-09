@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/StableAgOH/lscontests/compare/v1.1.0...v1.2.0) (2022-05-09)
+
+
+### Features
+
+* add support for luogu ([9b9ce25](https://github.com/StableAgOH/lscontests/commit/9b9ce253a077b5c1d8a08e38c42d5c8cb07041d4))
+
 # [1.1.0](https://github.com/StableAgOH/lscontests/compare/v1.0.1...v1.1.0) (2022-05-08)
 
 
