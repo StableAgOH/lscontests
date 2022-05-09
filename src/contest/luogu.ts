@@ -35,7 +35,7 @@ export default async function get() {
             name: contest.name,
             rule: ruleRecord[contest.ruleType],
             startTime: new Date(contest.startTime * 1000),
-            durationHours: (contest.endTime - contest.startTime) / 60 / 60,
+            endTime: new Date(contest.endTime * 1000),
             url: `https://www.luogu.com.cn/contest/${contest.id}`
         };
     }).filter((contest) => contest.startTime >= new Date());

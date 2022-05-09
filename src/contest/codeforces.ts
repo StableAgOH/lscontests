@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Contest, contestRule } from "./contest";
 
-interface CodeforcesResult {
+type CodeforcesResult = {
     id: string;
     name: string;
     type: string;
@@ -25,7 +25,7 @@ export default async function get() {
             name: contest.name,
             rule: ruleRecord[contest.type],
             startTime: new Date(contest.startTimeSeconds * 1000),
-            durationHours: contest.durationSeconds / 60 / 60,
+            endTime: new Date((contest.startTimeSeconds + contest.durationSeconds) * 1000),
             url: `https://codeforces.com/contests/${contest.id}`
         };
     }).filter((contest) => contest.startTime >= new Date());

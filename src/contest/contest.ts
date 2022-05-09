@@ -15,7 +15,7 @@ export type Contest = {
     name: string;
     rule: contestRule;
     startTime: Date;
-    durationHours: number;
+    endTime: Date;
     url: string;
 }
 
