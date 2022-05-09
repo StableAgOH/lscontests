@@ -13,9 +13,10 @@ A CLI tool to get information about the contests on each OJ
 lsct [options]
 
 Options:
-  -V, --version  output the version number
-  -a, --all      List all contests
-  -d, --days     Only list contests within a given number of days
+  -V, --version      output the version number
+  -d, --days, <day>  Number of days to get contests information (default: "3")
+  -l, --list         List all supported OJ
+  -o, --oj <ojs...>  OJs to get contests information (choices: "cf", "lg")
 ```
 
 ## License
