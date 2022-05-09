@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/StableAgOH/lscontests/compare/v1.2.0...v1.3.0) (2022-05-09)
+
+
+### Features
+
+* change the returned durationHours to endTime ([e883008](https://github.com/StableAgOH/lscontests/commit/e88300822e32ebe9a494558bc6984da249c1da90))
+
 # [1.2.0](https://github.com/StableAgOH/lscontests/compare/v1.1.0...v1.2.0) (2022-05-09)
 
 
