@@ -3,6 +3,9 @@
   "version": "1.5.0",
   "description": "A tool to get information about the contests on each OJ",
   "keywords": [
+    "cli",
+    "OJ",
+    "Codeforces",
     "competitive-programming"
   ],
   "repository": "https://github.com/StableAgOH/lscontests",
