@@ -1,6 +1,6 @@
 import { version } from "./package.json";
 import { Option, program } from "commander";
-import { alloj } from "./src/contest/contest";
+import { alloj } from "./src/oj";
 import list from "./src/list";
 
 program
@@ -14,7 +14,7 @@ program
 const opts = program.opts();
 
 async function main() {
-    if (opts.list) console.log(Object.values(alloj).map((ojd) => ojd.name));
+    if (opts.list) console.log(Object.values(alloj).map((oj) => oj.name));
     else console.log(await list(opts.oj, opts.days as number));
 }
 
