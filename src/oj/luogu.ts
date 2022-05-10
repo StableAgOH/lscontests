@@ -2,7 +2,7 @@ import axios from "axios";
 import { contest, rule } from "../contest";
 import { oj } from "../oj";
 
-type LuoguResult = {
+type result = {
     ruleType: number;
     visibilityType: number;
     invitationCodeType: number;
@@ -31,15 +31,15 @@ const headers = {
 export const lg: oj = {
     name: "Luogu",
     get: async () => {
-        const result: LuoguResult[] = (await axios.get("https://www.luogu.com.cn/contest/list", { headers })).data.currentData.contests.result;
-        return result.map((contest): contest => {
+        const resList: result[] = (await axios.get("https://www.luogu.com.cn/contest/list", { headers })).data.currentData.contests.result;
+        return resList.map((res): contest => {
             return {
                 ojName: lg.name,
-                name: contest.name,
-                rule: ruleRecord[contest.ruleType],
-                startTime: new Date(contest.startTime * 1000),
-                endTime: new Date(contest.endTime * 1000),
-                url: `https://www.luogu.com.cn/contest/${contest.id}`
+                name: res.name,
+                rule: ruleRecord[res.ruleType],
+                startTime: new Date(res.startTime * 1000),
+                endTime: new Date(res.endTime * 1000),
+                url: `https://www.luogu.com.cn/contest/${res.id}`
             };
         }).filter((contest) => contest.startTime >= new Date());
     }

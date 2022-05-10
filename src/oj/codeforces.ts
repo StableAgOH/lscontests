@@ -2,7 +2,7 @@ import axios from "axios";
 import { contest, rule } from "../contest";
 import { oj } from "../oj";
 
-type CodeforcesResult = {
+type result = {
     id: string;
     name: string;
     type: string;
@@ -14,22 +14,22 @@ type CodeforcesResult = {
 }
 
 const ruleRecord: Record<string, rule> = {
-    "CF": "Codeforces",
-    "ICPC": "ICPC"
+    CF: "Codeforces",
+    ICPC: "ICPC"
 };
 
 export const cf: oj = {
     name: "Codeforces",
     get: async () => {
-        const result: CodeforcesResult[] = (await axios.get("https://codeforces.com/api/contest.list")).data.result;
-        return result.map((contest): contest => {
+        const resList: result[] = (await axios.get("https://codeforces.com/api/contest.list")).data.result;
+        return resList.map((res): contest => {
             return {
                 ojName: cf.name,
-                name: contest.name,
-                rule: ruleRecord[contest.type],
-                startTime: new Date(contest.startTimeSeconds * 1000),
-                endTime: new Date((contest.startTimeSeconds + contest.durationSeconds) * 1000),
-                url: `https://codeforces.com/contests/${contest.id}`
+                name: res.name,
+                rule: ruleRecord[res.type],
+                startTime: new Date(res.startTimeSeconds * 1000),
+                endTime: new Date((res.startTimeSeconds + res.durationSeconds) * 1000),
+                url: `https://codeforces.com/contests/${res.id}`
             };
         }).filter((contest) => contest.startTime >= new Date());
     }
