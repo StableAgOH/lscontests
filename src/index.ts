@@ -1,6 +1,6 @@
-import { alloj } from "./oj";
+import { addOJ, alloj } from "./lib/oj";
 
-export default async function list(abbrList: string[], days: number) {
+async function list(abbrList: string[], days: number) {
     if (!abbrList) abbrList = Object.keys(alloj);
     return (await Promise.all(
         abbrList.map(
@@ -10,3 +10,5 @@ export default async function list(abbrList: string[], days: number) {
         )
     )).reduce((ls1, ls2) => ls1.concat(ls2));
 }
+
+export { addOJ, list };

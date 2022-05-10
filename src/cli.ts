@@ -1,7 +1,8 @@
-import { version } from "./package.json";
+#!/usr/bin/env node
+import { version } from "../package.json";
 import { Option, program } from "commander";
-import { alloj } from "./src/oj";
-import list from "./src/list";
+import { alloj } from "./lib/oj";
+import { list } from ".";
 
 program
     .name("lsct")
