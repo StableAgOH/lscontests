@@ -1,6 +1,6 @@
 import { addOJ, alloj } from "./lib/oj";
 
-async function list(abbrList: string[], days: number) {
+async function list(abbrList?: string[], days = 3) {
     if (!abbrList) abbrList = Object.keys(alloj);
     return (await Promise.all(
         abbrList.map(
