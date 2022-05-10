@@ -46,10 +46,15 @@ type result = {
     filledPassword: boolean
 }
 
+enum topCategoryFilter {
+    NOWCODERSERIES = 13,
+    SCHOOLCONTEST
+}
+
 const url = "https://ac.nowcoder.com/acm/contest/vip-index";
 
-async function getResultList(topCategoryFilter: number) {
-    const html = (await axios.get(`${url}?topCategoryFilter=${topCategoryFilter}`)).data;
+async function getResultList(tcf: topCategoryFilter) {
+    const html = (await axios.get(`${url}?topCategoryFilter=${tcf}`)).data;
     const $ = cheerio.load(html);
     const ls: result[] = [];
     $("div[class='platform-item js-item ']").each(function () {
@@ -67,7 +72,7 @@ const ruleRecord: Record<number, rule> = {
 export const nc = {
     name: "NowCoder",
     get: async () => {
-        const res: result[] = [...await getResultList(13), ...await getResultList(14)];
+        const res: result[] = [...await getResultList(topCategoryFilter.NOWCODERSERIES), ...await getResultList(topCategoryFilter.SCHOOLCONTEST)];
         return res.filter((res) => res.signUpEndCountDownTime > 0).map((res): contest => {
             return {
                 ojName: nc.name,
