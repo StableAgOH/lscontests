@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/StableAgOH/lscontests/compare/v1.5.0...v1.5.1) (2022-05-10)
+
+
+### Performance Improvements
+
+* give list function default params ([3229a1e](https://github.com/StableAgOH/lscontests/commit/3229a1e7f4bb59587bbad991b30840eac564e33a))
+
 # [1.5.0](https://github.com/StableAgOH/lscontests/compare/v1.4.0...v1.5.0) (2022-05-10)
 
 
