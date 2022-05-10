@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/StableAgOH/lscontests/compare/v1.3.0...v1.4.0) (2022-05-10)
+
+
+### Features
+
+* add support for nowcoder ([613a9b7](https://github.com/StableAgOH/lscontests/commit/613a9b7e410d5343f193a6ca6fa20bc9389b5671))
+* support add OJ ([f39c815](https://github.com/StableAgOH/lscontests/commit/f39c815ee187fa226b603bc149daf48312283573))
+
 # [1.3.0](https://github.com/StableAgOH/lscontests/compare/v1.2.0...v1.3.0) (2022-05-09)
 
 
