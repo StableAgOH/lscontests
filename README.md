@@ -19,7 +19,8 @@ Options:
   -V, --version      output the version number
   -d, --days, <day>  Number of days to get contests information (default: "3")
   -l, --list         List all supported OJ
-  -o, --oj <ojs...>  OJs to get contests information (choices: "cf", "lg")
+  -o, --oj <ojs...>  OJs to get contests information (choices: "cf", "lg", "nc")
+  -h, --help         display help for command
 ```
 
 ## License
