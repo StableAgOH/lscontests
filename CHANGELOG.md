@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/StableAgOH/lscontests/compare/v1.4.0...v1.5.0) (2022-05-10)
+
+
+### Features
+
+* support for being imported as a module ([aefd042](https://github.com/StableAgOH/lscontests/commit/aefd0426c32f6131982b60f1d5092a799c05c689))
+
+
+### Performance Improvements
+
+* use enum instead of magic number ([e9b21e1](https://github.com/StableAgOH/lscontests/commit/e9b21e1ea217e969e66b37b696bb6df23baf46c8))
+
 # [1.4.0](https://github.com/StableAgOH/lscontests/compare/v1.3.0...v1.4.0) (2022-05-10)
 
 
