@@ -216,6 +216,16 @@ https://www.test.com
 ]
 ```
 
+#### Use link CLI
+
+```typescript
+import { cli } from "lscontests";
+
+cli("-o cf -L en").then(console.log);
+```
+
+This code gives the same result as `lsct -o cf -L en`.
+
 ## License
 
 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)

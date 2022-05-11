@@ -1,5 +1,5 @@
 import { readdirSync } from "fs";
-import { addOJ, alloj } from "./lib/oj";
+import { alloj } from "./lib/oj";
 
 export type config = {
     abbrList?: string[],
@@ -13,7 +13,7 @@ const defaultConfig = {
     sort: true
 };
 
-async function getContestList(config?: config) {
+export async function getContestList(config?: config) {
     const cfg = { ...defaultConfig, ...config };
     if (!cfg.abbrList) cfg.abbrList = Object.keys(alloj);
     const contests = (await Promise.all(
@@ -52,7 +52,7 @@ function format(s: string, ...args: string[]) {
     return s;
 }
 
-async function getContestInfo(config?: config, language = "zh-CN") {
+export async function getContestInfo(config?: config, language = "zh-CN") {
     if (!langList.includes(language)) throw new Error(`Illegal language ${language}, the allowed languages are ${langList}`);
     const cfg = { ...defaultConfig, ...config };
     const contests = await getContestList(cfg);
@@ -72,4 +72,5 @@ async function getContestInfo(config?: config, language = "zh-CN") {
     return info.join("\n\n");
 }
 
-export { addOJ, getContestList, getContestInfo };
+export { cli } from "./cli";
+export { addOJ } from "./lib/oj";
