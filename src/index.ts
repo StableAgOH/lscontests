@@ -59,15 +59,17 @@ async function getContestInfo(config?: config, language = "zh-CN") {
     const info: string[] = [];
     const lang: langDict = await import(`./locale/${language}.json`);
     info.push(format(lang.welcome, cfg.days.toString(), contests.length.toString()));
-    for (const ct of contests) {
-        info.push("\n");
-        info.push(`${lang.ojName}: ${ct.ojName}`);
-        info.push(`${lang.rule}: ${ct.rule}`);
-        info.push(`${lang.startTime}: ${ct.startTime.toLocaleString()}`);
-        info.push(`${lang.endTime}: ${ct.endTime.toLocaleString()}`);
-        info.push(ct.url);
+    for (const contest of contests) {
+        const ct: string[] = [];
+        ct.push(`${lang.ojName}: ${contest.ojName}`);
+        ct.push(`${lang.name}: ${contest.name}`);
+        ct.push(`${lang.rule}: ${contest.rule}`);
+        ct.push(`${lang.startTime}: ${contest.startTime.toLocaleString()}`);
+        ct.push(`${lang.endTime}: ${contest.endTime.toLocaleString()}`);
+        ct.push(contest.url);
+        info.push(ct.join("\n"));
     }
-    return info.join("\n");
+    return info.join("\n\n");
 }
 
 export { addOJ, getContestList, getContestInfo };
