@@ -13,7 +13,7 @@ const defaultConfig = {
     sort: true
 };
 
-async function getList(config?: config) {
+async function getContestList(config?: config) {
     const cfg = { ...defaultConfig, ...config };
     if (!cfg.abbrList) cfg.abbrList = Object.keys(alloj);
     const contests = (await Promise.all(
@@ -52,10 +52,10 @@ function format(s: string, ...args: string[]) {
     return s;
 }
 
-async function getString(config?: config, language = "zh-CN") {
+async function getContestInfo(config?: config, language = "zh-CN") {
     if (!langList.includes(language)) throw new Error(`Illegal language ${language}, the allowed languages are ${langList}`);
     const cfg = { ...defaultConfig, ...config };
-    const contests = await getList(cfg);
+    const contests = await getContestList(cfg);
     const info: string[] = [];
     const lang: langDict = await import(`./locale/${language}.json`);
     info.push(format(lang.welcome, cfg.days.toString(), contests.length.toString()));
@@ -70,4 +70,4 @@ async function getString(config?: config, language = "zh-CN") {
     return info.join("\n");
 }
 
-export { addOJ, getList, getString };
+export { addOJ, getContestList, getContestInfo };

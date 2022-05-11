@@ -2,7 +2,7 @@
 import { version } from "../package.json";
 import { Option, program } from "commander";
 import { alloj } from "./lib/oj";
-import { config, getList, getString, langList } from ".";
+import { config, getContestList, getContestInfo, langList } from ".";
 
 program
     .name("lsct")
@@ -25,8 +25,8 @@ async function main() {
             days: opts.days as number,
             sort: opts.sort
         };
-        if (opts.raw) console.log(await getList(config));
-        else console.log(await getString(config, opts.language));
+        if (opts.raw) console.log(await getContestList(config));
+        else console.log(await getContestInfo(config, opts.language));
     }
 }
 

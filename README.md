@@ -111,9 +111,9 @@ If you want to call lscontests in your project to get a list of contests informa
 #### Get contests information string
 
 ```typescript
-import { getString } from "lscontests";
+import { getContestInfo } from "lscontests";
 
-getString({ abbrList: ["cf", "lg"] }).then(console.log);
+getContestInfo({ abbrList: ["cf", "lg"] }).then(console.log);
 ```
 
 The result of this code is the same as `lsct -o cf lg`.
@@ -121,9 +121,9 @@ The result of this code is the same as `lsct -o cf lg`.
 #### Get contests information list
 
 ```typescript
-import { getList } from "lscontests";
+import { getContestList } from "lscontests";
 
-getList({ sort: false }).then(console.log);
+getContestList({ sort: false }).then(console.log);
 ```
 
 The result of this code is the same as `lsct -r --no-sort`.
@@ -131,7 +131,7 @@ The result of this code is the same as `lsct -r --no-sort`.
 #### Add OJ support
 
 ```typescript
-import { addOJ, getList } from "lscontests";
+import { addOJ, getContestList } from "lscontests";
 
 addOJ("ts", {
     name: "testOJ", get: async () => [{
@@ -144,7 +144,7 @@ addOJ("ts", {
     }]
 });
 
-getList({ abbrList: ["ts"], days: 7 }).then(console.log);
+getContestList({ abbrList: ["ts"], days: 7 }).then(console.log);
 ```
 
 The result of this code is as follows:
