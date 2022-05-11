@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/StableAgOH/lscontests/compare/v1.7.0...v1.7.1) (2022-05-11)
+
+
+### Performance Improvements
+
+* change the name of the API ([628d9da](https://github.com/StableAgOH/lscontests/commit/628d9dac372e3ccdc83d560b08394ae18c9a5b82))
+
 # [1.7.0](https://github.com/StableAgOH/lscontests/compare/v1.6.1...v1.7.0) (2022-05-11)
 
 
