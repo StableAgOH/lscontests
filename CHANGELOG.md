@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/StableAgOH/lscontests/compare/v1.6.0...v1.6.1) (2022-05-11)
+
+
+### Performance Improvements
+
+* sort contests start time by default ([97c051f](https://github.com/StableAgOH/lscontests/commit/97c051f8fe7eaa6581a0b879cf2222eb64605303))
+
 # [1.6.0](https://github.com/StableAgOH/lscontests/compare/v1.5.1...v1.6.0) (2022-05-11)
 
 
