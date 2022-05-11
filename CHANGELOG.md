@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/StableAgOH/lscontests/compare/v1.7.2...v1.7.3) (2022-05-11)
+
+
+### Bug Fixes
+
+* no contest name in output ([cb4f4fc](https://github.com/StableAgOH/lscontests/commit/cb4f4fc44e14cf6caed2aa4288d002fb86b02fd6))
+
 ## [1.7.2](https://github.com/StableAgOH/lscontests/compare/v1.7.1...v1.7.2) (2022-05-11)
 
 
