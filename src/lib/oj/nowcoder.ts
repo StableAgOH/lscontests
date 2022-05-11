@@ -1,5 +1,6 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
+import { oj } from ".";
 import { contest, rule } from "../contest";
 
 type result = {
@@ -69,10 +70,13 @@ const ruleRecord: Record<number, rule> = {
     2: "OI"
 };
 
-export const nc = {
+export const nc: oj = {
     name: "NowCoder",
     get: async () => {
-        const res: result[] = [...await getResultList(topCategoryFilter.NOWCODERSERIES), ...await getResultList(topCategoryFilter.SCHOOLCONTEST)];
+        const res: result[] = [
+            ...await getResultList(topCategoryFilter.NOWCODERSERIES),
+            ...await getResultList(topCategoryFilter.SCHOOLCONTEST)
+        ];
         return res.filter((res) => res.signUpEndCountDownTime > 0).map((res): contest => {
             return {
                 ojName: nc.name,

@@ -1,6 +1,6 @@
 import axios from "axios";
 import { contest, rule } from "../contest";
-import { oj } from "../oj";
+import { oj } from ".";
 
 type result = {
     ruleType: number;

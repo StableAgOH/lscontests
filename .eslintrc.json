@@ -18,7 +18,10 @@
     "rules": {
         "indent": [
             "error",
-            4
+            4,
+            {
+                "SwitchCase": 1
+            }
         ],
         "linebreak-style": [
             "error",
@@ -28,13 +31,7 @@
             "error",
             "double"
         ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "eol-last": [
-            "error",
-            "always"
-        ]
+        "semi": "error",
+        "eol-last": "error"
     }
 }

@@ -1,4 +1,4 @@
-export type rule = "OI" | "IOI" | "ICPC" | "LeDuo" | "Codeforces"
+export type rule = "OI" | "IOI" | "ICPC" | "LeDuo" | "Codeforces" | "AtCoder";
 export type contest = {
     ojName: string;
     name: string;
@@ -6,4 +6,4 @@ export type contest = {
     startTime: Date;
     endTime: Date;
     url: string;
-}
+};

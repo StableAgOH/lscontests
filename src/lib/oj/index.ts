@@ -1,7 +1,8 @@
-import { contest } from "./contest";
-import { cf } from "./oj/codeforces";
-import { lg } from "./oj/luogu";
-import { nc } from "./oj/nowcoder";
+import { contest } from "../contest";
+import { at } from "./atcoder";
+import { cf } from "./codeforces";
+import { lg } from "./luogu";
+import { nc } from "./nowcoder";
 
 export type oj = {
     name: string,
@@ -9,9 +10,10 @@ export type oj = {
 }
 
 export const alloj: { [abbr: string]: oj } = {
+    at,
     cf,
     lg,
-    nc
+    nc,
 };
 
 export function addOJ(abbr: string, oj: oj) {
