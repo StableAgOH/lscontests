@@ -14,7 +14,7 @@ A tool to get information about the contests on each OJ.
 
 ### CLI
 
-You can use cli to get a list of contests information easily.
+You can use cli to get a list of information about upcoming contests easily.
 
 ```text
 lsct [options]
@@ -33,7 +33,7 @@ Options:
 It performs as follows:
 
 <details>
-<summary> > lsct -o cf lg </summary>
+<summary> <code>> lsct -o cf lg</code> </summary>
 
 ```text
 在最近的 3 天内有 2 场比赛
@@ -56,7 +56,7 @@ https://www.luogu.com.cn/contest/68326
 </details>
 
 <details>
-<summary> > lsct -o cf lg -L en </summary>
+<summary> <code>> lsct -o cf lg -L en</code> </summary>
 
 ```text
 2 contests in the last 3 days
@@ -79,7 +79,7 @@ https://www.luogu.com.cn/contest/68326
 </details>
 
 <details>
-<summary> > lsct -r -o cf lg </summary>
+<summary> <code>> lsct -r -o cf lg</code> </summary>
 
 ```bash
 [
@@ -106,7 +106,7 @@ https://www.luogu.com.cn/contest/68326
 
 ### API
 
-If you want to call lscontests in your project to get a list of contests information, or if you need to add OJ support, then you can call the lscontests API like the following:
+If you want to get a list of contest information in your project by calling *lscontests*, or if you need to add support for other OJs, then you can call the *lscontests* API as follows:
 
 #### Get contests information string
 
@@ -116,7 +116,7 @@ import { getContestInfo } from "lscontests";
 getContestInfo({ abbrList: ["cf", "lg"] }).then(console.log);
 ```
 
-The result of this code is the same as `lsct -o cf lg`.
+This code gives the same result as `lsct -o cf lg`.
 
 #### Get contests information list
 
@@ -126,7 +126,7 @@ import { getContestList } from "lscontests";
 getContestList({ sort: false }).then(console.log);
 ```
 
-The result of this code is the same as `lsct -r --no-sort`.
+This code gives the same result as `lsct -r --no-sort`.
 
 #### Add OJ support
 
@@ -147,7 +147,7 @@ addOJ("ts", {
 getContestList({ abbrList: ["ts"], days: 7 }).then(console.log);
 ```
 
-The result of this code is as follows:
+This code gives the following results:
 
 ```bash
 [
