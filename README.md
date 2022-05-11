@@ -23,7 +23,8 @@ Options:
   -V, --version      output the version number
   -d, --days, <day>  Number of days to get contests information (default: "3")
   -l, --list         List all supported OJ
-  -o, --oj <ojs...>  OJs to get contests information (choices: "cf", "lg", "nc")
+  --no-sort          Do not sort by contests start time (default sort by OJ)
+  -o, --oj <ojs...>  OJs to get contests information (choices: "at", "cf", "lg", "nc")
   -h, --help         display help for command
 ```
 
