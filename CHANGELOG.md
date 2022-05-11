@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/StableAgOH/lscontests/compare/v1.5.1...v1.6.0) (2022-05-11)
+
+
+### Features
+
+* add support for AtCoder ([de2020f](https://github.com/StableAgOH/lscontests/commit/de2020ffd5b595b8ed66edfe7b8ff097d2bf4d66))
+
 ## [1.5.1](https://github.com/StableAgOH/lscontests/compare/v1.5.0...v1.5.1) (2022-05-10)
 
 
