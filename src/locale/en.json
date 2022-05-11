@@ -1,0 +1,8 @@
+{
+    "welcome": "{1} contests in the last {0} days",
+    "ojName": "OJ",
+    "name": "Contest name",
+    "rule": "Rule",
+    "startTime": "Start time",
+    "endTime": "End time"
+}

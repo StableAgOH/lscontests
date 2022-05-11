@@ -11,6 +11,10 @@
         "outDir": "../dist/",
         "resolveJsonModule": true
     },
+    "include": [
+        "**/*.ts",
+        "**/*.json"
+    ],
     "references": [
         {
             "path": "../"

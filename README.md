@@ -16,60 +16,122 @@ A tool to get information about the contests on each OJ.
 
 You can use cli to get a list of contests information easily.
 
-```bash
+```text
 lsct [options]
 
 Options:
-  -V, --version      output the version number
-  -d, --days, <day>  Number of days to get contests information (default: "3")
-  -l, --list         List all supported OJ
-  --no-sort          Do not sort by contests start time (default sort by OJ)
-  -o, --oj <ojs...>  OJs to get contests information (choices: "at", "cf", "lg", "nc")
-  -h, --help         display help for command
+  -V, --version          output the version number
+  -d, --days, <day>      Number of days to get contests information (default: "3")
+  -l, --list             List all supported OJ
+  -o, --oj <ojs...>      OJs to get contests information (choices: "at", "cf", "lg", "nc")
+  -r, --raw              Print raw contest list
+  -L, --language <lang>  Set output language (choices: "en", "zh-CN", "zh-TW", default: "zh-CN")
+  --no-sort              Do not sort by contests start time, but by OJ order
+  -h, --help             display help for command
 ```
 
-Its performance:
+It performs as follows:
+
+<details>
+<summary> > lsct -o cf lg </summary>
+
+```text
+在最近的 3 天内有 2 场比赛
+
+
+比赛平台: Codeforces
+赛制: ICPC
+开始时间: 2022/5/13 22:35:00
+结束时间: 2022/5/14 00:35:00
+https://codeforces.com/contests/1680
+
+
+比赛平台: Luogu
+赛制: IOI
+开始时间: 2022/5/14 14:00:00
+结束时间: 2022/5/14 18:00:00
+https://www.luogu.com.cn/contest/68326
+```
+
+</details>
+
+<details>
+<summary> > lsct -o cf lg -L en </summary>
+
+```text
+2 contests in the last 3 days
+
+
+OJ: Codeforces
+Rule: ICPC
+Start time: 2022/5/13 22:35:00
+End time: 2022/5/14 00:35:00
+https://codeforces.com/contests/1680
+
+
+OJ: Luogu
+Rule: IOI
+Start time: 2022/5/14 14:00:00
+End time: 2022/5/14 18:00:00
+https://www.luogu.com.cn/contest/68326
+```
+
+</details>
+
+<details>
+<summary> > lsct -r -o cf lg </summary>
 
 ```bash
-> lsct
 [
   {
     ojName: 'Codeforces',
-    name: 'Codeforces Round #790 (Div. 4)',
+    name: 'Educational Codeforces Round 128 (Rated for Div. 2)',
     rule: 'ICPC',
-    startTime: 2022-05-10T14:35:00.000Z,
-    endTime: 2022-05-10T16:35:00.000Z,
-    url: 'https://codeforces.com/contests/1676'
+    startTime: 2022-05-13T14:35:00.000Z,
+    endTime: 2022-05-13T16:35:00.000Z,
+    url: 'https://codeforces.com/contests/1680'
   },
   {
-    ojName: 'NowCoder',
-    name: '牛客挑战赛60',
-    rule: 'ICPC',
-    startTime: 2022-05-13T11:00:00.000Z,
-    endTime: 2022-05-13T14:00:00.000Z,
-    url: 'https://ac.nowcoder.com/acm/contest/11200'
+    ojName: 'Luogu',
+    name: '【LGR-109】洛谷 5 月月赛 II & Windy Round 6',
+    rule: 'IOI',
+    startTime: 2022-05-14T06:00:00.000Z,
+    endTime: 2022-05-14T10:00:00.000Z,
+    url: 'https://www.luogu.com.cn/contest/68326'
   }
 ]
 ```
+
+</details>
 
 ### API
 
 If you want to call lscontests in your project to get a list of contests information, or if you need to add OJ support, then you can call the lscontests API like the following:
 
-#### Get a list of contests information
+#### Get contests information string
 
 ```typescript
-import { list } from "lscontests";
+import { getString } from "lscontests";
 
-list().then(console.log);
+getString({ abbrList: ["cf", "lg"] }).then(console.log);
 ```
 
-The result of this code is the same as using cli directly without arguments.
+The result of this code is the same as `lsct -o cf lg`.
+
+#### Get contests information list
+
+```typescript
+import { getList } from "lscontests";
+
+getList({ sort: false }).then(console.log);
+```
+
+The result of this code is the same as `lsct -r --no-sort`.
 
 #### Add OJ support
 
 ```typescript
-import { addOJ, list } from "lscontests";
+import { addOJ, getList } from "lscontests";
 
 addOJ("ts", {
     name: "testOJ", get: async () => [{
@@ -82,7 +144,7 @@ addOJ("ts", {
     }]
 });
 
-list(["ts"], 7).then(console.log);
+getList({ abbrList: ["ts"], days: 7 }).then(console.log);
 ```
 
 The result of this code is as follows:
