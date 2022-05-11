@@ -72,5 +72,5 @@ export async function getContestInfo(config?: config, language = "zh-CN") {
     return info.join("\n\n");
 }
 
-export { cli } from "./cli";
+export { cli, getHelp } from "./cli";
 export { addOJ } from "./lib/oj";
