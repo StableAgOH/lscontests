@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/StableAgOH/lscontests/compare/v1.6.1...v1.7.0) (2022-05-11)
+
+
+### Bug Fixes
+
+* throw an error when codeforces API errors ([f35d42d](https://github.com/StableAgOH/lscontests/commit/f35d42d42f19057778f040b35285f1df57b9b0e1))
+
+
+### Features
+
+* support for outputting multiple language contests information string ([91b8ce9](https://github.com/StableAgOH/lscontests/commit/91b8ce9dfa531c860080b5169ded6918db7c2cf5))
+
 ## [1.6.1](https://github.com/StableAgOH/lscontests/compare/v1.6.0...v1.6.1) (2022-05-11)
 
 
