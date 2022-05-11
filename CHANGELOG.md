@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/StableAgOH/lscontests/compare/v1.8.0...v1.8.1) (2022-05-11)
+
+
+### Performance Improvements
+
+* allows to specify the program name when calling cli() ([8f358ab](https://github.com/StableAgOH/lscontests/commit/8f358ab2ef5d3e6e9ac499939f9343de396e621a))
+
 # [1.8.0](https://github.com/StableAgOH/lscontests/compare/v1.7.3...v1.8.0) (2022-05-11)
 
 
