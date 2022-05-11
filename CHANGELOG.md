@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/StableAgOH/lscontests/compare/v1.7.3...v1.8.0) (2022-05-11)
+
+
+### Features
+
+* support calling api like using cli ([d515240](https://github.com/StableAgOH/lscontests/commit/d515240a47fd9ac2c721a897201317092b7633ab))
+
 ## [1.7.3](https://github.com/StableAgOH/lscontests/compare/v1.7.2...v1.7.3) (2022-05-11)
 
 
