@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/StableAgOH/lscontests/compare/v1.8.1...v1.8.2) (2022-05-11)
+
+
+### Bug Fixes
+
+* program exits when calling cli() by passing -h or --help ([ef755e7](https://github.com/StableAgOH/lscontests/commit/ef755e7ddc80d02868afc8453f4485b13eb8e58c))
+
 ## [1.8.1](https://github.com/StableAgOH/lscontests/compare/v1.8.0...v1.8.1) (2022-05-11)
 
 
