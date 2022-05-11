@@ -24,7 +24,7 @@ async function getContestList(config?: config) {
                     return cts.filter((c) => c.startTime <= new Date(Date.now() + cfg.days * 86400000));
                 }
                 catch (e) {
-                    console.log(`Failed to get match information for ${alloj[abbr].name}, details:`);
+                    console.error(`Failed to get match information for ${alloj[abbr].name}, details:`);
                     console.error(e);
                     return [];
                 }
