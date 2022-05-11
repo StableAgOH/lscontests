@@ -33,56 +33,71 @@ Options:
 It performs as follows:
 
 <details>
-<summary> <code>> lsct -o cf lg</code> </summary>
+<summary> <code>> lsct -o at cf</code> </summary>
 
 ```text
-在最近的 3 天内有 2 场比赛
-
+在最近的 3 天内有 3 场比赛
 
 比赛平台: Codeforces
+比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
 赛制: ICPC
 开始时间: 2022/5/13 22:35:00
 结束时间: 2022/5/14 00:35:00
 https://codeforces.com/contests/1680
 
+比赛平台: Codeforces
+比赛名称: Codeforces Round #791 (Div. 2)
+赛制: Codeforces
+开始时间: 2022/5/14 17:35:00
+结束时间: 2022/5/14 19:35:00
+https://codeforces.com/contests/1679
 
-比赛平台: Luogu
-赛制: IOI
-开始时间: 2022/5/14 14:00:00
-结束时间: 2022/5/14 18:00:00
-https://www.luogu.com.cn/contest/68326
+比赛平台: AtCoder
+比赛名称: Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)
+赛制: AtCoder
+开始时间: 2022/5/14 20:00:00
+结束时间: 2022/5/14 20:01:40
+https://atcoder.jp/contests/abc251
 ```
 
 </details>
 
 <details>
-<summary> <code>> lsct -o cf lg -L en</code> </summary>
+<summary> <code>> lsct -o lg -d 7 -L en</code> </summary>
 
 ```text
-2 contests in the last 3 days
-
-
-OJ: Codeforces
-Rule: ICPC
-Start time: 2022/5/13 22:35:00
-End time: 2022/5/14 00:35:00
-https://codeforces.com/contests/1680
-
+2 contests in the last 7 days
 
 OJ: Luogu
+Contest name: 【LGR-109】洛谷 5 月月赛 II & Windy Round 6
 Rule: IOI
 Start time: 2022/5/14 14:00:00
 End time: 2022/5/14 18:00:00
 https://www.luogu.com.cn/contest/68326
+
+OJ: Luogu
+Contest name: 「WHOI」Round 1
+Rule: IOI
+Start time: 2022/5/15 14:00:00
+End time: 2022/5/15 18:00:00
+https://www.luogu.com.cn/contest/67377
 ```
 
 </details>
 
 <details>
-<summary> <code>> lsct -r -o cf lg</code> </summary>
+<summary> <code>> lsct -r -o cf nc --no-sort</code> </summary>
 
 ```bash
 [
+  {
+    ojName: 'Codeforces',
+    name: 'Codeforces Round #791 (Div. 2)',
+    rule: 'Codeforces',
+    startTime: 2022-05-14T09:35:00.000Z,
+    endTime: 2022-05-14T11:35:00.000Z,
+    url: 'https://codeforces.com/contests/1679'
+  },
   {
     ojName: 'Codeforces',
     name: 'Educational Codeforces Round 128 (Rated for Div. 2)',
@@ -92,12 +107,20 @@ https://www.luogu.com.cn/contest/68326
     url: 'https://codeforces.com/contests/1680'
   },
   {
-    ojName: 'Luogu',
-    name: '【LGR-109】洛谷 5 月月赛 II & Windy Round 6',
-    rule: 'IOI',
-    startTime: 2022-05-14T06:00:00.000Z,
+    ojName: 'NowCoder',
+    name: '牛客挑战赛60',
+    rule: 'ICPC',
+    startTime: 2022-05-13T11:00:00.000Z,
+    endTime: 2022-05-13T14:00:00.000Z,
+    url: 'https://ac.nowcoder.com/acm/contest/11200'
+  },
+  {
+    ojName: 'NowCoder',
+    name: '第十八届西南科技大学ACM程序设计竞赛（同步赛）',
+    rule: 'ICPC',
+    startTime: 2022-05-14T05:00:00.000Z,
     endTime: 2022-05-14T10:00:00.000Z,
-    url: 'https://www.luogu.com.cn/contest/68326'
+    url: 'https://ac.nowcoder.com/acm/contest/33540'
   }
 ]
 ```
@@ -131,33 +154,64 @@ This code gives the same result as `lsct -r --no-sort`.
 #### Add OJ support
 
 ```typescript
-import { addOJ, getContestList } from "lscontests";
+import { addOJ, getContestInfo, getContestList } from "lscontests";
 
 addOJ("ts", {
     name: "testOJ", get: async () => [{
         ojName: "testOJ",
         name: "testContest",
         rule: "ICPC",
-        startTime: new Date(Date.now() + 5 * 86400000),
-        endTime: new Date(Date.now() + 6 * 86400000),
+        startTime: new Date(Date.now() + 1 * 86400000),
+        endTime: new Date(Date.now() + 2 * 86400000),
         url: "https://www.test.com"
     }]
 });
 
-getContestList({ abbrList: ["ts"], days: 7 }).then(console.log);
+async function main() {
+    console.log(await getContestInfo({ abbrList: ["cf", "ts"], days: 1 }, "en"));
+    console.log();
+    console.log(await getContestList({ abbrList: ["cf", "ts"], days: 7 }));
+}
+
+main();
 ```
 
 This code gives the following results:
 
-```bash
+```text
+1 contests in the last 1 days
+
+OJ: testOJ
+Contest name: testContest
+Rule: ICPC
+Start time: 2022/5/12 22:54:43
+End time: 2022/5/13 22:54:43
+https://www.test.com
+
 [
   {
     ojName: 'testOJ',
     name: 'testContest',
     rule: 'ICPC',
-    startTime: 2022-05-15T11:50:42.032Z,
-    endTime: 2022-05-16T11:50:42.032Z,
+    startTime: 2022-05-12T14:54:46.240Z,
+    endTime: 2022-05-13T14:54:46.240Z,
     url: 'https://www.test.com'
+  },
+  {
+    ojName: 'Codeforces',
+    name: 'Educational Codeforces Round 128 (Rated for Div. 2)',
+    rule: 'ICPC',
+    startTime: 2022-05-13T14:35:00.000Z,
+    endTime: 2022-05-13T16:35:00.000Z,
+    url: 'https://codeforces.com/contests/1680'
+  },
+  {
+    ojName: 'Codeforces',
+    name: 'Codeforces Round #791 (Div. 2)',
+    rule: 'Codeforces',
+    startTime: 2022-05-14T09:35:00.000Z,
+    endTime: 2022-05-14T11:35:00.000Z,
+    url: 'https://codeforces.com/contests/1679'
   }
 ]
 ```
