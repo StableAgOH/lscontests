@@ -6,16 +6,17 @@ import { nc } from "./nowcoder";
 
 export type oj = {
     name: string,
-    get: () => Promise<contest[]>
-}
+    get: () => Promise<contest[]>;
+};
 
-export const alloj: { [abbr: string]: oj } = {
+export const alloj: { [abbr: string]: oj; } = {
     at,
     cf,
     lg,
     nc,
 };
 
-export function addOJ(abbr: string, oj: oj) {
+export function addOJ(abbr: string, oj: oj)
+{
     alloj[abbr] = oj;
 }

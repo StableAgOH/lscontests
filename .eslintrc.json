@@ -31,6 +31,32 @@
             "error",
             "double"
         ],
+        "brace-style": [
+            "error",
+            "allman",
+            {
+                "allowSingleLine": true
+            }
+        ],
+        "keyword-spacing": [
+            "error",
+            {
+                "overrides": {
+                    "if": {
+                        "after": false
+                    },
+                    "for": {
+                        "after": false
+                    },
+                    "while": {
+                        "after": false
+                    },
+                    "catch": {
+                        "after": false
+                    }
+                }
+            }
+        ],
         "semi": "error",
         "eol-last": "error"
     }

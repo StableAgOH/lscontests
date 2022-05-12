@@ -7,13 +7,13 @@ type result = {
     visibilityType: number;
     invitationCodeType: number;
     rated: boolean;
-    host: { id: number, name: string, isPremium: boolean };
+    host: { id: number, name: string, isPremium: boolean; };
     problemCount: number;
     id: number;
     name: string;
     startTime: number;
     endTime: number;
-}
+};
 
 const ruleRecord: Record<number, rule> = {
     1: "OI",
@@ -30,9 +30,11 @@ const headers = {
 
 export const lg: oj = {
     name: "Luogu",
-    get: async () => {
+    get: async () =>
+    {
         const resList: result[] = (await axios.get("https://www.luogu.com.cn/contest/list", { headers })).data.currentData.contests.result;
-        return resList.map((res): contest => {
+        return resList.map((res): contest =>
+        {
             return {
                 ojName: lg.name,
                 name: res.name,

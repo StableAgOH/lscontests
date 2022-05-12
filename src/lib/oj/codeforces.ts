@@ -12,7 +12,7 @@ type result = {
     durationSeconds: number;
     startTimeSeconds: number;
     relativeTimeSeconds: number;
-}
+};
 
 const ruleRecord: Record<string, rule> = {
     CF: "Codeforces",
@@ -21,14 +21,17 @@ const ruleRecord: Record<string, rule> = {
 
 export const cf: oj = {
     name: "Codeforces",
-    get: async () => {
+    get: async () =>
+    {
         const response = await axios.get("https://codeforces.com/api/contest.list");
-        if (!(response.data instanceof Object)) {
+        if(!(response.data instanceof Object))
+        {
             const $ = cheerio.load(response.data);
             throw new Error($.text());
         }
         const resList: result[] = response.data.result;
-        return resList.map((res): contest => {
+        return resList.map((res): contest =>
+        {
             return {
                 ojName: cf.name,
                 name: res.name,
