@@ -1,3 +1,12 @@
+# CHANGELOG
+
+## [1.8.10](https://github.com/StableAgOH/lscontests/compare/v1.8.9...v1.8.10) (2022-05-12)
+
+
+### Performance Improvements
+
+* enhance output message ([abcb88a](https://github.com/StableAgOH/lscontests/commit/abcb88a8f801348df505503f4367d1d1f1c1cc2d))
+
 ## [1.8.9](https://github.com/StableAgOH/lscontests/compare/v1.8.8...v1.8.9) (2022-05-12)
 
 
