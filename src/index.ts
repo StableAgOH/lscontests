@@ -16,7 +16,8 @@ const defaultConfig = {
 
 export async function getContestList(config?: config)
 {
-    const cfg: typeof defaultConfig = _.defaultsDeep(config, defaultConfig);
+    const cfg = { ...defaultConfig, ...config };
+    if(cfg.abbrList.length == 0) cfg.abbrList = defaultConfig.abbrList;
     const contests = (await Promise.all(
         cfg.abbrList.map(
             async abbr =>
