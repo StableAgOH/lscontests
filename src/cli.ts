@@ -22,7 +22,8 @@ function initCmd()
 export async function cli(arg?: string)
 {
     const cmd = initCmd();
-    if(arg)
+    if(arg === undefined) cmd.parse();
+    else
     {
         let msg = "";
         try
@@ -38,7 +39,6 @@ export async function cli(arg?: string)
         }
         catch(e) { return msg; }
     }
-    else cmd.parse();
 
     const opts = cmd.opts();
     if(opts.list) return Object.values(alloj).map((oj) => oj.name).join("\n");
