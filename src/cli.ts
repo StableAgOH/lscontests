@@ -43,7 +43,7 @@ export async function cli(arg?: string)
             days: opts.days as number,
             sort: opts.sort
         };
-        if(opts.raw) return (await getContestList(config)).join("\n");
+        if(opts.raw) return JSON.stringify(await getContestList(config), null, 2);
         else return await getContestInfo(config, opts.language);
     }
 }
