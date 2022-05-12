@@ -1,40 +1,44 @@
 #!/usr/bin/env node
 import { version } from "../package.json";
-import { Option, program } from "commander";
+import { Command, Option } from "commander";
 import { alloj } from "./lib/oj";
 import { config, getContestList, getContestInfo, langList } from ".";
 
-program
-    .name("lsct")
-    .version(version)
-    .option("-d, --days, <day>", "Number of days to get contests information", "3")
-    .option("-l, --list", "List all supported OJ")
-    .addOption(new Option("-o, --oj <ojs...>", "OJs to get contests information").choices(Object.keys(alloj)))
-    .addOption(new Option("-r, --raw", "Print raw contest list").conflicts("language"))
-    .addOption(new Option("-L, --language <lang>", "Set output language").default("zh-CN").choices(langList))
-    .option("--no-sort", "Do not sort by contests start time, but by OJ order");
+function initCmd()
+{
+    return new Command()
+        .name("lsct")
+        .version(version)
+        .option("-d, --days, <day>", "Number of days to get contests information", "3")
+        .option("-l, --list", "List all supported OJ")
+        .addOption(new Option("-o, --oj <ojs...>", "OJs to get contests information").choices(Object.keys(alloj)))
+        .addOption(new Option("-r, --raw", "Print raw contest list").conflicts("language"))
+        .addOption(new Option("-L, --language <lang>", "Set output language").default("zh-CN").choices(langList))
+        .option("--no-sort", "Do not sort by contests start time, but by OJ order");
+}
 
 export async function cli(arg?: string)
 {
-    let ret = "";
+    const cmd = initCmd();
     if(arg)
     {
+        let msg = "";
         try
         {
-            program
+            cmd
                 .configureOutput({
-                    writeOut: (str) => ret = str,
-                    writeErr: (str) => ret = str,
-                    outputError: (str) => ret = str
+                    writeOut: (str) => msg = str,
+                    writeErr: (str) => msg = str,
+                    outputError: (str) => msg = str
                 })
                 .exitOverride()
                 .parse(arg.split(" "), { from: "user" });
         }
-        catch(e) { return ret; }
+        catch(e) { return msg; }
     }
-    else program.parse();
+    else cmd.parse();
 
-    const opts = program.opts();
+    const opts = cmd.opts();
     if(opts.list) return Object.values(alloj).map((oj) => oj.name).join("\n");
     else
     {
