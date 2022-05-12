@@ -1,5 +1,5 @@
 {
-    "welcome": "{1} contests in the last {0} days",
+    "welcome": "${contestCount} contests in the last ${days} days",
     "ojName": "OJ",
     "name": "Contest name",
     "rule": "Rule",

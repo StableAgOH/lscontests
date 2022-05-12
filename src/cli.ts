@@ -2,7 +2,8 @@
 import { version } from "../package.json";
 import { Command, Option } from "commander";
 import { alloj } from "./lib/oj";
-import { config, getContestList, getContestInfo, langList } from ".";
+import { config, getContestList, getContestInfo } from ".";
+import { langList } from "./locale";
 
 function initCmd()
 {

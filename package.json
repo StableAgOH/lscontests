@@ -9,6 +9,7 @@
     "competitive-programming"
   ],
   "repository": "https://github.com/StableAgOH/lscontests",
+  "bugs": "https://github.com/StableAgOH/lscontests/issues",
   "author": "StableAgOH <stagoh17@gmail.com>",
   "license": "GPL-3.0",
   "private": false,
@@ -27,11 +28,13 @@
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.10",
-    "commander": "^9.2.0"
+    "commander": "^9.2.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "@types/lodash": "^4.14.182",
     "@types/node": "^17.0.31",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",

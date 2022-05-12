@@ -1,5 +1,6 @@
-import { readdirSync } from "fs";
 import { alloj } from "./lib/oj";
+import { getLangDict } from "./locale";
+import _ from "lodash";
 
 export type config = {
     abbrList?: string[],
@@ -39,42 +40,23 @@ export async function getContestList(config?: config)
     return contests;
 }
 
-export const langList = readdirSync(`${__dirname}/locale`).map((fileName) => fileName.replace(".json", ""));
-
-type langDict = {
-    welcome: string,
-    ojName: string,
-    name: string,
-    rule: string,
-    startTime: string,
-    endTime: string;
-};
-
-function format(s: string, ...args: string[])
-{
-    for(let i = 0; i < args.length; i++)
-        s = s.replace(`{${i}}`, args[i]);
-    return s;
-}
-
 export async function getContestInfo(config?: config, language = "zh-CN")
 {
-    if(!langList.includes(language)) throw new Error(`Illegal language ${language}, the allowed languages are ${langList}`);
+    const lang = await getLangDict(language);
     const cfg = { ...defaultConfig, ...config };
     const contests = await getContestList(cfg);
     const info: string[] = [];
-    const lang: langDict = await import(`./locale/${language}.json`);
-    info.push(format(lang.welcome, cfg.days.toString(), contests.length.toString()));
+    info.push(_.template(lang.welcome)({ contestCount: contests.length, days: cfg.days }));
     for(const contest of contests)
     {
-        const ct: string[] = [];
-        ct.push(`${lang.ojName}: ${contest.ojName}`);
-        ct.push(`${lang.name}: ${contest.name}`);
-        ct.push(`${lang.rule}: ${contest.rule}`);
-        ct.push(`${lang.startTime}: ${contest.startTime.toLocaleString()}`);
-        ct.push(`${lang.endTime}: ${contest.endTime.toLocaleString()}`);
-        ct.push(contest.url);
-        info.push(ct.join("\n"));
+        const msg: string[] = [];
+        msg.push(`${lang.ojName}: ${contest.ojName}`);
+        msg.push(`${lang.name}: ${contest.name}`);
+        msg.push(`${lang.rule}: ${contest.rule}`);
+        msg.push(`${lang.startTime}: ${contest.startTime.toLocaleString()}`);
+        msg.push(`${lang.endTime}: ${contest.endTime.toLocaleString()}`);
+        msg.push(contest.url);
+        info.push(msg.join("\n"));
     }
     return info.join("\n\n");
 }
