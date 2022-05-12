@@ -4,6 +4,7 @@ import { Command, Option } from "commander";
 import { alloj } from "./lib/oj";
 import { config, getContestList, getContestInfo } from ".";
 import { langList } from "./locale";
+import _ from "lodash";
 
 function initCmd()
 {
@@ -44,7 +45,7 @@ export async function cli(arg?: string)
     else
     {
         const config: config = {
-            abbrList: opts.oj,
+            abbrList: _.uniq(opts.oj),
             days: opts.days as number,
             sort: opts.sort
         };
