@@ -21,12 +21,12 @@ lsct [options]
 
 Options:
   -V, --version          output the version number
-  -d, --days, <day>      Number of days to get contests information (default: "3")
-  -l, --list             List all supported OJ
-  -o, --oj <ojs...>      OJs to get contests information (choices: "at", "cf", "lg", "nc")
-  -r, --raw              Print raw contest list
-  -L, --language <lang>  Set output language (choices: "en", "zh-CN", "zh-TW", default: "zh-CN")
-  --no-sort              Do not sort by contests start time, but by OJ order
+  -d, --days, <day>      number of days to display (default: "3")
+  -l, --list             list all supported OJ and it's abbreviation
+  -o, --oj <ojs...>      OJs to display (choices: "at", "cf", "lg", "nc")
+  -r, --raw              print raw contest list
+  -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-TW", default: "zh-CN")
+  --no-sort              do not sort by contests start time, but by OJ order
   -h, --help             display help for command
 ```
 

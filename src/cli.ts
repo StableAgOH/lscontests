@@ -11,12 +11,12 @@ function initCmd()
     return new Command()
         .name(Object.keys(bin)[0])
         .version(version)
-        .option("-d, --days, <day>", "Number of days to get contests information", "3")
-        .option("-l, --list", "List all supported OJ")
-        .addOption(new Option("-o, --oj <ojs...>", "OJs to get contests information").choices(Object.keys(alloj)))
-        .addOption(new Option("-r, --raw", "Print raw contest list").conflicts("language"))
-        .addOption(new Option("-L, --language <lang>", "Set output language").default("zh-CN").choices(langList))
-        .option("--no-sort", "Do not sort by contests start time, but by OJ order");
+        .option("-d, --days, <day>", "number of days to display", "3")
+        .option("-l, --list", "list all supported OJ and it's abbreviation")
+        .addOption(new Option("-o, --oj <ojs...>", "OJs to display").choices(Object.keys(alloj)))
+        .addOption(new Option("-r, --raw", "print raw contest list").conflicts("language"))
+        .addOption(new Option("-L, --language <lang>", "set output language").default("zh-CN").choices(langList))
+        .option("--no-sort", "do not sort by contests start time, but by OJ order");
 }
 
 export async function cli(arg?: string, name?: string)
