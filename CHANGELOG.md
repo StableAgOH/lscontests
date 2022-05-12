@@ -1,3 +1,10 @@
+## [1.8.9](https://github.com/StableAgOH/lscontests/compare/v1.8.8...v1.8.9) (2022-05-12)
+
+
+### Bug Fixes
+
+* no longer use lodash to set default value ([85e6e05](https://github.com/StableAgOH/lscontests/commit/85e6e05f86bb6a95624d70225aba45a66e9fc11c))
+
 ## [1.8.8](https://github.com/StableAgOH/lscontests/compare/v1.8.7...v1.8.8) (2022-05-12)
 
 
