@@ -1,3 +1,11 @@
+## [1.8.4](https://github.com/StableAgOH/lscontests/compare/v1.8.3...v1.8.4) (2022-05-12)
+
+
+### Bug Fixes
+
+* fix error when cli() is called multiple times ([cf5bbd0](https://github.com/StableAgOH/lscontests/commit/cf5bbd090eb9f30c18e94e6a8525eb0856ea7a2f))
+* return json of the raw contests list instead of the itself ([c6cf09f](https://github.com/StableAgOH/lscontests/commit/c6cf09fad128521902a6f4d2db80658bfa8834f8))
+
 ## [1.8.3](https://github.com/StableAgOH/lscontests/compare/v1.8.2...v1.8.3) (2022-05-12)
 
 
