@@ -14,29 +14,38 @@ program
     .addOption(new Option("-L, --language <lang>", "Set output language").default("zh-CN").choices(langList))
     .option("--no-sort", "Do not sort by contests start time, but by OJ order");
 
-export async function cli(arg?: string) {
-    if (arg?.includes("-h") || arg?.includes("--help")) {
-        console.warn(
-            "Warnning: If -h or --help is included in the arguments, the program will print the help message and exit immediately, use getHelp() instead"
-        );
-        return "";
+export async function cli(arg?: string)
+{
+    let ret = "";
+    if(arg)
+    {
+        try
+        {
+            program
+                .configureOutput({
+                    writeOut: (str) => ret = str,
+                    writeErr: (str) => ret = str,
+                    outputError: (str) => ret = str
+                })
+                .exitOverride()
+                .parse(arg.split(" "), { from: "user" });
+        }
+        catch(e) { return ret; }
     }
-
-    program.parse(arg ? [...process.argv.slice(0, 2), ...arg.split(" ")] : process.argv);
+    else program.parse();
 
     const opts = program.opts();
-    if (opts.list) return Object.values(alloj).map((oj) => oj.name).join("\n");
-    else {
+    if(opts.list) return Object.values(alloj).map((oj) => oj.name).join("\n");
+    else
+    {
         const config: config = {
             abbrList: opts.oj,
             days: opts.days as number,
             sort: opts.sort
         };
-        if (opts.raw) return (await getContestList(config)).join("\n");
+        if(opts.raw) return (await getContestList(config)).join("\n");
         else return await getContestInfo(config, opts.language);
     }
 }
 
-export function getHelp(name: string) { return program.name(name).helpInformation(); }
-
-if (require.main === module) cli().then(console.log);
+if(require.main === module) cli().then(console.log);
