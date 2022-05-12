@@ -1,3 +1,10 @@
+## [1.8.7](https://github.com/StableAgOH/lscontests/compare/v1.8.6...v1.8.7) (2022-05-12)
+
+
+### Bug Fixes
+
+* cli only if arg is undefined ([6f0e0bc](https://github.com/StableAgOH/lscontests/commit/6f0e0bc4dc05a7aa0f6d04b2c66f704e7578552b))
+
 ## [1.8.6](https://github.com/StableAgOH/lscontests/compare/v1.8.5...v1.8.6) (2022-05-12)
 
 
