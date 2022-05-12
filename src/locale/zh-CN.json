@@ -1,5 +1,5 @@
 {
-    "welcome": "在最近的 ${days} 天内有 ${contestCount} 场比赛",
+    "welcome": "最近的 ${days} 天内在 ${oj} 上有 ${contestCount} 场比赛",
     "ojName": "比赛平台",
     "name": "比赛名称",
     "rule": "赛制",

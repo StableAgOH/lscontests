@@ -1,12 +1,12 @@
 # lscontests
 
-![GitHub Repo stars](https://img.shields.io/github/stars/StableAgOH/lscontests?style=social)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/StableAgOH/lscontests)
-![GitHub](https://img.shields.io/github/license/StableAgOH/lscontests)
+[![GitHub Repo stars](https://img.shields.io/github/stars/StableAgOH/lscontests?style=social)](https://github.com/StableAgOH/lscontests)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/StableAgOH/lscontests)](https://github.com/StableAgOH/lscontests)
+[![License](https://img.shields.io/github/license/StableAgOH/lscontests)](https://github.com/StableAgOH/lscontests)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
-![npm](https://img.shields.io/npm/v/lscontests)
-![npm](https://img.shields.io/npm/dw/lscontests)
+[![npm](https://img.shields.io/npm/v/lscontests)](https://www.npmjs.com/package/lscontests)
+[![npm](https://img.shields.io/npm/dw/lscontests)](https://www.npmjs.com/package/lscontests)
 
 A tool to get information about the contests on each OJ.
 
@@ -17,7 +17,7 @@ A tool to get information about the contests on each OJ.
 You can use cli to get a list of information about upcoming contests easily.
 
 ```text
-lsct [options]
+Usage: lsct [options]
 
 Options:
   -V, --version          output the version number
@@ -33,10 +33,35 @@ Options:
 It performs as follows:
 
 <details>
+<summary> <code>> lsct</code> </summary>
+
+```text
+最近的 3 天内在 AtCoder,Codeforces,Luogu,NowCoder 上有 7 场比赛
+
+比赛平台: NowCoder
+比赛名称: 牛客挑战赛60
+赛制: ICPC
+开始时间: 2022/5/13 19:00:00
+结束时间: 2022/5/13 22:00:00
+https://ac.nowcoder.com/acm/contest/11200
+
+比赛平台: Codeforces
+比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
+赛制: ICPC
+开始时间: 2022/5/13 22:35:00
+结束时间: 2022/5/14 00:35:00
+https://codeforces.com/contests/1680
+
+......
+```
+
+</details>
+
+<details>
 <summary> <code>> lsct -o at cf</code> </summary>
 
 ```text
-在最近的 3 天内有 3 场比赛
+最近的 3 天内在 AtCoder,Codeforces 上有 3 场比赛
 
 比赛平台: Codeforces
 比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
@@ -66,7 +91,7 @@ https://atcoder.jp/contests/abc251
 <summary> <code>> lsct -o lg -d 7 -L en</code> </summary>
 
 ```text
-2 contests in the last 7 days
+2 contests on Luogu in the last 7 days
 
 OJ: Luogu
 Contest name: 【LGR-109】洛谷 5 月月赛 II & Windy Round 6
@@ -86,41 +111,25 @@ https://www.luogu.com.cn/contest/67377
 </details>
 
 <details>
-<summary> <code>> lsct -r -o cf nc --no-sort</code> </summary>
+<summary> <code>> lsct -r -o cf --no-sort</code> </summary>
 
 ```bash
 [
   {
-    ojName: 'Codeforces',
-    name: 'Codeforces Round #791 (Div. 2)',
-    rule: 'Codeforces',
-    startTime: 2022-05-14T09:35:00.000Z,
-    endTime: 2022-05-14T11:35:00.000Z,
-    url: 'https://codeforces.com/contests/1679'
+    "ojName": "Codeforces",
+    "name": "Codeforces Round #791 (Div. 2)",
+    "rule": "Codeforces",
+    "startTime": "2022-05-14T09:35:00.000Z",
+    "endTime": "2022-05-14T11:35:00.000Z",
+    "url": "https://codeforces.com/contests/1679"
   },
   {
-    ojName: 'Codeforces',
-    name: 'Educational Codeforces Round 128 (Rated for Div. 2)',
-    rule: 'ICPC',
-    startTime: 2022-05-13T14:35:00.000Z,
-    endTime: 2022-05-13T16:35:00.000Z,
-    url: 'https://codeforces.com/contests/1680'
-  },
-  {
-    ojName: 'NowCoder',
-    name: '牛客挑战赛60',
-    rule: 'ICPC',
-    startTime: 2022-05-13T11:00:00.000Z,
-    endTime: 2022-05-13T14:00:00.000Z,
-    url: 'https://ac.nowcoder.com/acm/contest/11200'
-  },
-  {
-    ojName: 'NowCoder',
-    name: '第十八届西南科技大学ACM程序设计竞赛（同步赛）',
-    rule: 'ICPC',
-    startTime: 2022-05-14T05:00:00.000Z,
-    endTime: 2022-05-14T10:00:00.000Z,
-    url: 'https://ac.nowcoder.com/acm/contest/33540'
+    "ojName": "Codeforces",
+    "name": "Educational Codeforces Round 128 (Rated for Div. 2)",
+    "rule": "ICPC",
+    "startTime": "2022-05-13T14:35:00.000Z",
+    "endTime": "2022-05-13T16:35:00.000Z",
+    "url": "https://codeforces.com/contests/1680"
   }
 ]
 ```
@@ -179,13 +188,13 @@ main();
 This code gives the following results:
 
 ```text
-1 contests in the last 1 days
+1 contests on Codeforces,testOJ in the last 1 days
 
 OJ: testOJ
 Contest name: testContest
 Rule: ICPC
-Start time: 2022/5/12 22:54:43
-End time: 2022/5/13 22:54:43
+Start time: 2022/5/13 19:34:10
+End time: 2022/5/14 19:34:10
 https://www.test.com
 
 [
@@ -193,8 +202,8 @@ https://www.test.com
     ojName: 'testOJ',
     name: 'testContest',
     rule: 'ICPC',
-    startTime: 2022-05-12T14:54:46.240Z,
-    endTime: 2022-05-13T14:54:46.240Z,
+    startTime: 2022-05-13T11:34:13.464Z,
+    endTime: 2022-05-14T11:34:13.464Z,
     url: 'https://www.test.com'
   },
   {

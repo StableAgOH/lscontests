@@ -14,10 +14,16 @@ const defaultConfig = {
     sort: true
 };
 
-export async function getContestList(config?: config)
+function resolveConfig(config?: config)
 {
     const cfg = { ...defaultConfig, ...config };
     if(cfg.abbrList.length == 0) cfg.abbrList = defaultConfig.abbrList;
+    return cfg;
+}
+
+export async function getContestList(config?: config)
+{
+    const cfg = resolveConfig(config);
     const contests = (await Promise.all(
         cfg.abbrList.map(
             async abbr =>
@@ -42,10 +48,15 @@ export async function getContestList(config?: config)
 
 export async function getContestInfo(config?: config, language = "zh-CN")
 {
+    const cfg = resolveConfig(config);
     const lang = await getLangDict(language);
-    const contests = await getContestList(config);
+    const contests = await getContestList(cfg);
     const info: string[] = [];
-    info.push(_.template(lang.welcome)({ contestCount: contests.length, days: config ? config.days : defaultConfig.days }));
+    info.push(_.template(lang.welcome)({
+        contestCount: contests.length,
+        days: cfg.days,
+        oj: cfg.abbrList.map(abbr => alloj[abbr].name).join(",")
+    }));
     for(const contest of contests)
     {
         const msg: string[] = [];
