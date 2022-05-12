@@ -1,3 +1,11 @@
+## [1.8.8](https://github.com/StableAgOH/lscontests/compare/v1.8.7...v1.8.8) (2022-05-12)
+
+
+### Performance Improvements
+
+* allow give a program name when call cli ([c384882](https://github.com/StableAgOH/lscontests/commit/c3848827d7358e248dfec9790dc724a6669506bd))
+* enhance list support OJ ([ea893bc](https://github.com/StableAgOH/lscontests/commit/ea893bcd636086de1f61ebef11cd91560727d1a6))
+
 ## [1.8.7](https://github.com/StableAgOH/lscontests/compare/v1.8.6...v1.8.7) (2022-05-12)
 
 
