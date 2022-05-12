@@ -42,7 +42,7 @@ export async function cli(arg?: string, name?: string)
     }
 
     const opts = cmd.opts();
-    if(opts.list) return Object.values(alloj).map((oj) => oj.name).join("\n");
+    if(opts.list) return "  abbr     OJ\n" + JSON.stringify(_.mapValues(alloj, val => val.name), null, 2);
     else
     {
         const config: config = {
