@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/StableAgOH/lscontests/compare/v1.8.2...v1.8.3) (2022-05-12)
+
+
+### Bug Fixes
+
+* no longer exit on help, version or incorrect parameter ([cff49e1](https://github.com/StableAgOH/lscontests/commit/cff49e11ef9b7f55221f74e2f07d7790300fa38d))
+
 ## [1.8.2](https://github.com/StableAgOH/lscontests/compare/v1.8.1...v1.8.2) (2022-05-11)
 
 
