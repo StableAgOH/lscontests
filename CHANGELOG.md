@@ -1,3 +1,10 @@
+## [1.8.6](https://github.com/StableAgOH/lscontests/compare/v1.8.5...v1.8.6) (2022-05-12)
+
+
+### Bug Fixes
+
+* use defaultsDeep instead of defaults ([9415d1f](https://github.com/StableAgOH/lscontests/commit/9415d1f073da2ca36677656d881416f72c386842))
+
 ## [1.8.5](https://github.com/StableAgOH/lscontests/compare/v1.8.4...v1.8.5) (2022-05-12)
 
 
