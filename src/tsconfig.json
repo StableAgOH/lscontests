@@ -13,7 +13,7 @@
     },
     "include": [
         "**/*.ts",
-        "**/*.json"
+        "./locale/*.json"
     ],
     "references": [
         {
