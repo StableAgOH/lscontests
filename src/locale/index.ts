@@ -1,6 +1,6 @@
 import { readdirSync } from "fs";
 
-export const langList = readdirSync(`${__dirname}`).filter(fileName => fileName.endsWith(".json")).map((fileName) => fileName.replace(".json", ""));
+export const langList = readdirSync(`${__dirname}`).filter(fileName => fileName.endsWith(".json")).map(fileName => fileName.replace(".json", ""));
 
 export type langDict = {
     welcome: string,

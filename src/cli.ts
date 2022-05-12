@@ -31,9 +31,9 @@ export async function cli(arg?: string, name?: string)
             if(name) cmd.name(name);
             cmd
                 .configureOutput({
-                    writeOut: (str) => msg = str,
-                    writeErr: (str) => msg = str,
-                    outputError: (str) => msg = str
+                    writeOut: str => msg = str,
+                    writeErr: str => msg = str,
+                    outputError: str => msg = str
                 })
                 .exitOverride()
                 .parse(arg.split(" "), { from: "user" });

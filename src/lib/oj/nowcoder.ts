@@ -81,7 +81,7 @@ export const nc: oj = {
             ...await getResultList(topCategoryFilter.NOWCODERSERIES),
             ...await getResultList(topCategoryFilter.SCHOOLCONTEST)
         ];
-        return res.filter((res) => res.signUpEndCountDownTime > 0).map((res): contest =>
+        return res.filter(res => res.signUpEndCountDownTime > 0).map((res): contest =>
         {
             return {
                 ojName: nc.name,
