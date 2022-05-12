@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { version } from "../package.json";
+import { bin, version } from "../package.json";
 import { Command, Option } from "commander";
 import { alloj } from "./lib/oj";
 import { config, getContestList, getContestInfo } from ".";
@@ -9,7 +9,7 @@ import _ from "lodash";
 function initCmd()
 {
     return new Command()
-        .name("lsct")
+        .name(Object.keys(bin)[0])
         .version(version)
         .option("-d, --days, <day>", "Number of days to get contests information", "3")
         .option("-l, --list", "List all supported OJ")
@@ -19,7 +19,7 @@ function initCmd()
         .option("--no-sort", "Do not sort by contests start time, but by OJ order");
 }
 
-export async function cli(arg?: string)
+export async function cli(arg?: string, name?: string)
 {
     const cmd = initCmd();
     if(arg === undefined) cmd.parse();
@@ -28,6 +28,7 @@ export async function cli(arg?: string)
         let msg = "";
         try
         {
+            if(name) cmd.name(name);
             cmd
                 .configureOutput({
                     writeOut: (str) => msg = str,
