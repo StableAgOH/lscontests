@@ -16,7 +16,7 @@ const defaultConfig = {
 
 export async function getContestList(config?: config)
 {
-    const cfg = { ...defaultConfig, ...config };
+    const cfg = _.defaults(config, defaultConfig);
     if(!cfg.abbrList) cfg.abbrList = Object.keys(alloj);
     const contests = (await Promise.all(
         cfg.abbrList.map(
@@ -42,8 +42,8 @@ export async function getContestList(config?: config)
 
 export async function getContestInfo(config?: config, language = "zh-CN")
 {
+    const cfg = _.defaults(config, defaultConfig);
     const lang = await getLangDict(language);
-    const cfg = { ...defaultConfig, ...config };
     const contests = await getContestList(cfg);
     const info: string[] = [];
     info.push(_.template(lang.welcome)({ contestCount: contests.length, days: cfg.days }));
