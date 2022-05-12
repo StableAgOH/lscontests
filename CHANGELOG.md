@@ -1,3 +1,16 @@
+## [1.8.5](https://github.com/StableAgOH/lscontests/compare/v1.8.4...v1.8.5) (2022-05-12)
+
+
+### Bug Fixes
+
+* unique abbr list ([1646464](https://github.com/StableAgOH/lscontests/commit/16464641f55ebcde69f7c1bfbef24f3104738259))
+
+
+### Performance Improvements
+
+* use lodash to format locale string ([3e7e1ea](https://github.com/StableAgOH/lscontests/commit/3e7e1ea08cfec1798f65ba7b550d96e1f0fab4df))
+* use lodash to resolve config ([b9fd297](https://github.com/StableAgOH/lscontests/commit/b9fd2979ffe33c211eff973d1c41cde2171bf34b))
+
 ## [1.8.4](https://github.com/StableAgOH/lscontests/compare/v1.8.3...v1.8.4) (2022-05-12)
 
 
