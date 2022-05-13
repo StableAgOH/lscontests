@@ -31,8 +31,8 @@ export const at: oj = {
                 }
                 else if(idx == 2)
                 {
-                    const [h, s] = $(this).text().split(":");
-                    ct.endTime = new Date(ct.startTime.getTime() + (parseInt(h) * 60 + parseInt(s)) * 1000);
+                    const [h, m] = $(this).text().split(":");
+                    ct.endTime = new Date(ct.startTime.getTime() + (parseInt(h) * 60 + parseInt(m)) * 60 * 1000);
                 }
             });
             contests.push(ct);
