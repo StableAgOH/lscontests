@@ -10,7 +10,7 @@
             ],
             "console": "integratedTerminal",
             "program": "${workspaceFolder}/src/cli.ts",
-            "preLaunchTask": "tsc: 构建 - tsconfig.json",
+            "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": [
                 "${workspaceFolder}/dist/**/*.js"
             ],

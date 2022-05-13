@@ -3,12 +3,10 @@
     "tasks": [
         {
             "type": "shell",
-            "command": "tsc -p src",
-            "problemMatcher": [
-                "$tsc"
-            ],
+            "command": "yarn build",
+            "problemMatcher": "$tsc",
             "group": "build",
-            "label": "tsc: 构建 - tsconfig.json"
+            "label": "tsc: build - tsconfig.json"
         }
     ]
 }
