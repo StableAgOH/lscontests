@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## [1.8.12](https://github.com/StableAgOH/lscontests/compare/v1.8.11...v1.8.12) (2022-05-13)
+
+
+### Bug Fixes
+
+* incorrect handling of nowcoder rule ([cb71bce](https://github.com/StableAgOH/lscontests/commit/cb71bce9c957db586c8f67e1b93b797b22339823))
+
+
+### Performance Improvements
+
+* use pangu to add spaces to the contest information text ([6f3f367](https://github.com/StableAgOH/lscontests/commit/6f3f367c7ecae54a0b3cbb103ca9cccae9a83871))
+
 ## [1.8.11](https://github.com/StableAgOH/lscontests/compare/v1.8.10...v1.8.11) (2022-05-13)
 
 
