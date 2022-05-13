@@ -4,13 +4,12 @@ const lsct = require("../dist/cli");
 const readme = "README.md";
 const cmds = [
     "",
-    "-o at cf",
-    "-o lg -d 7 -L en",
-    "-r -o cf --no-sort"
+    "-o at cf -d 7",
+    "-o lg nc -d 7 -L en",
+    "-o at cf -d 7 -r --no-sort"
 ];
 
 /**
- * 
  * @param {string} str 
  * @param {string} block 
  * @param {string} content 
@@ -22,16 +21,18 @@ function repl(str, block, content)
 }
 
 /**
- * 
  * @param {string} type 
  * @param {string} content 
- * @returns 
  */
 function codeblock(type, content)
 {
     return `\`\`\`${type}\n${content.trim()}\n\`\`\``;
 }
 
+/**
+ * @param {string} title 
+ * @param {string} content 
+ */
 function detailsblock(title, content)
 {
     return `<details>
@@ -46,10 +47,15 @@ async function main()
 {
     let content = fs.readFileSync(readme).toString();
     content = repl(content, "help", codeblock("text", await lsct.cli("-h")));
-    const res = await Promise.all(cmds.map(async cmd =>
-    {
-        return detailsblock(`<code>> lsct ${cmd}</code>`, codeblock("text", await lsct.cli(cmd)));
-    }));
+    const res = await Promise.all(
+        cmds.map(async cmd => detailsblock(
+            `<code>> lsct ${cmd}</code>`,
+            codeblock(cmd.includes("-r") || cmd.includes("--raw") ? "json" : "text", await lsct.cli(cmd))
+        ))
+    );
+    res.unshift(
+        `(*The following content was automatically generated in ${new Date().toLocaleString(undefined, { hourCycle: "h23" })}*)`
+    );
     content = repl(content, "cli", res.join("\n\n"));
     fs.writeFileSync(readme, content);
     return 0;
