@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.8.11](https://github.com/StableAgOH/lscontests/compare/v1.8.10...v1.8.11) (2022-05-13)
+
+
+### Performance Improvements
+
+* output of contests time information in 24-hour format ([7204283](https://github.com/StableAgOH/lscontests/commit/72042835414b1789bfbfbf44a012cb85633fd865))
+
 ## [1.8.10](https://github.com/StableAgOH/lscontests/compare/v1.8.9...v1.8.10) (2022-05-12)
 
 

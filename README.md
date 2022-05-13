@@ -40,7 +40,8 @@ Options:
   -l, --list             list all supported OJ and it's abbreviation
   -o, --oj <ojs...>      OJs to display (choices: "at", "cf", "lg", "nc")
   -r, --raw              print raw contest list
-  -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-TW", default: "zh-CN")
+  -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-TW",
+                         default: "zh-CN")
   --no-sort              do not sort by contests start time, but by OJ order
   -h, --help             display help for command
 ```
@@ -49,6 +50,8 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
+(*The following content was automatically generated in 5/13/2022, 11:23:42*)
+
 <details>
 <summary> <code>> lsct </code> </summary>
 
@@ -58,155 +61,213 @@ It performs as follows:
 比赛平台: NowCoder
 比赛名称: 牛客竞赛博弈专题班Sprague-Grundy函数（SG函数、图游戏、Nim和）
 赛制: ICPC
-开始时间: 2022/5/13 12:00:00
-结束时间: 2022/5/21 21:00:00
+开始时间: 5/13/2022, 04:00:00
+结束时间: 5/21/2022, 13:00:00
 https://ac.nowcoder.com/acm/contest/34655
 
 比赛平台: NowCoder
 比赛名称: 2022图论班第一章图匹配例题与习题
 赛制: ICPC
-开始时间: 2022/5/13 14:00:00
-结束时间: 2022/5/30 16:00:00
+开始时间: 5/13/2022, 06:00:00
+结束时间: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
 比赛平台: NowCoder
 比赛名称: 牛客挑战赛60
 赛制: ICPC
-开始时间: 2022/5/13 19:00:00
-结束时间: 2022/5/13 22:00:00
+开始时间: 5/13/2022, 11:00:00
+结束时间: 5/13/2022, 14:00:00
 https://ac.nowcoder.com/acm/contest/11200
 
 比赛平台: Codeforces
 比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
 赛制: ICPC
-开始时间: 2022/5/13 22:35:00
-结束时间: 2022/5/14 00:35:00
+开始时间: 5/13/2022, 14:35:00
+结束时间: 5/13/2022, 16:35:00
 https://codeforces.com/contests/1680
 
 比赛平台: NowCoder
 比赛名称: 第二届天元编程邀请赛（提高组）
 赛制: undefined
-开始时间: 2022/5/14 12:30:00
-结束时间: 2022/5/14 17:00:00
+开始时间: 5/14/2022, 04:30:00
+结束时间: 5/14/2022, 09:00:00
 https://ac.nowcoder.com/acm/contest/33335
 
 比赛平台: NowCoder
 比赛名称: 第二届天元编程邀请赛（普及组）
 赛制: undefined
-开始时间: 2022/5/14 12:30:00
-结束时间: 2022/5/14 16:00:00
+开始时间: 5/14/2022, 04:30:00
+结束时间: 5/14/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/33341
 
 比赛平台: NowCoder
 比赛名称: 第十八届西南科技大学ACM程序设计竞赛（同步赛）
 赛制: ICPC
-开始时间: 2022/5/14 13:00:00
-结束时间: 2022/5/14 18:00:00
+开始时间: 5/14/2022, 05:00:00
+结束时间: 5/14/2022, 10:00:00
 https://ac.nowcoder.com/acm/contest/33540
 
 比赛平台: Luogu
 比赛名称: 【LGR-109】洛谷 5 月月赛 II & Windy Round 6
 赛制: IOI
-开始时间: 2022/5/14 14:00:00
-结束时间: 2022/5/14 18:00:00
+开始时间: 5/14/2022, 06:00:00
+结束时间: 5/14/2022, 10:00:00
 https://www.luogu.com.cn/contest/68326
 
 比赛平台: Codeforces
 比赛名称: Codeforces Round #791 (Div. 2)
 赛制: Codeforces
-开始时间: 2022/5/14 17:35:00
-结束时间: 2022/5/14 19:35:00
+开始时间: 5/14/2022, 09:35:00
+结束时间: 5/14/2022, 11:35:00
 https://codeforces.com/contests/1679
 
 比赛平台: AtCoder
 比赛名称: Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)
 赛制: AtCoder
-开始时间: 2022/5/14 20:00:00
-结束时间: 2022/5/14 20:01:40
+开始时间: 5/14/2022, 12:00:00
+结束时间: 5/14/2022, 12:01:40
 https://atcoder.jp/contests/abc251
 
 比赛平台: Luogu
 比赛名称: 「WHOI」Round 1
 赛制: IOI
-开始时间: 2022/5/15 14:00:00
-结束时间: 2022/5/15 18:00:00
+开始时间: 5/15/2022, 06:00:00
+结束时间: 5/15/2022, 10:00:00
 https://www.luogu.com.cn/contest/67377
 
 比赛平台: AtCoder
 比赛名称: Ⓐ AtCoder Regular Contest 140
 赛制: AtCoder
-开始时间: 2022/5/15 20:00:00
-结束时间: 2022/5/15 20:02:00
+开始时间: 5/15/2022, 12:00:00
+结束时间: 5/15/2022, 12:02:00
 https://atcoder.jp/contests/arc140
 ```
 
 </details>
 
 <details>
-<summary> <code>> lsct -o at cf</code> </summary>
+<summary> <code>> lsct -o at cf -d 7</code> </summary>
 
 ```text
-最近的 3 天内在 AtCoder,Codeforces 上有 4 场比赛
+最近的 7 天内在 AtCoder,Codeforces 上有 4 场比赛
 
 比赛平台: Codeforces
 比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
 赛制: ICPC
-开始时间: 2022/5/13 22:35:00
-结束时间: 2022/5/14 00:35:00
+开始时间: 5/13/2022, 14:35:00
+结束时间: 5/13/2022, 16:35:00
 https://codeforces.com/contests/1680
 
 比赛平台: Codeforces
 比赛名称: Codeforces Round #791 (Div. 2)
 赛制: Codeforces
-开始时间: 2022/5/14 17:35:00
-结束时间: 2022/5/14 19:35:00
+开始时间: 5/14/2022, 09:35:00
+结束时间: 5/14/2022, 11:35:00
 https://codeforces.com/contests/1679
 
 比赛平台: AtCoder
 比赛名称: Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)
 赛制: AtCoder
-开始时间: 2022/5/14 20:00:00
-结束时间: 2022/5/14 20:01:40
+开始时间: 5/14/2022, 12:00:00
+结束时间: 5/14/2022, 12:01:40
 https://atcoder.jp/contests/abc251
 
 比赛平台: AtCoder
 比赛名称: Ⓐ AtCoder Regular Contest 140
 赛制: AtCoder
-开始时间: 2022/5/15 20:00:00
-结束时间: 2022/5/15 20:02:00
+开始时间: 5/15/2022, 12:00:00
+结束时间: 5/15/2022, 12:02:00
 https://atcoder.jp/contests/arc140
 ```
 
 </details>
 
 <details>
-<summary> <code>> lsct -o lg -d 7 -L en</code> </summary>
+<summary> <code>> lsct -o lg nc -d 7 -L en</code> </summary>
 
 ```text
-2 contests on Luogu in the last 7 days
+8 contests on Luogu,NowCoder in the last 7 days
+
+OJ: NowCoder
+Contest name: 牛客竞赛博弈专题班Sprague-Grundy函数（SG函数、图游戏、Nim和）
+Rule: ICPC
+Start time: 5/13/2022, 04:00:00
+End time: 5/21/2022, 13:00:00
+https://ac.nowcoder.com/acm/contest/34655
+
+OJ: NowCoder
+Contest name: 2022图论班第一章图匹配例题与习题
+Rule: ICPC
+Start time: 5/13/2022, 06:00:00
+End time: 5/30/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/34649
+
+OJ: NowCoder
+Contest name: 牛客挑战赛60
+Rule: ICPC
+Start time: 5/13/2022, 11:00:00
+End time: 5/13/2022, 14:00:00
+https://ac.nowcoder.com/acm/contest/11200
+
+OJ: NowCoder
+Contest name: 第二届天元编程邀请赛（提高组）
+Rule: undefined
+Start time: 5/14/2022, 04:30:00
+End time: 5/14/2022, 09:00:00
+https://ac.nowcoder.com/acm/contest/33335
+
+OJ: NowCoder
+Contest name: 第二届天元编程邀请赛（普及组）
+Rule: undefined
+Start time: 5/14/2022, 04:30:00
+End time: 5/14/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/33341
+
+OJ: NowCoder
+Contest name: 第十八届西南科技大学ACM程序设计竞赛（同步赛）
+Rule: ICPC
+Start time: 5/14/2022, 05:00:00
+End time: 5/14/2022, 10:00:00
+https://ac.nowcoder.com/acm/contest/33540
 
 OJ: Luogu
 Contest name: 【LGR-109】洛谷 5 月月赛 II & Windy Round 6
 Rule: IOI
-Start time: 2022/5/14 14:00:00
-End time: 2022/5/14 18:00:00
+Start time: 5/14/2022, 06:00:00
+End time: 5/14/2022, 10:00:00
 https://www.luogu.com.cn/contest/68326
 
 OJ: Luogu
 Contest name: 「WHOI」Round 1
 Rule: IOI
-Start time: 2022/5/15 14:00:00
-End time: 2022/5/15 18:00:00
+Start time: 5/15/2022, 06:00:00
+End time: 5/15/2022, 10:00:00
 https://www.luogu.com.cn/contest/67377
 ```
 
 </details>
 
 <details>
-<summary> <code>> lsct -r -o cf --no-sort</code> </summary>
+<summary> <code>> lsct -o at cf -d 7 -r --no-sort</code> </summary>
 
-```text
+```json
 [
+  {
+    "ojName": "AtCoder",
+    "name": "Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)",
+    "rule": "AtCoder",
+    "startTime": "2022-05-14T12:00:00.000Z",
+    "endTime": "2022-05-14T12:01:40.000Z",
+    "url": "https://atcoder.jp/contests/abc251"
+  },
+  {
+    "ojName": "AtCoder",
+    "name": "Ⓐ AtCoder Regular Contest 140",
+    "rule": "AtCoder",
+    "startTime": "2022-05-15T12:00:00.000Z",
+    "endTime": "2022-05-15T12:02:00.000Z",
+    "url": "https://atcoder.jp/contests/arc140"
+  },
   {
     "ojName": "Codeforces",
     "name": "Codeforces Round #791 (Div. 2)",
