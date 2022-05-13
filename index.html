@@ -1,0 +1,339 @@
+<!DOCTYPE html><html class="default"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>lscontests</title><meta name="description" content="Documentation for lscontests"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script async src="assets/search.js" id="search-script"></script></head><body><script>document.body.classList.add(localStorage.getItem("tsd-theme") || "os")</script><header><div class="tsd-page-toolbar"><div class="container"><div class="table-wrap"><div class="table-cell" id="tsd-search" data-base="."><div class="field"><label for="tsd-search-field" class="tsd-widget search no-caption">Search</label><input type="text" id="tsd-search-field"/></div><ul class="results"><li class="state loading">Preparing search index...</li><li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">lscontests</a></div><div class="table-cell" id="tsd-widgets"><div id="tsd-filter"><a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a><div class="tsd-filter-group"><div class="tsd-select" id="tsd-filter-visibility"><span class="tsd-select-label">All</span><ul class="tsd-select-list"><li data-value="public">Public</li><li data-value="protected">Public/Protected</li><li data-value="private" class="selected">All</li></ul></div> <input type="checkbox" id="tsd-filter-inherited" checked/><label class="tsd-widget" for="tsd-filter-inherited">Inherited</label><input type="checkbox" id="tsd-filter-externals" checked/><label class="tsd-widget" for="tsd-filter-externals">Externals</label></div></div><a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a></div></div></div></div><div class="tsd-page-title"><div class="container"><h1>lscontests </h1></div></div></header><div class="container container-main"><div class="row"><div class="col-8 col-content"><div class="tsd-panel tsd-typography">
+<a href="#lscontests" id="lscontests" style="color: inherit; text-decoration: none;">
+  <h1>lscontests</h1>
+</a>
+<p><a href="https://github.com/StableAgOH/lscontests"><img src="https://img.shields.io/github/stars/StableAgOH/lscontests?style=social" alt="GitHub Repo stars"></a>
+<a href="https://github.com/StableAgOH/lscontests"><img src="https://img.shields.io/github/commit-activity/m/StableAgOH/lscontests?logo=github" alt="GitHub commit activity"></a>
+<a href="https://github.com/StableAgOH/lscontests"><img src="https://img.shields.io/github/license/StableAgOH/lscontests" alt="License"></a>
+<a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release" alt="semantic-release: angular"></a></p>
+<p><a href="https://www.npmjs.com/package/lscontests"><img src="https://img.shields.io/npm/v/lscontests?logo=npm" alt="npm"></a>
+<a href="https://www.npmjs.com/package/lscontests"><img src="https://img.shields.io/npm/dw/lscontests?logo=npm" alt="npm"></a></p>
+<p>A tool to get information about the contests on each OJ.</p>
+
+<a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
+  <h2>Installation</h2>
+</a>
+
+<a href="#only-use-cli" id="only-use-cli" style="color: inherit; text-decoration: none;">
+  <h3>Only use CLI</h3>
+</a>
+<p>For npm: <code>npm install -g lscontests</code></p>
+<p>For yarn: <code>yarn global add lscontests</code></p>
+
+<a href="#add-to-your-package" id="add-to-your-package" style="color: inherit; text-decoration: none;">
+  <h3>Add to your package</h3>
+</a>
+<p>For npm: <code>npm install lscontests --save</code></p>
+<p>For yarn: <code>yarn add lscontests</code></p>
+
+<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
+  <h2>Usage</h2>
+</a>
+
+<a href="#cli" id="cli" style="color: inherit; text-decoration: none;">
+  <h3>CLI</h3>
+</a>
+<p>You can use cli to get a list of information about upcoming contests easily.</p>
+<!-- block_help begin -->
+<pre><code class="language-text">Usage: lsct [options]
+
+Options:
+  -V, --version          output the version number
+  -d, --days, &lt;day&gt;      number of days to display (default: &quot;3&quot;)
+  -l, --list             list all supported OJ and it&#39;s abbreviation
+  -o, --oj &lt;ojs...&gt;      OJs to display (choices: &quot;at&quot;, &quot;cf&quot;, &quot;lg&quot;, &quot;nc&quot;)
+  -r, --raw              print raw contest list
+  -L, --language &lt;lang&gt;  set output language (choices: &quot;en&quot;, &quot;zh-CN&quot;, &quot;zh-TW&quot;,
+                         default: &quot;zh-CN&quot;)
+  --no-sort              do not sort by contests start time, but by OJ order
+  -h, --help             display help for command
+</code></pre>
+<!-- block_help end -->
+
+<p>It performs as follows:</p>
+<!-- block_cli begin -->
+<p>(<em>The following content was automatically generated in Fri, 13 May 2022 15:28:45 GMT</em>)</p>
+<details>
+<summary> <code>> lsct </code> </summary>
+
+<pre><code class="language-text">在 AtCoder,Codeforces,Luogu,NowCoder 上有 3 场正在进行的比赛
+
+比赛平台: NowCoder
+比赛名称：牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
+赛制: ICPC
+开始时间: 5/13/2022, 04:00:00
+结束时间: 5/21/2022, 13:00:00
+https://ac.nowcoder.com/acm/contest/34655
+
+比赛平台: NowCoder
+比赛名称: 2022 图论班第一章图匹配例题与习题
+赛制: ICPC
+开始时间: 5/13/2022, 06:00:00
+结束时间: 5/30/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/34649
+
+比赛平台: Codeforces
+比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
+赛制: ICPC
+开始时间: 5/13/2022, 14:35:00
+结束时间: 5/13/2022, 16:35:00
+https://codeforces.com/contests/1680
+
+接下来的 3 天内在 AtCoder,Codeforces,Luogu,NowCoder 上有 8 场比赛
+
+比赛平台: NowCoder
+比赛名称：第二届天元编程邀请赛（提高组）
+赛制: IOI
+开始时间: 5/14/2022, 04:30:00
+结束时间: 5/14/2022, 09:00:00
+https://ac.nowcoder.com/acm/contest/33335
+
+比赛平台: NowCoder
+比赛名称：第二届天元编程邀请赛（普及组）
+赛制: IOI
+开始时间: 5/14/2022, 04:30:00
+结束时间: 5/14/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/33341
+
+比赛平台: NowCoder
+比赛名称：第十八届西南科技大学 ACM 程序设计竞赛（同步赛）
+赛制: ICPC
+开始时间: 5/14/2022, 05:00:00
+结束时间: 5/14/2022, 10:00:00
+https://ac.nowcoder.com/acm/contest/33540
+
+比赛平台: Luogu
+比赛名称: 【LGR-109】洛谷 5 月月赛 II &amp; Windy Round 6
+赛制: IOI
+开始时间: 5/14/2022, 06:00:00
+结束时间: 5/14/2022, 10:00:00
+https://www.luogu.com.cn/contest/68326
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #791 (Div. 2)
+赛制: Codeforces
+开始时间: 5/14/2022, 09:35:00
+结束时间: 5/14/2022, 11:35:00
+https://codeforces.com/contests/1679
+
+比赛平台: AtCoder
+比赛名称: Ⓐ Panasonic Programming Contest 2022 (AtCoder Beginner Contest 251)
+赛制: AtCoder
+开始时间: 5/14/2022, 12:00:00
+结束时间: 5/14/2022, 13:40:00
+https://atcoder.jp/contests/abc251
+
+比赛平台: Luogu
+比赛名称: 「WHOI」Round 1
+赛制: IOI
+开始时间: 5/15/2022, 06:00:00
+结束时间: 5/15/2022, 10:00:00
+https://www.luogu.com.cn/contest/67377
+
+比赛平台: AtCoder
+比赛名称: Ⓐ AtCoder Regular Contest 140
+赛制: AtCoder
+开始时间: 5/15/2022, 12:00:00
+结束时间: 5/15/2022, 14:00:00
+https://atcoder.jp/contests/arc140
+</code></pre>
+</details>
+
+<details>
+<summary> <code>> lsct -o at cf -d 7</code> </summary>
+
+<pre><code class="language-text">在 AtCoder,Codeforces 上有 1 场正在进行的比赛
+
+比赛平台: Codeforces
+比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
+赛制: ICPC
+开始时间: 5/13/2022, 14:35:00
+结束时间: 5/13/2022, 16:35:00
+https://codeforces.com/contests/1680
+
+接下来的 7 天内在 AtCoder,Codeforces 上有 3 场比赛
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #791 (Div. 2)
+赛制: Codeforces
+开始时间: 5/14/2022, 09:35:00
+结束时间: 5/14/2022, 11:35:00
+https://codeforces.com/contests/1679
+
+比赛平台: AtCoder
+比赛名称: Ⓐ Panasonic Programming Contest 2022 (AtCoder Beginner Contest 251)
+赛制: AtCoder
+开始时间: 5/14/2022, 12:00:00
+结束时间: 5/14/2022, 13:40:00
+https://atcoder.jp/contests/abc251
+
+比赛平台: AtCoder
+比赛名称: Ⓐ AtCoder Regular Contest 140
+赛制: AtCoder
+开始时间: 5/15/2022, 12:00:00
+结束时间: 5/15/2022, 14:00:00
+https://atcoder.jp/contests/arc140
+</code></pre>
+</details>
+
+<details>
+<summary> <code>> lsct -o lg nc -d 7 -L en</code> </summary>
+
+<pre><code class="language-text">There are 2 contests is running on Luogu,NowCoder
+
+OJ: NowCoder
+Contest name: 牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
+Rule: ICPC
+Start time: 5/13/2022, 04:00:00
+End time: 5/21/2022, 13:00:00
+https://ac.nowcoder.com/acm/contest/34655
+
+OJ: NowCoder
+Contest name: 2022 图论班第一章图匹配例题与习题
+Rule: ICPC
+Start time: 5/13/2022, 06:00:00
+End time: 5/30/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/34649
+
+There are 5 contests on Luogu,NowCoder in the next 7 days
+
+OJ: NowCoder
+Contest name: 第二届天元编程邀请赛（提高组）
+Rule: IOI
+Start time: 5/14/2022, 04:30:00
+End time: 5/14/2022, 09:00:00
+https://ac.nowcoder.com/acm/contest/33335
+
+OJ: NowCoder
+Contest name: 第二届天元编程邀请赛（普及组）
+Rule: IOI
+Start time: 5/14/2022, 04:30:00
+End time: 5/14/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/33341
+
+OJ: NowCoder
+Contest name: 第十八届西南科技大学 ACM 程序设计竞赛（同步赛）
+Rule: ICPC
+Start time: 5/14/2022, 05:00:00
+End time: 5/14/2022, 10:00:00
+https://ac.nowcoder.com/acm/contest/33540
+
+OJ: Luogu
+Contest name: 【LGR-109】洛谷 5 月月赛 II &amp; Windy Round 6
+Rule: IOI
+Start time: 5/14/2022, 06:00:00
+End time: 5/14/2022, 10:00:00
+https://www.luogu.com.cn/contest/68326
+
+OJ: Luogu
+Contest name: 「WHOI」Round 1
+Rule: IOI
+Start time: 5/15/2022, 06:00:00
+End time: 5/15/2022, 10:00:00
+https://www.luogu.com.cn/contest/67377
+</code></pre>
+</details>
+
+<details>
+<summary> <code>> lsct -o at cf -d 7 -r --no-sort</code> </summary>
+
+<pre><code class="language-json"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-1">&quot;running&quot;</span><span class="hl-0">: [</span><br/><span class="hl-0">    {</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;ojName&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;Codeforces&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;name&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;Educational Codeforces Round 128 (Rated for Div. 2)&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;rule&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;ICPC&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;startTime&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;2022-05-13T14:35:00.000Z&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;endTime&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;2022-05-13T16:35:00.000Z&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;url&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;https://codeforces.com/contests/1680&quot;</span><br/><span class="hl-0">    }</span><br/><span class="hl-0">  ],</span><br/><span class="hl-0">  </span><span class="hl-1">&quot;upcoming&quot;</span><span class="hl-0">: [</span><br/><span class="hl-0">    {</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;ojName&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;AtCoder&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;name&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;rule&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;AtCoder&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;startTime&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;2022-05-14T12:00:00.000Z&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;endTime&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;2022-05-14T13:40:00.000Z&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;url&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;https://atcoder.jp/contests/abc251&quot;</span><br/><span class="hl-0">    },</span><br/><span class="hl-0">    {</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;ojName&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;AtCoder&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;name&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;Ⓐ AtCoder Regular Contest 140&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;rule&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;AtCoder&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;startTime&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;2022-05-15T12:00:00.000Z&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;endTime&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;2022-05-15T14:00:00.000Z&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;url&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;https://atcoder.jp/contests/arc140&quot;</span><br/><span class="hl-0">    },</span><br/><span class="hl-0">    {</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;ojName&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;Codeforces&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;name&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;Codeforces Round #791 (Div. 2)&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;rule&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;Codeforces&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;startTime&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;2022-05-14T09:35:00.000Z&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;endTime&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;2022-05-14T11:35:00.000Z&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">      </span><span class="hl-1">&quot;url&quot;</span><span class="hl-0">: </span><span class="hl-2">&quot;https://codeforces.com/contests/1679&quot;</span><br/><span class="hl-0">    }</span><br/><span class="hl-0">  ]</span><br/><span class="hl-0">}</span>
+</code></pre>
+</details>
+<!-- block_cli end -->
+
+
+<a href="#api" id="api" style="color: inherit; text-decoration: none;">
+  <h3>API</h3>
+</a>
+<p>If you want to get a list of contest information in your project by calling <em>lscontests</em>, or if you need to add support for other OJs, then you can call the <em>lscontests</em> API as follows:</p>
+
+<a href="#get-contests-information-string" id="get-contests-information-string" style="color: inherit; text-decoration: none;">
+  <h4>Get contests information string</h4>
+</a>
+<pre><code class="language-typescript"><span class="hl-3">import</span><span class="hl-0"> { </span><span class="hl-4">getContestInfo</span><span class="hl-0"> } </span><span class="hl-3">from</span><span class="hl-0"> </span><span class="hl-2">&quot;lscontests&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-5">getContestsInfoText</span><span class="hl-0">({ </span><span class="hl-4">abbrList:</span><span class="hl-0"> [</span><span class="hl-2">&quot;cf&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;lg&quot;</span><span class="hl-0">] }).</span><span class="hl-5">then</span><span class="hl-0">(</span><span class="hl-4">console</span><span class="hl-0">.</span><span class="hl-4">log</span><span class="hl-0">);</span>
+</code></pre>
+<p>This code gives the same result as <code>lsct -o cf lg</code>.</p>
+
+<a href="#get-contests-information-list" id="get-contests-information-list" style="color: inherit; text-decoration: none;">
+  <h4>Get contests information list</h4>
+</a>
+<pre><code class="language-typescript"><span class="hl-3">import</span><span class="hl-0"> { </span><span class="hl-4">getContestList</span><span class="hl-0"> } </span><span class="hl-3">from</span><span class="hl-0"> </span><span class="hl-2">&quot;lscontests&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-5">getContests</span><span class="hl-0">({ </span><span class="hl-4">sort:</span><span class="hl-0"> </span><span class="hl-6">false</span><span class="hl-0"> }).</span><span class="hl-5">then</span><span class="hl-0">(</span><span class="hl-4">console</span><span class="hl-0">.</span><span class="hl-4">log</span><span class="hl-0">);</span>
+</code></pre>
+<p>This code gives the same result as <code>lsct -r --no-sort</code>.</p>
+
+<a href="#add-oj-support" id="add-oj-support" style="color: inherit; text-decoration: none;">
+  <h4>Add OJ support</h4>
+</a>
+<pre><code class="language-typescript"><span class="hl-3">import</span><span class="hl-0"> { </span><span class="hl-4">addOJ</span><span class="hl-0">, </span><span class="hl-4">getContestsInfoText</span><span class="hl-0">, </span><span class="hl-4">getContests</span><span class="hl-0"> } </span><span class="hl-3">from</span><span class="hl-0"> </span><span class="hl-2">&quot;lscontests&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-5">addOJ</span><span class="hl-0">(</span><span class="hl-2">&quot;ts&quot;</span><span class="hl-0">, {</span><br/><span class="hl-0">    </span><span class="hl-4">name:</span><span class="hl-0"> </span><span class="hl-2">&quot;testOJ&quot;</span><span class="hl-0">, </span><span class="hl-5">get</span><span class="hl-4">:</span><span class="hl-0"> </span><span class="hl-6">async</span><span class="hl-0"> () </span><span class="hl-6">=&gt;</span><span class="hl-0"> [{</span><br/><span class="hl-0">        </span><span class="hl-4">ojName:</span><span class="hl-0"> </span><span class="hl-2">&quot;testOJ&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">        </span><span class="hl-4">name:</span><span class="hl-0"> </span><span class="hl-2">&quot;testContest&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">        </span><span class="hl-4">rule:</span><span class="hl-0"> </span><span class="hl-2">&quot;ICPC&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">        </span><span class="hl-4">startTime:</span><span class="hl-0"> </span><span class="hl-6">new</span><span class="hl-0"> </span><span class="hl-7">Date</span><span class="hl-0">(</span><span class="hl-7">Date</span><span class="hl-0">.</span><span class="hl-5">now</span><span class="hl-0">() - </span><span class="hl-8">1</span><span class="hl-0">),</span><br/><span class="hl-0">        </span><span class="hl-4">endTime:</span><span class="hl-0"> </span><span class="hl-6">new</span><span class="hl-0"> </span><span class="hl-7">Date</span><span class="hl-0">(</span><span class="hl-7">Date</span><span class="hl-0">.</span><span class="hl-5">now</span><span class="hl-0">() + </span><span class="hl-8">3600000</span><span class="hl-0">),</span><br/><span class="hl-0">        </span><span class="hl-4">url:</span><span class="hl-0"> </span><span class="hl-2">&quot;https://www.test.com&quot;</span><br/><span class="hl-0">    }]</span><br/><span class="hl-0">});</span><br/><br/><span class="hl-6">async</span><span class="hl-0"> </span><span class="hl-6">function</span><span class="hl-0"> </span><span class="hl-5">main</span><span class="hl-0">() {</span><br/><span class="hl-0">    </span><span class="hl-4">console</span><span class="hl-0">.</span><span class="hl-5">log</span><span class="hl-0">(</span><span class="hl-3">await</span><span class="hl-0"> </span><span class="hl-5">getContestsInfoText</span><span class="hl-0">({ </span><span class="hl-4">abbrList:</span><span class="hl-0"> [</span><span class="hl-2">&quot;cf&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;ts&quot;</span><span class="hl-0">], </span><span class="hl-4">days:</span><span class="hl-0"> </span><span class="hl-8">1</span><span class="hl-0"> }, </span><span class="hl-2">&quot;en&quot;</span><span class="hl-0">));</span><br/><span class="hl-0">    </span><span class="hl-4">console</span><span class="hl-0">.</span><span class="hl-5">log</span><span class="hl-0">();</span><br/><span class="hl-0">    </span><span class="hl-4">console</span><span class="hl-0">.</span><span class="hl-5">log</span><span class="hl-0">(</span><span class="hl-3">await</span><span class="hl-0"> </span><span class="hl-5">getContests</span><span class="hl-0">({ </span><span class="hl-4">abbrList:</span><span class="hl-0"> [</span><span class="hl-2">&quot;at&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;ts&quot;</span><span class="hl-0">], </span><span class="hl-4">days:</span><span class="hl-0"> </span><span class="hl-8">7</span><span class="hl-0"> }));</span><br/><span class="hl-0">}</span><br/><br/><span class="hl-5">main</span><span class="hl-0">();</span>
+</code></pre>
+<p>This code gives the following results:</p>
+<pre><code class="language-text">There are 2 contests is running on Codeforces,testOJ
+
+OJ: Codeforces
+Contest name: Educational Codeforces Round 128 (Rated for Div. 2)
+Rule: ICPC
+Start time: 2022/5/13 22:35:00
+End time: 2022/5/14 00:35:00
+https://codeforces.com/contests/1680
+
+OJ: testOJ
+Contest name: testContest
+Rule: ICPC
+Start time: 2022/5/13 23:23:31
+End time: 2022/5/14 00:23:31
+https://www.test.com
+
+There are 1 contests on Codeforces,testOJ in the next 1 days
+
+OJ: Codeforces
+Contest name: Codeforces Round #791 (Div. 2)
+Rule: Codeforces
+Start time: 2022/5/14 17:35:00
+End time: 2022/5/14 19:35:00
+https://codeforces.com/contests/1679
+
+{
+  running: [
+    {
+      ojName: &#39;testOJ&#39;,
+      name: &#39;testContest&#39;,
+      rule: &#39;ICPC&#39;,
+      startTime: 2022-05-13T15:23:37.245Z,
+      endTime: 2022-05-13T16:23:37.246Z,
+      url: &#39;https://www.test.com&#39;
+    }
+  ],
+  upcoming: [
+    {
+      ojName: &#39;AtCoder&#39;,
+      name: &#39;Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)&#39;,
+      rule: &#39;AtCoder&#39;,
+      startTime: 2022-05-14T12:00:00.000Z,
+      endTime: 2022-05-14T13:40:00.000Z,
+      url: &#39;https://atcoder.jp/contests/abc251&#39;
+    },
+    {
+      ojName: &#39;AtCoder&#39;,
+      name: &#39;Ⓐ AtCoder Regular Contest 140&#39;,
+      rule: &#39;AtCoder&#39;,
+      startTime: 2022-05-15T12:00:00.000Z,
+      endTime: 2022-05-15T14:00:00.000Z,
+      url: &#39;https://atcoder.jp/contests/arc140&#39;
+    }
+  ]
+}
+</code></pre>
+
+<a href="#use-link-cli" id="use-link-cli" style="color: inherit; text-decoration: none;">
+  <h4>Use link CLI</h4>
+</a>
+<pre><code class="language-typescript"><span class="hl-3">import</span><span class="hl-0"> { </span><span class="hl-4">cli</span><span class="hl-0"> } </span><span class="hl-3">from</span><span class="hl-0"> </span><span class="hl-2">&quot;lscontests&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-5">cli</span><span class="hl-0">(</span><span class="hl-2">&quot;-o cf -L en&quot;</span><span class="hl-0">).</span><span class="hl-5">then</span><span class="hl-0">(</span><span class="hl-4">console</span><span class="hl-0">.</span><span class="hl-4">log</span><span class="hl-0">);</span>
+</code></pre>
+<p>This code gives the same result as <code>lsct -o cf -L en</code>.</p>
+
+<a href="#license" id="license" style="color: inherit; text-decoration: none;">
+  <h2>License</h2>
+</a>
+<p><a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0</a></p>
+</div></div><div class="col-4 col-menu menu-sticky-wrap menu-highlight"><nav class="tsd-navigation primary"><ul><li class="current"><a href="modules.html">Exports</a></li></ul></nav><nav class="tsd-navigation secondary menu-sticky"><ul><li class="tsd-kind-type-alias"><a href="modules.html#config" class="tsd-kind-icon">config</a></li><li class="tsd-kind-function"><a href="modules.html#addOJ" class="tsd-kind-icon">addOJ</a></li><li class="tsd-kind-function"><a href="modules.html#cli" class="tsd-kind-icon">cli</a></li><li class="tsd-kind-function"><a href="modules.html#getContests" class="tsd-kind-icon">get<wbr/>Contests</a></li><li class="tsd-kind-function"><a href="modules.html#getContestsInfoText" class="tsd-kind-icon">get<wbr/>Contests<wbr/>Info<wbr/>Text</a></li></ul></nav></div></div></div><footer class="with-border-bottom"><div class="container"><h2>Settings</h2><p>Theme <select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></p></div></footer><div class="container tsd-generator"><p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div><div class="overlay"></div><script src="assets/main.js"></script></body></html>
