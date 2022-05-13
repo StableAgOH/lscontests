@@ -10,9 +10,9 @@ const cmds = [
 ];
 
 /**
- * @param {string} str 
- * @param {string} block 
- * @param {string} content 
+ * @param {string} str
+ * @param {string} block
+ * @param {string} content
  */
 function repl(str, block, content)
 {
@@ -21,8 +21,8 @@ function repl(str, block, content)
 }
 
 /**
- * @param {string} type 
- * @param {string} content 
+ * @param {string} type
+ * @param {string} content
  */
 function codeblock(type, content)
 {
@@ -30,8 +30,8 @@ function codeblock(type, content)
 }
 
 /**
- * @param {string} title 
- * @param {string} content 
+ * @param {string} title
+ * @param {string} content
  */
 function detailsblock(title, content)
 {
