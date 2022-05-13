@@ -4,6 +4,8 @@
     ],
     "plugins": [
         "@semantic-release/commit-analyzer",
+        "@semantic-release/github",
+        "@semantic-release/npm",
         "@semantic-release/release-notes-generator",
         [
             "@semantic-release/changelog",
@@ -11,18 +13,24 @@
                 "changelogTitle": "# CHANGELOG"
             }
         ],
-        "@semantic-release/npm",
+        [
+            "@semantic-release/exec",
+            {
+                "verifyConditionsCmd": "node ./release/verify.js",
+                "prepareCmd": "node ./release/prepare.js"
+            }
+        ],
         [
             "@semantic-release/git",
             {
                 "assets": [
                     "package.json",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "README.md"
                 ],
                 "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
         ],
-        "@semantic-release/github",
         "@qiwi/semantic-release-gh-pages-plugin"
     ]
 }

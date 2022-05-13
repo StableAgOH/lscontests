@@ -16,6 +16,7 @@ A tool to get information about the contests on each OJ.
 
 You can use cli to get a list of information about upcoming contests easily.
 
+<!-- block_help begin -->
 ```text
 Usage: lsct [options]
 
@@ -29,14 +30,30 @@ Options:
   --no-sort              do not sort by contests start time, but by OJ order
   -h, --help             display help for command
 ```
+<!-- block_help end -->
 
 It performs as follows:
 
+<!-- block_cli begin -->
 <details>
-<summary> <code>> lsct</code> </summary>
+<summary> <code>> lsct <code> </summary>
 
 ```text
-最近的 3 天内在 AtCoder,Codeforces,Luogu,NowCoder 上有 7 场比赛
+最近的 3 天内在 AtCoder,Codeforces,Luogu,NowCoder 上有 12 场比赛
+
+比赛平台: NowCoder
+比赛名称: 牛客竞赛博弈专题班Sprague-Grundy函数（SG函数、图游戏、Nim和）
+赛制: ICPC
+开始时间: 2022/5/13 12:00:00
+结束时间: 2022/5/21 21:00:00
+https://ac.nowcoder.com/acm/contest/34655
+
+比赛平台: NowCoder
+比赛名称: 2022图论班第一章图匹配例题与习题
+赛制: ICPC
+开始时间: 2022/5/13 14:00:00
+结束时间: 2022/5/30 16:00:00
+https://ac.nowcoder.com/acm/contest/34649
 
 比赛平台: NowCoder
 比赛名称: 牛客挑战赛60
@@ -52,16 +69,70 @@ https://ac.nowcoder.com/acm/contest/11200
 结束时间: 2022/5/14 00:35:00
 https://codeforces.com/contests/1680
 
-......
+比赛平台: NowCoder
+比赛名称: 第二届天元编程邀请赛（提高组）
+赛制: undefined
+开始时间: 2022/5/14 12:30:00
+结束时间: 2022/5/14 17:00:00
+https://ac.nowcoder.com/acm/contest/33335
+
+比赛平台: NowCoder
+比赛名称: 第二届天元编程邀请赛（普及组）
+赛制: undefined
+开始时间: 2022/5/14 12:30:00
+结束时间: 2022/5/14 16:00:00
+https://ac.nowcoder.com/acm/contest/33341
+
+比赛平台: NowCoder
+比赛名称: 第十八届西南科技大学ACM程序设计竞赛（同步赛）
+赛制: ICPC
+开始时间: 2022/5/14 13:00:00
+结束时间: 2022/5/14 18:00:00
+https://ac.nowcoder.com/acm/contest/33540
+
+比赛平台: Luogu
+比赛名称: 【LGR-109】洛谷 5 月月赛 II & Windy Round 6
+赛制: IOI
+开始时间: 2022/5/14 14:00:00
+结束时间: 2022/5/14 18:00:00
+https://www.luogu.com.cn/contest/68326
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #791 (Div. 2)
+赛制: Codeforces
+开始时间: 2022/5/14 17:35:00
+结束时间: 2022/5/14 19:35:00
+https://codeforces.com/contests/1679
+
+比赛平台: AtCoder
+比赛名称: Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)
+赛制: AtCoder
+开始时间: 2022/5/14 20:00:00
+结束时间: 2022/5/14 20:01:40
+https://atcoder.jp/contests/abc251
+
+比赛平台: Luogu
+比赛名称: 「WHOI」Round 1
+赛制: IOI
+开始时间: 2022/5/15 14:00:00
+结束时间: 2022/5/15 18:00:00
+https://www.luogu.com.cn/contest/67377
+
+比赛平台: AtCoder
+比赛名称: Ⓐ AtCoder Regular Contest 140
+赛制: AtCoder
+开始时间: 2022/5/15 20:00:00
+结束时间: 2022/5/15 20:02:00
+https://atcoder.jp/contests/arc140
 ```
 
 </details>
 
 <details>
-<summary> <code>> lsct -o at cf</code> </summary>
+<summary> <code>> lsct -o at cf<code> </summary>
 
 ```text
-最近的 3 天内在 AtCoder,Codeforces 上有 3 场比赛
+最近的 3 天内在 AtCoder,Codeforces 上有 4 场比赛
 
 比赛平台: Codeforces
 比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
@@ -83,12 +154,19 @@ https://codeforces.com/contests/1679
 开始时间: 2022/5/14 20:00:00
 结束时间: 2022/5/14 20:01:40
 https://atcoder.jp/contests/abc251
+
+比赛平台: AtCoder
+比赛名称: Ⓐ AtCoder Regular Contest 140
+赛制: AtCoder
+开始时间: 2022/5/15 20:00:00
+结束时间: 2022/5/15 20:02:00
+https://atcoder.jp/contests/arc140
 ```
 
 </details>
 
 <details>
-<summary> <code>> lsct -o lg -d 7 -L en</code> </summary>
+<summary> <code>> lsct -o lg -d 7 -L en<code> </summary>
 
 ```text
 2 contests on Luogu in the last 7 days
@@ -111,9 +189,9 @@ https://www.luogu.com.cn/contest/67377
 </details>
 
 <details>
-<summary> <code>> lsct -r -o cf --no-sort</code> </summary>
+<summary> <code>> lsct -r -o cf --no-sort<code> </summary>
 
-```bash
+```text
 [
   {
     "ojName": "Codeforces",
@@ -135,6 +213,7 @@ https://www.luogu.com.cn/contest/67377
 ```
 
 </details>
+<!-- block_cli end -->
 
 ### API
 
