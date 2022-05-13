@@ -10,6 +10,20 @@
 
 A tool to get information about the contests on each OJ.
 
+## Installation
+
+### Only use CLI
+
+For npm: `npm install -g lscontests`
+
+For yarn: `yarn global add lscontests`
+
+### Add to your package
+
+For npm: `npm install lscontests`
+
+For yarn: `yarn add lscontests`
+
 ## Usage
 
 ### CLI
