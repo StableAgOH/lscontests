@@ -54,7 +54,7 @@ async function main()
         ))
     );
     res.unshift(
-        `(*The following content was automatically generated in ${new Date().toLocaleString(undefined, { hourCycle: "h23" })}*)`
+        `(*The following content was automatically generated in ${new Date().toUTCString()}*)`
     );
     content = repl(content, "cli", res.join("\n\n"));
     fs.writeFileSync(readme, content);
