@@ -63,8 +63,8 @@ export async function getContestInfo(config?: config, language = "zh-CN")
         msg.push(`${lang.ojName}: ${contest.ojName}`);
         msg.push(`${lang.name}: ${contest.name}`);
         msg.push(`${lang.rule}: ${contest.rule}`);
-        msg.push(`${lang.startTime}: ${contest.startTime.toLocaleString()}`);
-        msg.push(`${lang.endTime}: ${contest.endTime.toLocaleString()}`);
+        msg.push(`${lang.startTime}: ${contest.startTime.toLocaleString(undefined, { hourCycle: "h23" })}`);
+        msg.push(`${lang.endTime}: ${contest.endTime.toLocaleString(undefined, { hourCycle: "h23" })}`);
         msg.push(contest.url);
         info.push(msg.join("\n"));
     }
