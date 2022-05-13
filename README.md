@@ -40,8 +40,8 @@ Options:
   -l, --list             list all supported OJ and it's abbreviation
   -o, --oj <ojs...>      OJs to display (choices: "at", "cf", "lg", "nc")
   -r, --raw              print raw contest list
-  -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-TW",
-                         default: "zh-CN")
+  -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-NE",
+                         "zh-TW", default: "zh-CN")
   --no-sort              do not sort by contests start time, but by OJ order
   -h, --help             display help for command
 ```
@@ -50,7 +50,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated in Fri, 13 May 2022 15:28:45 GMT*)
+(*The following content was automatically generated in Fri, 13 May 2022 15:42:43 GMT*)
 
 <details>
 <summary> <code>> lsct </code> </summary>
