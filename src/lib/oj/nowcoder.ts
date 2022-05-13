@@ -69,8 +69,8 @@ async function getResultList(tcf: topCategoryFilter)
 
 const ruleRecord: Record<number, rule> = {
     0: "ICPC",
-    1: "IOI",
-    2: "OI"
+    2: "OI",
+    3: "IOI"
 };
 
 export const nc: oj = {
