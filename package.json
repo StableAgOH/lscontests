@@ -28,7 +28,6 @@
     "clean": "rimraf ./dist",
     "docs": "typedoc --out docs ./src/index.ts",
     "lint": "eslint && markdownlint README.md",
-    "prepack": "yarn build",
     "prestart": "yarn build",
     "start": "node ./dist/cli.js"
   },
