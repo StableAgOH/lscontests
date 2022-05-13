@@ -1,6 +1,7 @@
 import { alloj } from "./lib/oj";
 import { getLangDict } from "./locale";
 import _ from "lodash";
+import pangu from "pangu";
 
 export type config = {
     abbrList?: string[],
@@ -68,7 +69,7 @@ export async function getContestInfo(config?: config, language = "zh-CN")
         msg.push(contest.url);
         info.push(msg.join("\n"));
     }
-    return info.join("\n\n");
+    return pangu.spacing(info.join("\n\n"));
 }
 
 export { cli } from "./cli";
