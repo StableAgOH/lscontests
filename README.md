@@ -20,7 +20,7 @@ For yarn: `yarn global add lscontests`
 
 ### Add to your package
 
-For npm: `npm install lscontests`
+For npm: `npm install lscontests --save`
 
 For yarn: `yarn add lscontests`
 
