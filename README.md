@@ -50,13 +50,13 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated in Fri, 13 May 2022 13:22:53 GMT*)
+(*The following content was automatically generated in Fri, 13 May 2022 15:28:45 GMT*)
 
 <details>
 <summary> <code>> lsct </code> </summary>
 
 ```text
-最近的 3 天内在 AtCoder,Codeforces,Luogu,NowCoder 上有 12 场比赛
+在 AtCoder,Codeforces,Luogu,NowCoder 上有 3 场正在进行的比赛
 
 比赛平台: NowCoder
 比赛名称：牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
@@ -72,19 +72,14 @@ https://ac.nowcoder.com/acm/contest/34655
 结束时间: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-比赛平台: NowCoder
-比赛名称：牛客挑战赛 60
-赛制: ICPC
-开始时间: 5/13/2022, 11:00:00
-结束时间: 5/13/2022, 14:00:00
-https://ac.nowcoder.com/acm/contest/11200
-
 比赛平台: Codeforces
 比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
 赛制: ICPC
 开始时间: 5/13/2022, 14:35:00
 结束时间: 5/13/2022, 16:35:00
 https://codeforces.com/contests/1680
+
+接下来的 3 天内在 AtCoder,Codeforces,Luogu,NowCoder 上有 8 场比赛
 
 比赛平台: NowCoder
 比赛名称：第二届天元编程邀请赛（提高组）
@@ -149,7 +144,7 @@ https://atcoder.jp/contests/arc140
 <summary> <code>> lsct -o at cf -d 7</code> </summary>
 
 ```text
-最近的 7 天内在 AtCoder,Codeforces 上有 4 场比赛
+在 AtCoder,Codeforces 上有 1 场正在进行的比赛
 
 比赛平台: Codeforces
 比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
@@ -157,6 +152,8 @@ https://atcoder.jp/contests/arc140
 开始时间: 5/13/2022, 14:35:00
 结束时间: 5/13/2022, 16:35:00
 https://codeforces.com/contests/1680
+
+接下来的 7 天内在 AtCoder,Codeforces 上有 3 场比赛
 
 比赛平台: Codeforces
 比赛名称: Codeforces Round #791 (Div. 2)
@@ -186,7 +183,7 @@ https://atcoder.jp/contests/arc140
 <summary> <code>> lsct -o lg nc -d 7 -L en</code> </summary>
 
 ```text
-8 contests on Luogu,NowCoder in the last 7 days
+There are 2 contests is running on Luogu,NowCoder
 
 OJ: NowCoder
 Contest name: 牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
@@ -202,12 +199,7 @@ Start time: 5/13/2022, 06:00:00
 End time: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-OJ: NowCoder
-Contest name: 牛客挑战赛 60
-Rule: ICPC
-Start time: 5/13/2022, 11:00:00
-End time: 5/13/2022, 14:00:00
-https://ac.nowcoder.com/acm/contest/11200
+There are 5 contests on Luogu,NowCoder in the next 7 days
 
 OJ: NowCoder
 Contest name: 第二届天元编程邀请赛（提高组）
@@ -251,40 +243,44 @@ https://www.luogu.com.cn/contest/67377
 <summary> <code>> lsct -o at cf -d 7 -r --no-sort</code> </summary>
 
 ```json
-[
-  {
-    "ojName": "AtCoder",
-    "name": "Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)",
-    "rule": "AtCoder",
-    "startTime": "2022-05-14T12:00:00.000Z",
-    "endTime": "2022-05-14T13:40:00.000Z",
-    "url": "https://atcoder.jp/contests/abc251"
-  },
-  {
-    "ojName": "AtCoder",
-    "name": "Ⓐ AtCoder Regular Contest 140",
-    "rule": "AtCoder",
-    "startTime": "2022-05-15T12:00:00.000Z",
-    "endTime": "2022-05-15T14:00:00.000Z",
-    "url": "https://atcoder.jp/contests/arc140"
-  },
-  {
-    "ojName": "Codeforces",
-    "name": "Codeforces Round #791 (Div. 2)",
-    "rule": "Codeforces",
-    "startTime": "2022-05-14T09:35:00.000Z",
-    "endTime": "2022-05-14T11:35:00.000Z",
-    "url": "https://codeforces.com/contests/1679"
-  },
-  {
-    "ojName": "Codeforces",
-    "name": "Educational Codeforces Round 128 (Rated for Div. 2)",
-    "rule": "ICPC",
-    "startTime": "2022-05-13T14:35:00.000Z",
-    "endTime": "2022-05-13T16:35:00.000Z",
-    "url": "https://codeforces.com/contests/1680"
-  }
-]
+{
+  "running": [
+    {
+      "ojName": "Codeforces",
+      "name": "Educational Codeforces Round 128 (Rated for Div. 2)",
+      "rule": "ICPC",
+      "startTime": "2022-05-13T14:35:00.000Z",
+      "endTime": "2022-05-13T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1680"
+    }
+  ],
+  "upcoming": [
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)",
+      "rule": "AtCoder",
+      "startTime": "2022-05-14T12:00:00.000Z",
+      "endTime": "2022-05-14T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc251"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Regular Contest 140",
+      "rule": "AtCoder",
+      "startTime": "2022-05-15T12:00:00.000Z",
+      "endTime": "2022-05-15T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc140"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #791 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-14T09:35:00.000Z",
+      "endTime": "2022-05-14T11:35:00.000Z",
+      "url": "https://codeforces.com/contests/1679"
+    }
+  ]
+}
 ```
 
 </details>

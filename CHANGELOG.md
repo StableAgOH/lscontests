@@ -1,5 +1,12 @@
 # CHANGELOG
 
+# [1.9.0](https://github.com/StableAgOH/lscontests/compare/v1.8.13...v1.9.0) (2022-05-13)
+
+
+### Features
+
+* support display running contests ([f118485](https://github.com/StableAgOH/lscontests/commit/f1184850bb674c02c368c74b76910405cb48d094))
+
 ## [1.8.13](https://github.com/StableAgOH/lscontests/compare/v1.8.12...v1.8.13) (2022-05-13)
 
 
