@@ -48,7 +48,7 @@ async function main()
     content = repl(content, "help", codeblock("text", await lsct.cli("-h")));
     const res = await Promise.all(cmds.map(async cmd =>
     {
-        return detailsblock(`<code>> lsct ${cmd}<code>`, codeblock("text", await lsct.cli(cmd)));
+        return detailsblock(`<code>> lsct ${cmd}</code>`, codeblock("text", await lsct.cli(cmd)));
     }));
     content = repl(content, "cli", res.join("\n\n"));
     fs.writeFileSync(readme, content);

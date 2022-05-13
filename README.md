@@ -36,7 +36,7 @@ It performs as follows:
 
 <!-- block_cli begin -->
 <details>
-<summary> <code>> lsct <code> </summary>
+<summary> <code>> lsct </code> </summary>
 
 ```text
 最近的 3 天内在 AtCoder,Codeforces,Luogu,NowCoder 上有 12 场比赛
@@ -129,7 +129,7 @@ https://atcoder.jp/contests/arc140
 </details>
 
 <details>
-<summary> <code>> lsct -o at cf<code> </summary>
+<summary> <code>> lsct -o at cf</code> </summary>
 
 ```text
 最近的 3 天内在 AtCoder,Codeforces 上有 4 场比赛
@@ -166,7 +166,7 @@ https://atcoder.jp/contests/arc140
 </details>
 
 <details>
-<summary> <code>> lsct -o lg -d 7 -L en<code> </summary>
+<summary> <code>> lsct -o lg -d 7 -L en</code> </summary>
 
 ```text
 2 contests on Luogu in the last 7 days
@@ -189,7 +189,7 @@ https://www.luogu.com.cn/contest/67377
 </details>
 
 <details>
-<summary> <code>> lsct -r -o cf --no-sort<code> </summary>
+<summary> <code>> lsct -r -o cf --no-sort</code> </summary>
 
 ```text
 [
