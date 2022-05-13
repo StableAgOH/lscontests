@@ -40,6 +40,6 @@ export const cf: oj = {
                 endTime: new Date((res.startTimeSeconds + res.durationSeconds) * 1000),
                 url: `https://codeforces.com/contests/${res.id}`
             };
-        }).filter(contest => contest.startTime >= new Date());
+        }).filter(contest => contest.endTime >= new Date());
     }
 };

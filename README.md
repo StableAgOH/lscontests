@@ -299,7 +299,7 @@ If you want to get a list of contest information in your project by calling *lsc
 ```typescript
 import { getContestInfo } from "lscontests";
 
-getContestInfo({ abbrList: ["cf", "lg"] }).then(console.log);
+getContestsInfoText({ abbrList: ["cf", "lg"] }).then(console.log);
 ```
 
 This code gives the same result as `lsct -o cf lg`.
@@ -309,7 +309,7 @@ This code gives the same result as `lsct -o cf lg`.
 ```typescript
 import { getContestList } from "lscontests";
 
-getContestList({ sort: false }).then(console.log);
+getContests({ sort: false }).then(console.log);
 ```
 
 This code gives the same result as `lsct -r --no-sort`.
@@ -317,23 +317,23 @@ This code gives the same result as `lsct -r --no-sort`.
 #### Add OJ support
 
 ```typescript
-import { addOJ, getContestInfo, getContestList } from "lscontests";
+import { addOJ, getContestsInfoText, getContests } from "lscontests";
 
 addOJ("ts", {
     name: "testOJ", get: async () => [{
         ojName: "testOJ",
         name: "testContest",
         rule: "ICPC",
-        startTime: new Date(Date.now() + 1 * 86400000),
-        endTime: new Date(Date.now() + 2 * 86400000),
+        startTime: new Date(Date.now() - 1),
+        endTime: new Date(Date.now() + 3600000),
         url: "https://www.test.com"
     }]
 });
 
 async function main() {
-    console.log(await getContestInfo({ abbrList: ["cf", "ts"], days: 1 }, "en"));
+    console.log(await getContestsInfoText({ abbrList: ["cf", "ts"], days: 1 }, "en"));
     console.log();
-    console.log(await getContestList({ abbrList: ["cf", "ts"], days: 7 }));
+    console.log(await getContests({ abbrList: ["at", "ts"], days: 7 }));
 }
 
 main();
@@ -342,41 +342,61 @@ main();
 This code gives the following results:
 
 ```text
-1 contests on Codeforces,testOJ in the last 1 days
+There are 2 contests is running on Codeforces,testOJ
+
+OJ: Codeforces
+Contest name: Educational Codeforces Round 128 (Rated for Div. 2)
+Rule: ICPC
+Start time: 2022/5/13 22:35:00
+End time: 2022/5/14 00:35:00
+https://codeforces.com/contests/1680
 
 OJ: testOJ
 Contest name: testContest
 Rule: ICPC
-Start time: 2022/5/13 19:34:10
-End time: 2022/5/14 19:34:10
+Start time: 2022/5/13 23:23:31
+End time: 2022/5/14 00:23:31
 https://www.test.com
 
-[
-  {
-    ojName: 'testOJ',
-    name: 'testContest',
-    rule: 'ICPC',
-    startTime: 2022-05-13T11:34:13.464Z,
-    endTime: 2022-05-14T11:34:13.464Z,
-    url: 'https://www.test.com'
-  },
-  {
-    ojName: 'Codeforces',
-    name: 'Educational Codeforces Round 128 (Rated for Div. 2)',
-    rule: 'ICPC',
-    startTime: 2022-05-13T14:35:00.000Z,
-    endTime: 2022-05-13T16:35:00.000Z,
-    url: 'https://codeforces.com/contests/1680'
-  },
-  {
-    ojName: 'Codeforces',
-    name: 'Codeforces Round #791 (Div. 2)',
-    rule: 'Codeforces',
-    startTime: 2022-05-14T09:35:00.000Z,
-    endTime: 2022-05-14T11:35:00.000Z,
-    url: 'https://codeforces.com/contests/1679'
-  }
-]
+There are 1 contests on Codeforces,testOJ in the next 1 days
+
+OJ: Codeforces
+Contest name: Codeforces Round #791 (Div. 2)
+Rule: Codeforces
+Start time: 2022/5/14 17:35:00
+End time: 2022/5/14 19:35:00
+https://codeforces.com/contests/1679
+
+{
+  running: [
+    {
+      ojName: 'testOJ',
+      name: 'testContest',
+      rule: 'ICPC',
+      startTime: 2022-05-13T15:23:37.245Z,
+      endTime: 2022-05-13T16:23:37.246Z,
+      url: 'https://www.test.com'
+    }
+  ],
+  upcoming: [
+    {
+      ojName: 'AtCoder',
+      name: 'Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)',
+      rule: 'AtCoder',
+      startTime: 2022-05-14T12:00:00.000Z,
+      endTime: 2022-05-14T13:40:00.000Z,
+      url: 'https://atcoder.jp/contests/abc251'
+    },
+    {
+      ojName: 'AtCoder',
+      name: 'Ⓐ AtCoder Regular Contest 140',
+      rule: 'AtCoder',
+      startTime: 2022-05-15T12:00:00.000Z,
+      endTime: 2022-05-15T14:00:00.000Z,
+      url: 'https://atcoder.jp/contests/arc140'
+    }
+  ]
+}
 ```
 
 #### Use link CLI

@@ -1,5 +1,8 @@
 {
-    "welcome": "${contestCount} contests on ${oj} in the last ${days} days",
+    "runnning": "There are ${contestCount} contests is running on ${oj}",
+    "norunning": "No upcomming contests on ${oj}",
+    "upcoming": "There are ${contestCount} contests on ${oj} in the next ${days} days",
+    "noupcoming": "No contests for the next ${days} days on ${oj}",
     "ojName": "OJ",
     "name": "Contest name",
     "rule": "Rule",

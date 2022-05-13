@@ -2,7 +2,7 @@
 import { bin, version } from "../package.json";
 import { Command, Option } from "commander";
 import { alloj } from "./lib/oj";
-import { config, getContestList, getContestInfo } from ".";
+import { config, getContests, getContestsInfoText } from ".";
 import { langList } from "./locale";
 import _ from "lodash";
 
@@ -50,8 +50,8 @@ export async function cli(arg?: string, name?: string)
             days: opts.days as number,
             sort: opts.sort
         };
-        if(opts.raw) return JSON.stringify(await getContestList(config), null, 2);
-        else return await getContestInfo(config, opts.language);
+        if(opts.raw) return JSON.stringify(await getContests(config), null, 2);
+        else return await getContestsInfoText(config, opts.language);
     }
 }
 

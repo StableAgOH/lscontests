@@ -43,6 +43,6 @@ export const lg: oj = {
                 endTime: new Date(res.endTime * 1000),
                 url: `https://www.luogu.com.cn/contest/${res.id}`
             };
-        }).filter(contest => contest.startTime >= new Date());
+        }).filter(contest => contest.endTime >= new Date());
     }
 };

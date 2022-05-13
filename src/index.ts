@@ -1,5 +1,6 @@
 import { alloj } from "./lib/oj";
 import { getLangDict } from "./locale";
+import { contest } from "./lib/contest";
 import _ from "lodash";
 import pangu from "pangu";
 
@@ -22,53 +23,77 @@ function resolveConfig(config?: config)
     return cfg;
 }
 
-export async function getContestList(config?: config)
+export async function getContests(config?: config)
 {
     const cfg = resolveConfig(config);
-    const contests = (await Promise.all(
-        cfg.abbrList.map(
-            async abbr =>
-            {
-                try
+    async function ls(fn: (v: contest) => boolean)
+    {
+        return (await Promise.all(
+            cfg.abbrList.map(
+                async abbr =>
                 {
-                    const cts = await alloj[abbr].get();
-                    return cts.filter((c) => c.startTime <= new Date(Date.now() + cfg.days * 86400000));
+                    try { return (await alloj[abbr].get()).filter(fn); }
+                    catch(e)
+                    {
+                        console.error(`Failed to get match information for ${alloj[abbr].name}, details:`);
+                        console.error(e);
+                        return [];
+                    }
                 }
-                catch(e)
-                {
-                    console.error(`Failed to get match information for ${alloj[abbr].name}, details:`);
-                    console.error(e);
-                    return [];
-                }
-            }
-        )
-    )).reduce((ls1, ls2) => ls1.concat(ls2));
-    if(cfg.sort) contests.sort((a, b) => a.startTime.getTime() - b.startTime.getTime());
-    return contests;
+            )
+        )).reduce((ls1, ls2) => ls1.concat(ls2));
+    }
+    const ret = {
+        running: await ls(ct => ct.startTime <= new Date() && ct.endTime > new Date()),
+        upcoming: await ls(ct => ct.startTime > new Date() && ct.startTime <= new Date(Date.now() + cfg.days * 86400000))
+    };
+    if(cfg.sort) Object.values(ret).forEach(ct => ct.sort((a, b) => a.startTime.getTime() - b.startTime.getTime()));
+    return ret;
 }
 
-export async function getContestInfo(config?: config, language = "zh-CN")
+export async function getContestsInfoText(config?: config, language = "zh-CN")
 {
     const cfg = resolveConfig(config);
     const lang = await getLangDict(language);
-    const contests = await getContestList(cfg);
+    const { running, upcoming } = await getContests(cfg);
     const info: string[] = [];
-    info.push(_.template(lang.welcome)({
-        contestCount: contests.length,
-        days: cfg.days,
-        oj: cfg.abbrList.map(abbr => alloj[abbr].name).join(",")
-    }));
-    for(const contest of contests)
+    const oj = cfg.abbrList.map(abbr => alloj[abbr].name).join(",");
+
+    function msg(contests: contest[])
     {
-        const msg: string[] = [];
-        msg.push(`${lang.ojName}: ${contest.ojName}`);
-        msg.push(`${lang.name}: ${contest.name}`);
-        msg.push(`${lang.rule}: ${contest.rule}`);
-        msg.push(`${lang.startTime}: ${contest.startTime.toLocaleString(undefined, { hourCycle: "h23" })}`);
-        msg.push(`${lang.endTime}: ${contest.endTime.toLocaleString(undefined, { hourCycle: "h23" })}`);
-        msg.push(contest.url);
-        info.push(msg.join("\n"));
+        return contests.map(contest =>
+        {
+            const ls: string[] = [];
+            ls.push(`${lang.ojName}: ${contest.ojName}`);
+            ls.push(`${lang.name}: ${contest.name}`);
+            ls.push(`${lang.rule}: ${contest.rule}`);
+            ls.push(`${lang.startTime}: ${contest.startTime.toLocaleString(undefined, { hourCycle: "h23" })}`);
+            ls.push(`${lang.endTime}: ${contest.endTime.toLocaleString(undefined, { hourCycle: "h23" })}`);
+            ls.push(contest.url);
+            return ls.join("\n");
+        });
     }
+
+    if(running.length)
+    {
+        info.push(_.template(lang.runnning)({
+            contestCount: running.length,
+            oj
+        }));
+        info.push(...msg(running));
+    }
+    else info.push(_.template(lang.norunning)({ oj }));
+    if(upcoming.length)
+    {
+        info.push(_.template(lang.upcoming)({
+            contestCount: upcoming.length,
+            days: cfg.days,
+            oj
+        }));
+        info.push(...msg(upcoming));
+    }
+    else info.push(_.template(lang.noupcoming)({ days: cfg.days, oj }));
+
     return pangu.spacing(info.join("\n\n"));
 }
 
