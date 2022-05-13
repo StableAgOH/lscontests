@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.8.13](https://github.com/StableAgOH/lscontests/compare/v1.8.12...v1.8.13) (2022-05-13)
+
+
+### Bug Fixes
+
+* incorrect handling of atcoder contest time ([58fd831](https://github.com/StableAgOH/lscontests/commit/58fd83180076e3849499390bc9f46de6b56118d0))
+
 ## [1.8.12](https://github.com/StableAgOH/lscontests/compare/v1.8.11...v1.8.12) (2022-05-13)
 
 
