@@ -1,12 +1,12 @@
 # lscontests
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/StableAgOH/lscontests?style=social)](https://github.com/StableAgOH/lscontests)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/StableAgOH/lscontests)](https://github.com/StableAgOH/lscontests)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/StableAgOH/lscontests?logo=github)](https://github.com/StableAgOH/lscontests)
 [![License](https://img.shields.io/github/license/StableAgOH/lscontests)](https://github.com/StableAgOH/lscontests)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
-[![npm](https://img.shields.io/npm/v/lscontests)](https://www.npmjs.com/package/lscontests)
-[![npm](https://img.shields.io/npm/dw/lscontests)](https://www.npmjs.com/package/lscontests)
+[![npm](https://img.shields.io/npm/v/lscontests?logo=npm)](https://www.npmjs.com/package/lscontests)
+[![npm](https://img.shields.io/npm/dw/lscontests?logo=npm)](https://www.npmjs.com/package/lscontests)
 
 A tool to get information about the contests on each OJ.
 
