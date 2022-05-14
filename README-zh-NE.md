@@ -49,7 +49,7 @@ Options:
 ```
 <!-- block_help end -->
 
-瞅瞅它咋回事：
+多少整几个活：
 
 <!-- block_cli begin -->
 （*下面这些是 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 2022/5/14 13:11:17 自动生成的*）
