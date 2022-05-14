@@ -52,13 +52,27 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容由 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Sat, 14 May 2022 16:28:58 GMT 自动生成*）
+（*以下内容由 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Sat, 14 May 2022 16:39:51 GMT 自动生成*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
 
 ```text
-没有正在进行的比赛捏
+在 NowCoder 上有 2 场正在进行的比赛
+
+比赛平台: NowCoder
+比赛名称：牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
+赛制: ICPC
+开始时间: 5/13/2022, 04:00:00
+结束时间: 5/21/2022, 13:00:00
+https://ac.nowcoder.com/acm/contest/34655
+
+比赛平台: NowCoder
+比赛名称: 2022 图论班第一章图匹配例题与习题
+赛制: ICPC
+开始时间: 5/13/2022, 06:00:00
+结束时间: 5/30/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/34649
 
 接下来的 3 天内在 LeetCode,Luogu,AtCoder 上有 3 场比赛
 

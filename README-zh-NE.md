@@ -52,35 +52,49 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Sat, 14 May 2022 16:31:11 GMT 自个生成的*）
+（*下面这些是 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Sat, 14 May 2022 16:40:02 GMT 自个生成的*）
 
 <details>
-<summary> <code>> lsct </code> </summary>
+<summary> <code>> lsct -L zh-NE</code> </summary>
 
 ```text
-没有正在进行的比赛捏
+搁 NowCoder 上有 2 场比赛正偷摸干着呢
 
-接下来的 3 天内在 LeetCode,Luogu,AtCoder 上有 3 场比赛
+搁哪: NowCoder
+叫啥：牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
+咋个整法: ICPC
+啥前开始: 5/13/2022, 04:00:00
+多前完事: 5/21/2022, 13:00:00
+https://ac.nowcoder.com/acm/contest/34655
 
-比赛平台: LeetCode
-比赛名称: Weekly Contest 293
-赛制: AtCoder
-开始时间: 5/15/2022, 02:30:00
-结束时间: 5/15/2022, 04:00:00
+搁哪: NowCoder
+叫啥: 2022 图论班第一章图匹配例题与习题
+咋个整法: ICPC
+啥前开始: 5/13/2022, 06:00:00
+多前完事: 5/30/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/34649
+
+之后 3 天搁 LeetCode,Luogu,AtCoder 上拢共 3 场比赛
+
+搁哪: LeetCode
+叫啥: Weekly Contest 293
+咋个整法: AtCoder
+啥前开始: 5/15/2022, 02:30:00
+多前完事: 5/15/2022, 04:00:00
 https://leetcode.com/contest/weekly-contest-293
 
-比赛平台: Luogu
-比赛名称: 「WHOI」Round 1
-赛制: IOI
-开始时间: 5/15/2022, 06:00:00
-结束时间: 5/15/2022, 10:00:00
+搁哪: Luogu
+叫啥: 「WHOI」Round 1
+咋个整法: IOI
+啥前开始: 5/15/2022, 06:00:00
+多前完事: 5/15/2022, 10:00:00
 https://www.luogu.com.cn/contest/67377
 
-比赛平台: AtCoder
-比赛名称: Ⓐ AtCoder Regular Contest 140
-赛制: AtCoder
-开始时间: 5/15/2022, 12:00:00
-结束时间: 5/15/2022, 14:00:00
+搁哪: AtCoder
+叫啥: Ⓐ AtCoder Regular Contest 140
+咋个整法: AtCoder
+啥前开始: 5/15/2022, 12:00:00
+多前完事: 5/15/2022, 14:00:00
 https://atcoder.jp/contests/arc140
 ```
 

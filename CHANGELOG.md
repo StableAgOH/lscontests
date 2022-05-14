@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.10.3](https://github.com/StableAgOH/lscontests/compare/v1.10.2...v1.10.3) (2022-05-14)
+
+
+### Performance Improvements
+
+* default 3 retries when sending requests using axios ([b9c8961](https://github.com/StableAgOH/lscontests/commit/b9c8961657832a2e578e0ac1d75013ccbd1ba435))
+
 ## [1.10.2](https://github.com/StableAgOH/lscontests/compare/v1.10.1...v1.10.2) (2022-05-14)
 
 
