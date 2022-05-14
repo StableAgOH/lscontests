@@ -50,13 +50,13 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated in Fri, 13 May 2022 15:42:43 GMT*)
+(*The following content was automatically generated in Sat, 14 May 2022 01:14:20 GMT*)
 
 <details>
 <summary> <code>> lsct </code> </summary>
 
 ```text
-在 AtCoder,Codeforces,Luogu,NowCoder 上有 3 场正在进行的比赛
+在 AtCoder,Codeforces,Luogu,NowCoder 上有 2 场正在进行的比赛
 
 比赛平台: NowCoder
 比赛名称：牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
@@ -71,13 +71,6 @@ https://ac.nowcoder.com/acm/contest/34655
 开始时间: 5/13/2022, 06:00:00
 结束时间: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
-
-比赛平台: Codeforces
-比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
-赛制: ICPC
-开始时间: 5/13/2022, 14:35:00
-结束时间: 5/13/2022, 16:35:00
-https://codeforces.com/contests/1680
 
 接下来的 3 天内在 AtCoder,Codeforces,Luogu,NowCoder 上有 8 场比赛
 
@@ -144,14 +137,7 @@ https://atcoder.jp/contests/arc140
 <summary> <code>> lsct -o at cf -d 7</code> </summary>
 
 ```text
-在 AtCoder,Codeforces 上有 1 场正在进行的比赛
-
-比赛平台: Codeforces
-比赛名称: Educational Codeforces Round 128 (Rated for Div. 2)
-赛制: ICPC
-开始时间: 5/13/2022, 14:35:00
-结束时间: 5/13/2022, 16:35:00
-https://codeforces.com/contests/1680
+在 AtCoder,Codeforces 上没有正在进行的比赛捏
 
 接下来的 7 天内在 AtCoder,Codeforces 上有 3 场比赛
 
@@ -244,16 +230,7 @@ https://www.luogu.com.cn/contest/67377
 
 ```json
 {
-  "running": [
-    {
-      "ojName": "Codeforces",
-      "name": "Educational Codeforces Round 128 (Rated for Div. 2)",
-      "rule": "ICPC",
-      "startTime": "2022-05-13T14:35:00.000Z",
-      "endTime": "2022-05-13T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1680"
-    }
-  ],
+  "running": [],
   "upcoming": [
     {
       "ojName": "AtCoder",

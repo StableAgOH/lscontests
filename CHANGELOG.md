@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.9.2](https://github.com/StableAgOH/lscontests/compare/v1.9.1...v1.9.2) (2022-05-14)
+
+
+### Performance Improvements
+
+* update language for northeastern-china ([b6ad878](https://github.com/StableAgOH/lscontests/commit/b6ad87884ec989622236ac524e2af031cbf85dcb))
+
 ## [1.9.1](https://github.com/StableAgOH/lscontests/compare/v1.9.0...v1.9.1) (2022-05-13)
 
 
