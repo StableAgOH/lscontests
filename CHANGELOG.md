@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.10.1](https://github.com/StableAgOH/lscontests/compare/v1.10.0...v1.10.1) (2022-05-14)
+
+
+### Performance Improvements
+
+* support for viewing running contests on AtCoder ([782ecbd](https://github.com/StableAgOH/lscontests/commit/782ecbd930709eafb9b6c72a77e9dc0b410a4f3c))
+
 # [1.10.0](https://github.com/StableAgOH/lscontests/compare/v1.9.2...v1.10.0) (2022-05-14)
 
 
