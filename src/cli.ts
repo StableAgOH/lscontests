@@ -19,6 +19,13 @@ function initCmd()
         .option("--no-sort", "do not sort by contests start time, but by OJ order");
 }
 
+
+/**
+ * CLI entrypoint
+ * @param arg Arguments
+ * @param name Program name
+ * @returns CLI output content
+ */
 export async function cli(arg?: string, name?: string)
 {
     const cmd = initCmd();

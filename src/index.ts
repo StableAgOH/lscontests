@@ -23,6 +23,11 @@ function resolveConfig(config?: config)
     return cfg;
 }
 
+/**
+ * Get the list of all contests matching the given config
+ * @param config The config of contests that want to get. @see config
+ * @returns A Promise that contains an array of all contests that match the given config
+ */
 export async function getContests(config?: config)
 {
     const cfg = resolveConfig(config);
@@ -35,7 +40,7 @@ export async function getContests(config?: config)
                     try { return (await alloj[abbr].get()).filter(fn); }
                     catch(e)
                     {
-                        console.error(`Failed to get match information for ${alloj[abbr].name}, details:`);
+                        console.error(`Failed to get contest information for ${alloj[abbr].name}, details:`);
                         console.error(e);
                         return [];
                     }
@@ -51,6 +56,12 @@ export async function getContests(config?: config)
     return ret;
 }
 
+/**
+ * Get the detailed text of all contests matching the given config
+ * @param config The config of contests that want to get @see config
+ * @param language Language of the output text
+ * @returns A string containing detail text of contests that match the given config
+ */
 export async function getContestsInfoText(config?: config, language = "zh-CN")
 {
     const cfg = resolveConfig(config);

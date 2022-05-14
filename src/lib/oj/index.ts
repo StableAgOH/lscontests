@@ -18,6 +18,11 @@ export const alloj: { [abbr: string]: oj; } = {
     nc,
 };
 
+/**
+ * Add an OJ to get information about the contests held on it
+ * @param abbr Abbreviation of the OJ to be added
+ * @param oj OJ to be added 
+ */
 export function addOJ(abbr: string, oj: oj)
 {
     alloj[abbr] = oj;
