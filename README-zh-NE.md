@@ -220,6 +220,8 @@ https://atcoder.jp/contests/arc140
 
 ### API
 
+想要更全乎的 API 文档，上 <https://lsct.agoh.xyz> 瞅瞅去。
+
 你要是想搁你项目里用 *lscontests* 整比赛信息用，或者说是你嫌和支持的 OJ 少想自个加几个，那你就得调 API 了：
 
 #### 就要纯字的

@@ -220,6 +220,8 @@ https://atcoder.jp/contests/arc140
 
 ### API
 
+For more detailed API documentation, please visit <https://lsct.agoh.xyz>.
+
 If you want to get a list of contest information in your project by calling *lscontests*, or if you need to add support for other OJs, then you can call the *lscontests* API as follows:
 
 #### Get text for contests information

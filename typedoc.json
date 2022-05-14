@@ -3,6 +3,7 @@
     "entryPoints": [
         "./src/index.ts"
     ],
+    "cname": "lsct.agoh.xyz",
     "tsconfig": "./src/tsconfig.json",
     "out": "doc"
 }
