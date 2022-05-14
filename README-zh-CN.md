@@ -8,29 +8,29 @@
 [![npm](https://img.shields.io/npm/v/lscontests?logo=npm)](https://www.npmjs.com/package/lscontests)
 [![npm](https://img.shields.io/npm/dw/lscontests?logo=npm)](https://www.npmjs.com/package/lscontests)
 
-A tool to get information about the contests on each OJ.
+一个用来获取各大 OJ 上比赛信息的工具
 
-[中文文档](./README-zh-CN.md)
+[English Document](./README.md)
 
-## Installation
+## 如何安装
 
-### Only use CLI
+### 只想使用 CLI
 
-For npm: `npm install -g lscontests`
+如果你是 npm 用户: `npm install -g lscontests`
 
-For yarn: `yarn global add lscontests`
+如果你是 yarn 用户: `yarn global add lscontests`
 
-### Add *lscontests* to your package
+### 向你的包中添加 *lscontests*
 
-For npm: `npm install lscontests --save`
+如果你是 npm 用户: `npm install lscontests --save`
 
-For yarn: `yarn add lscontests`
+如果你是 yarn 用户: `yarn add lscontests`
 
-## Usage
+## 如何使用
 
 ### CLI
 
-You can use cli to get a list of information about contests easily.
+你可以非常轻松地使用 CLI 来获取比赛信息
 
 <!-- block_help begin -->
 ```text
@@ -49,7 +49,7 @@ Options:
 ```
 <!-- block_help end -->
 
-It performs as follows:
+来欣赏一下它的表演：
 
 <!-- block_cli begin -->
 (*The following content was automatically generated in Sat, 14 May 2022 02:35:31 GMT*)
@@ -281,9 +281,9 @@ https://www.luogu.com.cn/contest/67377
 
 ### API
 
-If you want to get a list of contest information in your project by calling *lscontests*, or if you need to add support for other OJs, then you can call the *lscontests* API as follows:
+如果你想要在你的项目中调用 *lscontests* 来获取比赛信息，或者你想要添加对其他 OJ 的支持，那么你可以像下面这样来调用 *lscontests*：
 
-#### Get text for contests information
+#### 获取比赛文本信息
 
 ```typescript
 import { getContestInfo } from "lscontests";
@@ -291,9 +291,9 @@ import { getContestInfo } from "lscontests";
 getContestsInfoText({ abbrList: ["cf", "lg"] }).then(console.log);
 ```
 
-This code gives the same result as `lsct -o cf lg`.
+这段代码的运行结果与 `lsct -o cf lg` 相同。
 
-#### Get list for contests information
+#### 获取比赛列表
 
 ```typescript
 import { getContestList } from "lscontests";
@@ -301,9 +301,9 @@ import { getContestList } from "lscontests";
 getContests({ sort: false }).then(console.log);
 ```
 
-This code gives the same result as `lsct -r --no-sort`.
+这段代码的运行结果与 `lsct -r --no-sort` 相同。
 
-#### Add support for other OJ
+#### 添加对其他 OJ 的支持
 
 ```typescript
 import { addOJ, getContestsInfoText, getContests } from "lscontests";
@@ -328,7 +328,7 @@ async function main() {
 main();
 ```
 
-This code gives the following results:
+这段代码的运行结果如下：
 
 ```text
 There are 2 contests is running on Codeforces,testOJ
@@ -388,7 +388,7 @@ https://codeforces.com/contests/1679
 }
 ```
 
-#### Use link CLI
+#### 像使用 CLI 一样
 
 ```typescript
 import { cli } from "lscontests";
@@ -396,7 +396,7 @@ import { cli } from "lscontests";
 cli("-o cf -L en").then(console.log);
 ```
 
-This code gives the same result as `lsct -o cf -L en`.
+这段代码的运行结果与 `lsct -o cf -L en` 相同。
 
 ## License
 
