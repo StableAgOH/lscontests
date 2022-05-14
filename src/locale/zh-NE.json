@@ -1,11 +1,11 @@
 {
     "runnning": "搁 ${oj} 上有 ${contestCount} 场比赛正干着呢",
     "norunning": "这前搁 ${oj} 上没比赛打",
-    "upcoming": "之后 ${days} 天搁在 ${oj} 上拢共 ${contestCount} 场比赛",
+    "upcoming": "之后 ${days} 天搁 ${oj} 上拢共 ${contestCount} 场比赛",
     "noupcoming": "没成想往后 ${days} 天搁 ${oj} 没比赛打啊",
     "ojName": "搁哪",
     "name": "叫啥",
-    "rule": "怎么个整法",
+    "rule": "咋个整法",
     "startTime": "啥前开始",
     "endTime": "多前完事"
 }
