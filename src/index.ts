@@ -65,7 +65,6 @@ export async function getContestsInfoText(config?: config, language = "zh-CN")
     const lang = await getLangDict(language);
     const { running, upcoming } = await getContests(cfg);
     const info: string[] = [];
-    const oj = cfg.abbrList.map(abbr => alloj[abbr].name).join(",");
 
     function msg(contests: contest[])
     {
@@ -86,21 +85,21 @@ export async function getContestsInfoText(config?: config, language = "zh-CN")
     {
         info.push(_.template(lang.runnning)({
             contestCount: running.length,
-            oj
+            oj: _.uniq(running.map(contest => contest.ojName))
         }));
         info.push(...msg(running));
     }
-    else info.push(_.template(lang.norunning)({ oj }));
+    else info.push(lang.norunning);
     if(upcoming.length)
     {
         info.push(_.template(lang.upcoming)({
             contestCount: upcoming.length,
             days: cfg.days,
-            oj
+            oj: _.uniq(upcoming.map(contest => contest.ojName))
         }));
         info.push(...msg(upcoming));
     }
-    else info.push(_.template(lang.noupcoming)({ days: cfg.days, oj }));
+    else info.push(_.template(lang.noupcoming)({ days: cfg.days }));
 
     return pangu.spacing(info.join("\n\n"));
 }

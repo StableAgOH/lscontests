@@ -1,8 +1,8 @@
 {
     "runnning": "在 ${oj} 上有 ${contestCount} 场正在进行的比赛",
-    "norunning": "在 ${oj} 上没有正在进行的比赛捏",
+    "norunning": "没有正在进行的比赛捏",
     "upcoming": "接下来的 ${days} 天内在 ${oj} 上有 ${contestCount} 场比赛",
-    "noupcoming": "接下来的 ${days} 天内在 ${oj} 上没有比赛捏",
+    "noupcoming": "接下来的 ${days} 天内没有比赛捏",
     "ojName": "比赛平台",
     "name": "比赛名称",
     "rule": "赛制",
