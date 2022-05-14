@@ -8,29 +8,29 @@
 [![npm](https://img.shields.io/npm/v/lscontests?logo=npm)](https://www.npmjs.com/package/lscontests)
 [![npm](https://img.shields.io/npm/dw/lscontests?logo=npm)](https://www.npmjs.com/package/lscontests)
 
-一个用来获取各大 OJ 上比赛信息的工具。
+瞅瞅最近有啥比赛。
 
-[东北话文档](./README-zh-NE.md) | [English Document](./README.md)
+[普通话文档](./README-zh-CN.md) | [English Document](./README.md)
 
-## 如何安装
+## 咋装
 
-### 只想使用 CLI
+### 就用 CLI
 
-如果你是 npm 用户: `npm install -g lscontests`
+你要是用 npm 的那你就嗯: `npm install -g lscontests`
 
-如果你是 yarn 用户: `yarn global add lscontests`
+你要是用 yarn 的那你就嗯: `yarn global add lscontests`
 
-### 向你的包中添加 *lscontests*
+### 往你项目里加个 *lscontests*
 
-如果你是 npm 用户: `npm install lscontests --save`
+你要是用 npm 的那你就嗯: `npm install lscontests --save`
 
-如果你是 yarn 用户: `yarn add lscontests`
+你要是用 yarn 的那你就嗯: `yarn add lscontests`
 
-## 如何使用
+## 咋使
 
 ### CLI
 
-你可以非常轻松地使用 CLI 来获取比赛信息。
+用 CLI 咔咔两下你就能能(nèng)一堆比赛信息：
 
 <!-- block_help begin -->
 ```text
@@ -49,7 +49,7 @@ Options:
 ```
 <!-- block_help end -->
 
-来欣赏一下它的表演：
+瞅瞅它咋回事：
 
 <!-- block_cli begin -->
 (*The following content was automatically generated in Sat, 14 May 2022 02:35:31 GMT*)
@@ -281,9 +281,9 @@ https://www.luogu.com.cn/contest/67377
 
 ### API
 
-如果你想要在你的项目中调用 *lscontests* 来获取比赛信息，或者你想要添加对其他 OJ 的支持，那么你可以像下面这样来调用 *lscontests*：
+你要是想搁你项目里用 *lscontests* 整比赛信息用，或者说是你嫌和支持的 OJ 少想自个加几个，那你就得调 API 了：
 
-#### 获取比赛文本信息
+#### 就要纯字的
 
 ```typescript
 import { getContestInfo } from "lscontests";
@@ -291,9 +291,9 @@ import { getContestInfo } from "lscontests";
 getContestsInfoText({ abbrList: ["cf", "lg"] }).then(console.log);
 ```
 
-这段代码的运行结果与 `lsct -o cf lg` 相同。
+输出跟 `lsct -o cf lg` 是一样式的。
 
-#### 获取比赛列表
+#### 要个列表回来
 
 ```typescript
 import { getContestList } from "lscontests";
@@ -301,9 +301,9 @@ import { getContestList } from "lscontests";
 getContests({ sort: false }).then(console.log);
 ```
 
-这段代码的运行结果与 `lsct -r --no-sort` 相同。
+输出跟 `lsct -r --no-sort` 是一样式的。
 
-#### 添加对其他 OJ 的支持
+#### 自个添加对其他 OJ 的支持
 
 ```typescript
 import { addOJ, getContestsInfoText, getContests } from "lscontests";
@@ -328,7 +328,7 @@ async function main() {
 main();
 ```
 
-这段代码的运行结果如下：
+照上面那么整出来是这样式的：
 
 ```text
 There are 2 contests is running on Codeforces,testOJ
@@ -388,7 +388,7 @@ https://codeforces.com/contests/1679
 }
 ```
 
-#### 像使用 CLI 一样
+#### 跟用 CLI 一样
 
 ```typescript
 import { cli } from "lscontests";
@@ -396,8 +396,8 @@ import { cli } from "lscontests";
 cli("-o cf -L en").then(console.log);
 ```
 
-这段代码的运行结果与 `lsct -o cf -L en` 相同。
+输出跟 `lsct -o cf -L en` 是一样式的。
 
-## 许可证
+## 用滴是这个开源许可证
 
 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)
