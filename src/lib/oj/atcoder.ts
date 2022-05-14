@@ -10,7 +10,7 @@ export const at: oj = {
         const response = await axios.get("https://atcoder.jp/contests");
         const $ = cheerio.load(response.data);
         const contests: contest[] = [];
-        $("#contest-table-upcoming table > tbody > tr").each(function ()
+        $("#contest-table-upcoming,#contest-table-action table > tbody > tr").each(function ()
         {
             const ct: contest = {
                 ojName: at.name,
