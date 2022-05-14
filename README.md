@@ -38,7 +38,7 @@ Options:
   -V, --version          output the version number
   -d, --days, <day>      number of days to display (default: "3")
   -l, --list             list all supported OJ and it's abbreviation
-  -o, --oj <ojs...>      OJs to display (choices: "at", "cf", "lg", "nc")
+  -o, --oj <ojs...>      OJs to display (choices: "at", "cf", "lc", "lg", "nc")
   -r, --raw              print raw contest list
   -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-NE",
                          "zh-TW", default: "zh-CN")
@@ -50,13 +50,13 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated in Sat, 14 May 2022 01:14:20 GMT*)
+(*The following content was automatically generated in Sat, 14 May 2022 02:35:31 GMT*)
 
 <details>
 <summary> <code>> lsct </code> </summary>
 
 ```text
-在 AtCoder,Codeforces,Luogu,NowCoder 上有 2 场正在进行的比赛
+在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上有 2 场正在进行的比赛
 
 比赛平台: NowCoder
 比赛名称：牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
@@ -72,7 +72,7 @@ https://ac.nowcoder.com/acm/contest/34655
 结束时间: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-接下来的 3 天内在 AtCoder,Codeforces,Luogu,NowCoder 上有 8 场比赛
+接下来的 3 天内在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上有 10 场比赛
 
 比赛平台: NowCoder
 比赛名称：第二届天元编程邀请赛（提高组）
@@ -115,6 +115,20 @@ https://codeforces.com/contests/1679
 开始时间: 5/14/2022, 12:00:00
 结束时间: 5/14/2022, 13:40:00
 https://atcoder.jp/contests/abc251
+
+比赛平台: LeetCode
+比赛名称: Biweekly Contest 78
+赛制: AtCoder
+开始时间: 5/14/2022, 14:30:00
+结束时间: 5/14/2022, 16:00:00
+https://leetcode.com/contest/biweekly-contest-78
+
+比赛平台: LeetCode
+比赛名称: Weekly Contest 293
+赛制: AtCoder
+开始时间: 5/15/2022, 02:30:00
+结束时间: 5/15/2022, 04:00:00
+https://leetcode.com/contest/weekly-contest-293
 
 比赛平台: Luogu
 比赛名称: 「WHOI」Round 1

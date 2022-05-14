@@ -1,5 +1,17 @@
 # CHANGELOG
 
+# [1.10.0](https://github.com/StableAgOH/lscontests/compare/v1.9.2...v1.10.0) (2022-05-14)
+
+
+### Features
+
+* support for leetcode ([430cd0c](https://github.com/StableAgOH/lscontests/commit/430cd0c3cb85596949cce65f06f2f0195504bd97))
+
+
+### Performance Improvements
+
+* enhance language zh-NE ([d5dd169](https://github.com/StableAgOH/lscontests/commit/d5dd169485fd5636803b1af58e5b53069a1b2650))
+
 ## [1.9.2](https://github.com/StableAgOH/lscontests/compare/v1.9.1...v1.9.2) (2022-05-14)
 
 
