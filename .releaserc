@@ -17,7 +17,7 @@
             "@semantic-release/exec",
             {
                 "verifyConditionsCmd": "node ./release/verify.js",
-                "prepareCmd": "node ./release/prepare.js"
+                "prepareCmd": "node ./release/prepare.js && yarn docs"
             }
         ],
         [
