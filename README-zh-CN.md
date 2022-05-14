@@ -52,29 +52,15 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容由 [semantic-release](https://github.com/semantic-release/semantic-release) 于 2022/5/14 13:09:00 自动生成*）
+（*以下内容由 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Sat, 14 May 2022 16:28:58 GMT 自动生成*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
 
 ```text
-在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上有 1 场正在进行的比赛
+没有正在进行的比赛捏
 
-比赛平台: AtCoder
-比赛名称: Ⓐ Panasonic Programming Contest 2022 (AtCoder Beginner Contest 251)
-赛制: AtCoder
-开始时间: 5/14/2022, 12:00:00
-结束时间: 5/14/2022, 13:40:00
-https://atcoder.jp/contests/abc251
-
-接下来的 3 天内在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上有 3 场比赛
-
-比赛平台: LeetCode
-比赛名称: Biweekly Contest 78
-赛制: AtCoder
-开始时间: 5/14/2022, 14:30:00
-结束时间: 5/14/2022, 16:00:00
-https://leetcode.com/contest/biweekly-contest-78
+接下来的 3 天内在 LeetCode,Luogu,AtCoder 上有 3 场比赛
 
 比赛平台: LeetCode
 比赛名称: Weekly Contest 293
@@ -82,6 +68,13 @@ https://leetcode.com/contest/biweekly-contest-78
 开始时间: 5/15/2022, 02:30:00
 结束时间: 5/15/2022, 04:00:00
 https://leetcode.com/contest/weekly-contest-293
+
+比赛平台: Luogu
+比赛名称: 「WHOI」Round 1
+赛制: IOI
+开始时间: 5/15/2022, 06:00:00
+结束时间: 5/15/2022, 10:00:00
+https://www.luogu.com.cn/contest/67377
 
 比赛平台: AtCoder
 比赛名称: Ⓐ AtCoder Regular Contest 140
@@ -97,16 +90,9 @@ https://atcoder.jp/contests/arc140
 <summary> <code>> lsct -o at cf -d 7</code> </summary>
 
 ```text
-在 AtCoder,Codeforces 上有 1 场正在进行的比赛
+没有正在进行的比赛捏
 
-比赛平台: AtCoder
-比赛名称: Ⓐ Panasonic Programming Contest 2022 (AtCoder Beginner Contest 251)
-赛制: AtCoder
-开始时间: 5/14/2022, 12:00:00
-结束时间: 5/14/2022, 13:40:00
-https://atcoder.jp/contests/abc251
-
-接下来的 7 天内在 AtCoder,Codeforces 上有 1 场比赛
+接下来的 7 天内在 AtCoder 上有 1 场比赛
 
 比赛平台: AtCoder
 比赛名称: Ⓐ AtCoder Regular Contest 140
@@ -123,16 +109,7 @@ https://atcoder.jp/contests/arc140
 
 ```json
 {
-  "running": [
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)",
-      "rule": "AtCoder",
-      "startTime": "2022-05-14T12:00:00.000Z",
-      "endTime": "2022-05-14T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc251"
-    }
-  ],
+  "running": [],
   "upcoming": [
     {
       "ojName": "AtCoder",

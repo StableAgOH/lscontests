@@ -52,29 +52,15 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 2022/5/14 13:11:17 自动生成的*）
+（*下面这些是 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Sat, 14 May 2022 16:31:11 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
 
 ```text
-在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上有 1 场正在进行的比赛
+没有正在进行的比赛捏
 
-比赛平台: AtCoder
-比赛名称: Ⓐ Panasonic Programming Contest 2022 (AtCoder Beginner Contest 251)
-赛制: AtCoder
-开始时间: 5/14/2022, 12:00:00
-结束时间: 5/14/2022, 13:40:00
-https://atcoder.jp/contests/abc251
-
-接下来的 3 天内在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上有 4 场比赛
-
-比赛平台: LeetCode
-比赛名称: Biweekly Contest 78
-赛制: AtCoder
-开始时间: 5/14/2022, 14:30:00
-结束时间: 5/14/2022, 16:00:00
-https://leetcode.com/contest/biweekly-contest-78
+接下来的 3 天内在 LeetCode,Luogu,AtCoder 上有 3 场比赛
 
 比赛平台: LeetCode
 比赛名称: Weekly Contest 293
@@ -104,16 +90,9 @@ https://atcoder.jp/contests/arc140
 <summary> <code>> lsct -o at cf -d 7 -L zh-NE</code> </summary>
 
 ```text
-搁 AtCoder,Codeforces 上有 1 场比赛正干着呢
+这前属实是没比赛打
 
-搁哪: AtCoder
-叫啥: Ⓐ Panasonic Programming Contest 2022 (AtCoder Beginner Contest 251)
-咋个整法: AtCoder
-啥前开始: 5/14/2022, 12:00:00
-多前完事: 5/14/2022, 13:40:00
-https://atcoder.jp/contests/abc251
-
-之后 7 天搁 AtCoder,Codeforces 上拢共 1 场比赛
+之后 7 天搁 AtCoder 上拢共 1 场比赛
 
 搁哪: AtCoder
 叫啥: Ⓐ AtCoder Regular Contest 140
@@ -130,16 +109,7 @@ https://atcoder.jp/contests/arc140
 
 ```json
 {
-  "running": [
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)",
-      "rule": "AtCoder",
-      "startTime": "2022-05-14T12:00:00.000Z",
-      "endTime": "2022-05-14T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc251"
-    }
-  ],
+  "running": [],
   "upcoming": [
     {
       "ojName": "AtCoder",

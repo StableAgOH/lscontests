@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [1.10.2](https://github.com/StableAgOH/lscontests/compare/v1.10.1...v1.10.2) (2022-05-14)
+
+
+### Performance Improvements
+
+* enhance contest infomation text ([37fc6d0](https://github.com/StableAgOH/lscontests/commit/37fc6d0327ee2cc3f7ac43043f0f0063c8be3228))
+* enhance logic ([f870dfa](https://github.com/StableAgOH/lscontests/commit/f870dfaf30682701dccbdd7a2112422af6419c29))
+
 ## [1.10.1](https://github.com/StableAgOH/lscontests/compare/v1.10.0...v1.10.1) (2022-05-14)
 
 
