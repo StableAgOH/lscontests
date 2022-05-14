@@ -31,26 +31,23 @@ function resolveConfig(config?: config)
 export async function getContests(config?: config)
 {
     const cfg = resolveConfig(config);
-    async function ls(fn: (v: contest) => boolean)
-    {
-        return (await Promise.all(
-            cfg.abbrList.map(
-                async abbr =>
+    const contests = (await Promise.all(
+        cfg.abbrList.map(
+            async abbr =>
+            {
+                try { return await alloj[abbr].get(); }
+                catch(e)
                 {
-                    try { return (await alloj[abbr].get()).filter(fn); }
-                    catch(e)
-                    {
-                        console.error(`Failed to get contest information for ${alloj[abbr].name}, details:`);
-                        console.error(e);
-                        return [];
-                    }
+                    console.error(`Failed to get contest information for ${alloj[abbr].name}, details:`);
+                    console.error(e);
+                    return [];
                 }
-            )
-        )).reduce((ls1, ls2) => ls1.concat(ls2));
-    }
+            }
+        )
+    )).reduce((ls1, ls2) => ls1.concat(ls2));
     const ret = {
-        running: await ls(ct => ct.startTime <= new Date() && ct.endTime > new Date()),
-        upcoming: await ls(ct => ct.startTime > new Date() && ct.startTime <= new Date(Date.now() + cfg.days * 86400000))
+        running: contests.filter(ct => ct.startTime <= new Date() && ct.endTime > new Date()),
+        upcoming: contests.filter(ct => ct.startTime > new Date() && ct.startTime <= new Date(Date.now() + cfg.days * 86400000))
     };
     if(cfg.sort) Object.values(ret).forEach(ct => ct.sort((a, b) => a.startTime.getTime() - b.startTime.getTime()));
     return ret;
