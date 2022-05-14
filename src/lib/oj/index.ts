@@ -1,9 +1,13 @@
+import axios from "axios";
+import axiosRetry from "axios-retry";
 import { contest } from "../contest";
 import { at } from "./atcoder";
 import { cf } from "./codeforces";
 import { lc } from "./leetcode";
 import { lg } from "./luogu";
 import { nc } from "./nowcoder";
+
+axiosRetry(axios, { retries: 3, retryDelay: (retryCount) => retryCount * 1000 });
 
 export type oj = {
     name: string,
