@@ -26,7 +26,7 @@
   "scripts": {
     "build": "rimraf ./dist/* && tsc -p src",
     "clean": "rimraf ./dist",
-    "docs": "typedoc --out docs ./src/index.ts",
+    "docs": "typedoc --footerTypedocVersion --footerDate --footerTime",
     "lint": "eslint && markdownlint README.md",
     "prestart": "yarn build",
     "start": "node ./dist/cli.js"
@@ -49,6 +49,7 @@
     "markdownlint-cli": "^0.31.1",
     "rimraf": "^3.0.2",
     "typedoc": "^0.22.15",
+    "typedoc-plugin-extras": "^2.2.3",
     "typescript": "^4.6.4"
   },
   "config": {

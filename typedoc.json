@@ -1,9 +1,8 @@
 {
     "$schema": "https://typedoc.org/schema.json",
-    "entryPoints": [
-        "./src/index.ts"
-    ],
+    "entryPoints": "./src/index.ts",
     "cname": "lsct.agoh.xyz",
     "tsconfig": "./src/tsconfig.json",
-    "out": "doc"
+    "out": "docs",
+    "plugin": "typedoc-plugin-extras"
 }

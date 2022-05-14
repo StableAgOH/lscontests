@@ -25,7 +25,7 @@ function resolveConfig(config?: config)
 
 /**
  * Get the list of all contests matching the given config
- * @param config The config of contests that want to get. @see config
+ * @param config The config of contests that want to get
  * @returns A Promise that contains an array of all contests that match the given config
  */
 export async function getContests(config?: config)
@@ -58,7 +58,7 @@ export async function getContests(config?: config)
 
 /**
  * Get the detailed text of all contests matching the given config
- * @param config The config of contests that want to get @see config
+ * @param config The config of contests that want to get
  * @param language Language of the output text
  * @returns A string containing detail text of contests that match the given config
  */
