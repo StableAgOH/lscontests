@@ -1,5 +1,12 @@
 # CHANGELOG
 
+# [1.11.0](https://github.com/StableAgOH/lscontests/compare/v1.10.3...v1.11.0) (2022-05-15)
+
+
+### Features
+
+* support for not get running or upcoming contests ([74e2754](https://github.com/StableAgOH/lscontests/commit/74e275407a29ba9d44f73572a4f90894dfa4a44a))
+
 ## [1.10.3](https://github.com/StableAgOH/lscontests/compare/v1.10.2...v1.10.3) (2022-05-14)
 
 

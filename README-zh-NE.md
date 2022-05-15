@@ -45,6 +45,8 @@ Options:
   -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-NE",
                          "zh-TW", default: "zh-CN")
   --no-sort              do not sort by contests start time, but by OJ order
+  --no-running           do not list all running contests
+  --no-upcoming          do not list all upcoming contests
   -h, --help             display help for command
 ```
 <!-- block_help end -->
@@ -52,7 +54,7 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Sat, 14 May 2022 16:40:02 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Sun, 15 May 2022 16:14:11 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>
@@ -74,28 +76,7 @@ https://ac.nowcoder.com/acm/contest/34655
 多前完事: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-之后 3 天搁 LeetCode,Luogu,AtCoder 上拢共 3 场比赛
-
-搁哪: LeetCode
-叫啥: Weekly Contest 293
-咋个整法: AtCoder
-啥前开始: 5/15/2022, 02:30:00
-多前完事: 5/15/2022, 04:00:00
-https://leetcode.com/contest/weekly-contest-293
-
-搁哪: Luogu
-叫啥: 「WHOI」Round 1
-咋个整法: IOI
-啥前开始: 5/15/2022, 06:00:00
-多前完事: 5/15/2022, 10:00:00
-https://www.luogu.com.cn/contest/67377
-
-搁哪: AtCoder
-叫啥: Ⓐ AtCoder Regular Contest 140
-咋个整法: AtCoder
-啥前开始: 5/15/2022, 12:00:00
-多前完事: 5/15/2022, 14:00:00
-https://atcoder.jp/contests/arc140
+没成想往后 3 天没比赛打啊
 ```
 
 </details>
@@ -106,14 +87,35 @@ https://atcoder.jp/contests/arc140
 ```text
 这前属实是没比赛打
 
-之后 7 天搁 AtCoder 上拢共 1 场比赛
+之后 7 天搁 Codeforces,AtCoder 上拢共 4 场比赛
+
+搁哪: Codeforces
+叫啥: Codeforces Round #792 (Div. 1)
+咋个整法: Codeforces
+啥前开始: 5/19/2022, 14:35:00
+多前完事: 5/19/2022, 16:35:00
+https://codeforces.com/contests/1683
+
+搁哪: Codeforces
+叫啥: Codeforces Round #792 (Div. 2)
+咋个整法: Codeforces
+啥前开始: 5/19/2022, 14:35:00
+多前完事: 5/19/2022, 16:35:00
+https://codeforces.com/contests/1684
 
 搁哪: AtCoder
-叫啥: Ⓐ AtCoder Regular Contest 140
+叫啥: Ⓐ AtCoder Beginner Contest 252
 咋个整法: AtCoder
-啥前开始: 5/15/2022, 12:00:00
-多前完事: 5/15/2022, 14:00:00
-https://atcoder.jp/contests/arc140
+啥前开始: 5/21/2022, 12:00:00
+多前完事: 5/21/2022, 13:40:00
+https://atcoder.jp/contests/abc252
+
+搁哪: Codeforces
+叫啥: Codeforces Round #793 (Div. 2)
+咋个整法: Codeforces
+啥前开始: 5/22/2022, 14:35:00
+多前完事: 5/22/2022, 16:35:00
+https://codeforces.com/contests/1682
 ```
 
 </details>
@@ -127,11 +129,35 @@ https://atcoder.jp/contests/arc140
   "upcoming": [
     {
       "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Regular Contest 140",
+      "name": "Ⓐ AtCoder Beginner Contest 252",
       "rule": "AtCoder",
-      "startTime": "2022-05-15T12:00:00.000Z",
-      "endTime": "2022-05-15T14:00:00.000Z",
-      "url": "https://atcoder.jp/contests/arc140"
+      "startTime": "2022-05-21T12:00:00.000Z",
+      "endTime": "2022-05-21T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc252"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #793 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-22T14:35:00.000Z",
+      "endTime": "2022-05-22T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1682"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #792 (Div. 1)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-19T14:35:00.000Z",
+      "endTime": "2022-05-19T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1683"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #792 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-19T14:35:00.000Z",
+      "endTime": "2022-05-19T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1684"
     }
   ]
 }
