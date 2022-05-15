@@ -16,9 +16,10 @@ function initCmd()
         .addOption(new Option("-o, --oj <ojs...>", "OJs to display").choices(Object.keys(alloj)))
         .addOption(new Option("-r, --raw", "print raw contest list").conflicts("language"))
         .addOption(new Option("-L, --language <lang>", "set output language").default("zh-CN").choices(langList))
-        .option("--no-sort", "do not sort by contests start time, but by OJ order");
+        .option("--no-sort", "do not sort by contests start time, but by OJ order")
+        .option("--no-running", "do not list all running contests")
+        .addOption(new Option("--no-upcoming", "do not list all upcoming contests").conflicts("--no-running"));
 }
-
 
 /**
  * CLI entrypoint
@@ -55,7 +56,9 @@ export async function cli(arg?: string, name?: string)
         const config: config = {
             abbrList: _.uniq(opts.oj),
             days: opts.days as number,
-            sort: opts.sort
+            sort: opts.sort,
+            running: opts.running,
+            upcoming: opts.upcoming
         };
         if(opts.raw) return JSON.stringify(await getContests(config), null, 2);
         else return await getContestsInfoText(config, opts.language);

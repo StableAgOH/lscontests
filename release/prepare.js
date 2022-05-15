@@ -78,7 +78,7 @@ async function main()
         "-L zh-NE",
         "-o at cf -d 7 -L zh-NE",
         "-o at cf -d 7 -r --no-sort"
-    ], `（*下面这些是用 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 ${new Date().toUTCString()} 自个生成的*）`);
+    ], `（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 ${new Date().toUTCString()} 自个生成的*）`);
     console.error("Resolved README-zh-NE.md");
     return 0;
 }

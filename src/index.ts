@@ -7,13 +7,17 @@ import pangu from "pangu";
 export type config = {
     abbrList?: string[],
     days?: number,
-    sort?: boolean;
+    sort?: boolean,
+    running?: boolean,
+    upcoming?: boolean;
 };
 
 const defaultConfig = {
     abbrList: Object.keys(alloj),
     days: 3,
-    sort: true
+    sort: true,
+    running: true,
+    upcoming: true
 };
 
 function resolveConfig(config?: config)
@@ -46,8 +50,8 @@ export async function getContests(config?: config)
         )
     )).reduce((ls1, ls2) => ls1.concat(ls2));
     const ret = {
-        running: contests.filter(ct => ct.startTime <= new Date() && ct.endTime > new Date()),
-        upcoming: contests.filter(ct => ct.startTime > new Date() && ct.startTime <= new Date(Date.now() + cfg.days * 86400000))
+        running: cfg.upcoming ? contests.filter(ct => ct.startTime <= new Date() && ct.endTime > new Date()) : [],
+        upcoming: cfg.upcoming ? contests.filter(ct => ct.startTime > new Date() && ct.startTime <= new Date(Date.now() + cfg.days * 86400000)) : []
     };
     if(cfg.sort) Object.values(ret).forEach(ct => ct.sort((a, b) => a.startTime.getTime() - b.startTime.getTime()));
     return ret;
@@ -81,25 +85,32 @@ export async function getContestsInfoText(config?: config, language = "zh-CN")
         });
     }
 
-    if(running.length)
+    if(cfg.running)
     {
-        info.push(_.template(lang.runnning)({
-            contestCount: running.length,
-            oj: _.uniq(running.map(contest => contest.ojName))
-        }));
-        info.push(...msg(running));
+        if(running.length)
+        {
+            info.push(_.template(lang.runnning)({
+                contestCount: running.length,
+                oj: _.uniq(running.map(contest => contest.ojName))
+            }));
+            info.push(...msg(running));
+        }
+        else info.push(lang.norunning);
     }
-    else info.push(lang.norunning);
-    if(upcoming.length)
+
+    if(cfg.upcoming)
     {
-        info.push(_.template(lang.upcoming)({
-            contestCount: upcoming.length,
-            days: cfg.days,
-            oj: _.uniq(upcoming.map(contest => contest.ojName))
-        }));
-        info.push(...msg(upcoming));
+        if(upcoming.length)
+        {
+            info.push(_.template(lang.upcoming)({
+                contestCount: upcoming.length,
+                days: cfg.days,
+                oj: _.uniq(upcoming.map(contest => contest.ojName))
+            }));
+            info.push(...msg(upcoming));
+        }
+        else info.push(_.template(lang.noupcoming)({ days: cfg.days }));
     }
-    else info.push(_.template(lang.noupcoming)({ days: cfg.days }));
 
     return pangu.spacing(info.join("\n\n"));
 }
