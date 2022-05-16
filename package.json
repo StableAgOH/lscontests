@@ -26,7 +26,7 @@
   "scripts": {
     "build": "rimraf ./dist/* && tsc -p src",
     "clean": "rimraf ./dist",
-    "docs": "typedoc --footerTypedocVersion --footerDate --footerTime",
+    "docs": "typedoc",
     "lint": "eslint && markdownlint README.md",
     "prestart": "yarn build",
     "release": "mkdirp docs && yarn semantic-release",

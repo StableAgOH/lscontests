@@ -115,5 +115,6 @@ export async function getContestsInfoText(config?: config, language = "zh-CN")
     return pangu.spacing(info.join("\n\n"));
 }
 
+export * from "./lib/contest";
 export { cli } from "./cli";
-export { addOJ } from "./lib/oj";
+export { oj, addOJ } from "./lib/oj";

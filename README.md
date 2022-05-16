@@ -10,7 +10,7 @@
 
 A tool to get information about the contests on each OJ.
 
-[中文文档](./README-zh-CN.md)
+[中文文档](https://github.com/StableAgOH/lscontests/blob/main/README-zh-CN.md)
 
 ## Installation
 

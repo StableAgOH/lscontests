@@ -1,5 +1,8 @@
 {
     "files.eol": "\n",
+    "files.associations": {
+        ".releaserc": "json"
+    },
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
     "typescript.format.semicolons": "insert",

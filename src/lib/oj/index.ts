@@ -9,6 +9,11 @@ import { nc } from "./nowcoder";
 
 axiosRetry(axios, { retries: 3, retryDelay: (retryCount) => retryCount * 1000 });
 
+/**
+ * name: OJ name
+ * 
+ * get: return a Promise that contains an array of all contests with end times after the current time
+ */
 export type oj = {
     name: string,
     get: () => Promise<contest[]>;

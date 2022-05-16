@@ -3,6 +3,11 @@
     "entryPoints": "./src/index.ts",
     "cname": "lsct.agoh.xyz",
     "tsconfig": "./src/tsconfig.json",
+    "includeVersion": true,
     "out": "docs",
-    "plugin": "typedoc-plugin-extras"
+    "plugin": "typedoc-plugin-extras",
+    "customTitleLink": "/",
+    "footerTypedocVersion": true,
+    "footerDate": true,
+    "footerTime": true
 }
