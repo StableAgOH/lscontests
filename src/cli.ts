@@ -18,7 +18,7 @@ function initCmd()
         .addOption(new Option("-L, --language <lang>", "set output language").default("zh-CN").choices(langList))
         .option("--no-sort", "do not sort by contests start time, but by OJ order")
         .option("--no-running", "do not list all running contests")
-        .addOption(new Option("--no-upcoming", "do not list all upcoming contests").conflicts("--no-running"));
+        .option("--no-upcoming", "do not list all upcoming contests");
 }
 
 /**
