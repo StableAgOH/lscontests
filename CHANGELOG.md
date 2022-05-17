@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.11.1](https://github.com/StableAgOH/lscontests/compare/v1.11.0...v1.11.1) (2022-05-17)
+
+
+### Performance Improvements
+
+* remove redundant statements ([948f901](https://github.com/StableAgOH/lscontests/commit/948f9016e0037679d6a71155f70d0df995833152))
+
 # [1.11.0](https://github.com/StableAgOH/lscontests/compare/v1.10.3...v1.11.0) (2022-05-15)
 
 

@@ -54,7 +54,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Sun, 15 May 2022 16:13:18 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Tue, 17 May 2022 04:55:42 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
@@ -76,7 +76,21 @@ Start time: 5/13/2022, 06:00:00
 End time: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-No contests for the next 3 days
+There are 2 contests on Codeforces in the next 3 days
+
+OJ: Codeforces
+Contest name: Codeforces Round #792 (Div. 1)
+Rule: Codeforces
+Start time: 5/19/2022, 14:35:00
+End time: 5/19/2022, 16:35:00
+https://codeforces.com/contests/1683
+
+OJ: Codeforces
+Contest name: Codeforces Round #792 (Div. 2)
+Rule: Codeforces
+Start time: 5/19/2022, 14:35:00
+End time: 5/19/2022, 16:35:00
+https://codeforces.com/contests/1684
 ```
 
 </details>
@@ -87,7 +101,7 @@ No contests for the next 3 days
 ```text
 No running contests
 
-There are 4 contests on Codeforces,AtCoder in the next 7 days
+There are 5 contests on Codeforces,AtCoder in the next 7 days
 
 OJ: Codeforces
 Contest name: Codeforces Round #792 (Div. 1)
@@ -116,6 +130,13 @@ Rule: Codeforces
 Start time: 5/22/2022, 14:35:00
 End time: 5/22/2022, 16:35:00
 https://codeforces.com/contests/1682
+
+OJ: Codeforces
+Contest name: Educational Codeforces Round 129 (Rated for Div. 2)
+Rule: ICPC
+Start time: 5/23/2022, 14:35:00
+End time: 5/23/2022, 16:35:00
+https://codeforces.com/contests/1681
 ```
 
 </details>
@@ -134,6 +155,14 @@ https://codeforces.com/contests/1682
       "startTime": "2022-05-21T12:00:00.000Z",
       "endTime": "2022-05-21T13:40:00.000Z",
       "url": "https://atcoder.jp/contests/abc252"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Educational Codeforces Round 129 (Rated for Div. 2)",
+      "rule": "ICPC",
+      "startTime": "2022-05-23T14:35:00.000Z",
+      "endTime": "2022-05-23T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1681"
     },
     {
       "ojName": "Codeforces",
