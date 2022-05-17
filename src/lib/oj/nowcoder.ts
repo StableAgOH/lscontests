@@ -75,7 +75,7 @@ const ruleRecord: Record<number, rule> = {
 
 export const nc: oj = {
     name: "NowCoder",
-    get: async () =>
+    async get()
     {
         const res: result[] = [
             ...await getResultList(topCategoryFilter.NOWCODERSERIES),

@@ -5,7 +5,7 @@ import { oj } from ".";
 
 export const at: oj = {
     name: "AtCoder",
-    get: async () =>
+    async get()
     {
         const response = await axios.get("https://atcoder.jp/contests");
         const $ = cheerio.load(response.data);

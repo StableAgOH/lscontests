@@ -30,7 +30,7 @@ const headers = {
 
 export const lg: oj = {
     name: "Luogu",
-    get: async () =>
+    async get()
     {
         const resList: result[] = (await axios.get("https://www.luogu.com.cn/contest/list", { headers })).data.currentData.contests.result;
         return resList.map((res): contest =>

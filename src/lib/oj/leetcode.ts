@@ -17,7 +17,7 @@ const headers = {
 
 export const lc: oj = {
     name: "LeetCode",
-    get: async () =>
+    async get()
     {
         const response = await axios.get("https://leetcode.com/contest", { headers });
         const $ = cheerio.load(response.data);

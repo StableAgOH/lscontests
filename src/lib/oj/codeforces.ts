@@ -21,7 +21,7 @@ const ruleRecord: Record<string, rule> = {
 
 export const cf: oj = {
     name: "Codeforces",
-    get: async () =>
+    async get()
     {
         const response = await axios.get("https://codeforces.com/api/contest.list");
         if(!(response.data instanceof Object))

@@ -16,7 +16,7 @@ axiosRetry(axios, { retries: 3, retryDelay: (retryCount) => retryCount * 1000 })
  */
 export type oj = {
     name: string,
-    get: () => Promise<contest[]>;
+    get(): Promise<contest[]>;
 };
 
 export const alloj: { [abbr: string]: oj; } = {
