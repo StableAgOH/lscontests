@@ -54,13 +54,13 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Tue, 17 May 2022 04:55:42 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Thu, 19 May 2022 12:15:46 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
 
 ```text
-There are 2 contests is running on NowCoder
+There are 3 contests is running on NowCoder
 
 OJ: NowCoder
 Contest name: 牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
@@ -76,21 +76,56 @@ Start time: 5/13/2022, 06:00:00
 End time: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-There are 2 contests on Codeforces in the next 3 days
+OJ: NowCoder
+Contest name: 牛客竞赛字符串专题班 SA（后缀数组 nlogn 构造和应用）习题
+Rule: ICPC
+Start time: 5/17/2022, 09:00:00
+End time: 5/24/2022, 14:00:00
+https://ac.nowcoder.com/acm/contest/34974
+
+There are 6 contests on Codeforces,NowCoder,AtCoder,LeetCode in the next 3 days
 
 OJ: Codeforces
-Contest name: Codeforces Round #792 (Div. 1)
-Rule: Codeforces
-Start time: 5/19/2022, 14:35:00
-End time: 5/19/2022, 16:35:00
-https://codeforces.com/contests/1683
-
-OJ: Codeforces
-Contest name: Codeforces Round #792 (Div. 2)
+Contest name: Codeforces Round #792 (Div. 1 + Div. 2)
 Rule: Codeforces
 Start time: 5/19/2022, 14:35:00
 End time: 5/19/2022, 16:35:00
 https://codeforces.com/contests/1684
+
+OJ: NowCoder
+Contest name: 武汉理工大学第三届程序设计竞赛（同步赛）
+Rule: ICPC
+Start time: 5/21/2022, 03:00:00
+End time: 5/21/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/33634
+
+OJ: NowCoder
+Contest name: 第十九届同济大学程序设计竞赛暨高校网络友谊赛
+Rule: ICPC
+Start time: 5/21/2022, 05:00:00
+End time: 5/21/2022, 10:00:00
+https://ac.nowcoder.com/acm/contest/34442
+
+OJ: NowCoder
+Contest name: 牛客小白月赛 50
+Rule: ICPC
+Start time: 5/21/2022, 11:00:00
+End time: 5/21/2022, 13:00:00
+https://ac.nowcoder.com/acm/contest/11227
+
+OJ: AtCoder
+Contest name: Ⓐ AtCoder Beginner Contest 252
+Rule: AtCoder
+Start time: 5/21/2022, 12:00:00
+End time: 5/21/2022, 13:40:00
+https://atcoder.jp/contests/abc252
+
+OJ: LeetCode
+Contest name: Weekly Contest 294
+Rule: AtCoder
+Start time: 5/22/2022, 02:30:00
+End time: 5/22/2022, 04:00:00
+https://leetcode.com/contest/weekly-contest-294
 ```
 
 </details>
@@ -101,17 +136,10 @@ https://codeforces.com/contests/1684
 ```text
 No running contests
 
-There are 5 contests on Codeforces,AtCoder in the next 7 days
+There are 6 contests on Codeforces,AtCoder in the next 7 days
 
 OJ: Codeforces
-Contest name: Codeforces Round #792 (Div. 1)
-Rule: Codeforces
-Start time: 5/19/2022, 14:35:00
-End time: 5/19/2022, 16:35:00
-https://codeforces.com/contests/1683
-
-OJ: Codeforces
-Contest name: Codeforces Round #792 (Div. 2)
+Contest name: Codeforces Round #792 (Div. 1 + Div. 2)
 Rule: Codeforces
 Start time: 5/19/2022, 14:35:00
 End time: 5/19/2022, 16:35:00
@@ -137,6 +165,20 @@ Rule: ICPC
 Start time: 5/23/2022, 14:35:00
 End time: 5/23/2022, 16:35:00
 https://codeforces.com/contests/1681
+
+OJ: Codeforces
+Contest name: Codeforces Round #794 (Div. 1)
+Rule: Codeforces
+Start time: 5/25/2022, 17:35:00
+End time: 5/25/2022, 19:35:00
+https://codeforces.com/contests/1685
+
+OJ: Codeforces
+Contest name: Codeforces Round #794 (Div. 2)
+Rule: Codeforces
+Start time: 5/25/2022, 17:35:00
+End time: 5/25/2022, 19:35:00
+https://codeforces.com/contests/1686
 ```
 
 </details>
@@ -158,6 +200,22 @@ https://codeforces.com/contests/1681
     },
     {
       "ojName": "Codeforces",
+      "name": "Codeforces Round #794 (Div. 1)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-25T17:35:00.000Z",
+      "endTime": "2022-05-25T19:35:00.000Z",
+      "url": "https://codeforces.com/contests/1685"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #794 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-25T17:35:00.000Z",
+      "endTime": "2022-05-25T19:35:00.000Z",
+      "url": "https://codeforces.com/contests/1686"
+    },
+    {
+      "ojName": "Codeforces",
       "name": "Educational Codeforces Round 129 (Rated for Div. 2)",
       "rule": "ICPC",
       "startTime": "2022-05-23T14:35:00.000Z",
@@ -174,15 +232,7 @@ https://codeforces.com/contests/1681
     },
     {
       "ojName": "Codeforces",
-      "name": "Codeforces Round #792 (Div. 1)",
-      "rule": "Codeforces",
-      "startTime": "2022-05-19T14:35:00.000Z",
-      "endTime": "2022-05-19T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1683"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #792 (Div. 2)",
+      "name": "Codeforces Round #792 (Div. 1 + Div. 2)",
       "rule": "Codeforces",
       "startTime": "2022-05-19T14:35:00.000Z",
       "endTime": "2022-05-19T16:35:00.000Z",

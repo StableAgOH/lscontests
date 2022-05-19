@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.11.2](https://github.com/StableAgOH/lscontests/compare/v1.11.1...v1.11.2) (2022-05-19)
+
+
+### Performance Improvements
+
+* optimized code implementation ([141c923](https://github.com/StableAgOH/lscontests/commit/141c923b7f3db678c4df7d9c51a3b927ace60e12))
+
 ## [1.11.1](https://github.com/StableAgOH/lscontests/compare/v1.11.0...v1.11.1) (2022-05-17)
 
 

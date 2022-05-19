@@ -54,13 +54,13 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Tue, 17 May 2022 04:56:03 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Thu, 19 May 2022 12:18:11 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>
 
 ```text
-搁 NowCoder 上有 2 场比赛正偷摸干着呢
+搁 NowCoder 上有 3 场比赛正偷摸干着呢
 
 搁哪: NowCoder
 叫啥：牛客竞赛博弈专题班 Sprague-Grundy 函数（SG 函数、图游戏、Nim 和）
@@ -76,21 +76,56 @@ https://ac.nowcoder.com/acm/contest/34655
 多前完事: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-之后 3 天搁 Codeforces 上拢共 2 场比赛
+搁哪: NowCoder
+叫啥：牛客竞赛字符串专题班 SA（后缀数组 nlogn 构造和应用）习题
+咋个整法: ICPC
+啥前开始: 5/17/2022, 09:00:00
+多前完事: 5/24/2022, 14:00:00
+https://ac.nowcoder.com/acm/contest/34974
+
+之后 3 天搁 Codeforces,NowCoder,AtCoder,LeetCode 上拢共 6 场比赛
 
 搁哪: Codeforces
-叫啥: Codeforces Round #792 (Div. 1)
-咋个整法: Codeforces
-啥前开始: 5/19/2022, 14:35:00
-多前完事: 5/19/2022, 16:35:00
-https://codeforces.com/contests/1683
-
-搁哪: Codeforces
-叫啥: Codeforces Round #792 (Div. 2)
+叫啥: Codeforces Round #792 (Div. 1 + Div. 2)
 咋个整法: Codeforces
 啥前开始: 5/19/2022, 14:35:00
 多前完事: 5/19/2022, 16:35:00
 https://codeforces.com/contests/1684
+
+搁哪: NowCoder
+叫啥：武汉理工大学第三届程序设计竞赛（同步赛）
+咋个整法: ICPC
+啥前开始: 5/21/2022, 03:00:00
+多前完事: 5/21/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/33634
+
+搁哪: NowCoder
+叫啥：第十九届同济大学程序设计竞赛暨高校网络友谊赛
+咋个整法: ICPC
+啥前开始: 5/21/2022, 05:00:00
+多前完事: 5/21/2022, 10:00:00
+https://ac.nowcoder.com/acm/contest/34442
+
+搁哪: NowCoder
+叫啥：牛客小白月赛 50
+咋个整法: ICPC
+啥前开始: 5/21/2022, 11:00:00
+多前完事: 5/21/2022, 13:00:00
+https://ac.nowcoder.com/acm/contest/11227
+
+搁哪: AtCoder
+叫啥: Ⓐ AtCoder Beginner Contest 252
+咋个整法: AtCoder
+啥前开始: 5/21/2022, 12:00:00
+多前完事: 5/21/2022, 13:40:00
+https://atcoder.jp/contests/abc252
+
+搁哪: LeetCode
+叫啥: Weekly Contest 294
+咋个整法: AtCoder
+啥前开始: 5/22/2022, 02:30:00
+多前完事: 5/22/2022, 04:00:00
+https://leetcode.com/contest/weekly-contest-294
 ```
 
 </details>
@@ -101,17 +136,10 @@ https://codeforces.com/contests/1684
 ```text
 这前属实是没比赛打
 
-之后 7 天搁 Codeforces,AtCoder 上拢共 5 场比赛
+之后 7 天搁 Codeforces,AtCoder 上拢共 6 场比赛
 
 搁哪: Codeforces
-叫啥: Codeforces Round #792 (Div. 1)
-咋个整法: Codeforces
-啥前开始: 5/19/2022, 14:35:00
-多前完事: 5/19/2022, 16:35:00
-https://codeforces.com/contests/1683
-
-搁哪: Codeforces
-叫啥: Codeforces Round #792 (Div. 2)
+叫啥: Codeforces Round #792 (Div. 1 + Div. 2)
 咋个整法: Codeforces
 啥前开始: 5/19/2022, 14:35:00
 多前完事: 5/19/2022, 16:35:00
@@ -137,6 +165,20 @@ https://codeforces.com/contests/1682
 啥前开始: 5/23/2022, 14:35:00
 多前完事: 5/23/2022, 16:35:00
 https://codeforces.com/contests/1681
+
+搁哪: Codeforces
+叫啥: Codeforces Round #794 (Div. 1)
+咋个整法: Codeforces
+啥前开始: 5/25/2022, 17:35:00
+多前完事: 5/25/2022, 19:35:00
+https://codeforces.com/contests/1685
+
+搁哪: Codeforces
+叫啥: Codeforces Round #794 (Div. 2)
+咋个整法: Codeforces
+啥前开始: 5/25/2022, 17:35:00
+多前完事: 5/25/2022, 19:35:00
+https://codeforces.com/contests/1686
 ```
 
 </details>
@@ -158,6 +200,22 @@ https://codeforces.com/contests/1681
     },
     {
       "ojName": "Codeforces",
+      "name": "Codeforces Round #794 (Div. 1)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-25T17:35:00.000Z",
+      "endTime": "2022-05-25T19:35:00.000Z",
+      "url": "https://codeforces.com/contests/1685"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #794 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-25T17:35:00.000Z",
+      "endTime": "2022-05-25T19:35:00.000Z",
+      "url": "https://codeforces.com/contests/1686"
+    },
+    {
+      "ojName": "Codeforces",
       "name": "Educational Codeforces Round 129 (Rated for Div. 2)",
       "rule": "ICPC",
       "startTime": "2022-05-23T14:35:00.000Z",
@@ -174,15 +232,7 @@ https://codeforces.com/contests/1681
     },
     {
       "ojName": "Codeforces",
-      "name": "Codeforces Round #792 (Div. 1)",
-      "rule": "Codeforces",
-      "startTime": "2022-05-19T14:35:00.000Z",
-      "endTime": "2022-05-19T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1683"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #792 (Div. 2)",
+      "name": "Codeforces Round #792 (Div. 1 + Div. 2)",
       "rule": "Codeforces",
       "startTime": "2022-05-19T14:35:00.000Z",
       "endTime": "2022-05-19T16:35:00.000Z",
