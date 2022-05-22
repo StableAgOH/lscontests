@@ -1,7 +1,7 @@
 {
     "$schema": "https://typedoc.org/schema.json",
     "entryPoints": "./src/index.ts",
-    "cname": "lsct.agoh.xyz",
+    "cname": "lsct.stagoh.com",
     "tsconfig": "./src/tsconfig.json",
     "includeVersion": true,
     "out": "docs",
