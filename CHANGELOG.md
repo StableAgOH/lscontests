@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.11.3](https://github.com/StableAgOH/lscontests/compare/v1.11.2...v1.11.3) (2022-05-23)
+
+
+### Bug Fixes
+
+* object is possibly undefined ([f3fed31](https://github.com/StableAgOH/lscontests/commit/f3fed3191dbde3ad5d8dc60453871810c2bdd46c))
+
 ## [1.11.2](https://github.com/StableAgOH/lscontests/compare/v1.11.1...v1.11.2) (2022-05-19)
 
 
