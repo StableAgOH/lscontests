@@ -27,7 +27,7 @@ export const at: oj = {
                 {
                     const ele = $("a", this);
                     ct.name = `${$("span:first", this).text()} ${ele.text()}`;
-                    ct.url = `https://atcoder.jp${ele.attr().href}`;
+                    ct.url = `https://atcoder.jp${ele.attr()?.href}`;
                 }
                 else if(idx == 2)
                 {
