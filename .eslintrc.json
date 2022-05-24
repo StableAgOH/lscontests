@@ -58,6 +58,7 @@
             }
         ],
         "semi": "error",
-        "eol-last": "error"
+        "eol-last": "error",
+        "no-trailing-spaces": "error"
     }
 }
