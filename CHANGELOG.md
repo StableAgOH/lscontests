@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.1.1](https://github.com/StableAgOH/lscontests/compare/v2.1.0...v2.1.1) (2022-05-24)
+
+
+### Bug Fixes
+
+* the text when obtaining information about all future contests ([acc25cd](https://github.com/StableAgOH/lscontests/commit/acc25cd0c81dc28c50f5de750a7f9c822fab89fd))
+
 # [2.1.0](https://github.com/StableAgOH/lscontests/compare/v2.0.0...v2.1.0) (2022-05-24)
 
 
