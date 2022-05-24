@@ -88,8 +88,6 @@ async function getIcs(lang: string, ojs: string[])
         ls.push(`${langDict.ojName}: ${c.ojName}`);
         ls.push(`${langDict.name}: ${c.name}`);
         ls.push(`${langDict.rule}: ${c.rule}`);
-        ls.push(`${langDict.startTime}: ${c.startTime.toLocaleString(undefined, {hourCycle: "h23"})}`);
-        ls.push(`${langDict.endTime}: ${c.endTime.toLocaleString(undefined, {hourCycle: "h23"})}`);
         ls.push(c.url);
         const description = pangu.spacing(ls.join("\n"));
         const ret: EventAttributes = {
