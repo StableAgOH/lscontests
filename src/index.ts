@@ -32,7 +32,7 @@ function resolveConfig(config?: config)
  * @param config The config of contests that want to get
  * @returns A Promise that contains an array of all contests that match the given config
  */
-export async function getContests(config?: config)
+export async function getContests(config?: config) : Promise<{ running: contest[], upcoming: contest[] }>
 {
     const cfg = resolveConfig(config);
     const contests = (await Promise.all(
