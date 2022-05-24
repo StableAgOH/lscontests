@@ -100,16 +100,31 @@ export async function getContestsInfoText(config?: config, language = "zh-CN")
 
     if(cfg.upcoming)
     {
-        if(upcoming.length)
+        if(cfg.days === -1)
         {
-            info.push(_.template(lang.upcoming)({
-                contestCount: upcoming.length,
-                days: cfg.days,
-                oj: _.uniq(upcoming.map(contest => contest.ojName))
-            }));
-            info.push(...msg(upcoming));
+            if(upcoming.length)
+            {
+                info.push(_.template(lang.upcoming_all)({
+                    contestCount: upcoming.length,
+                    oj: _.uniq(upcoming.map(contest => contest.ojName))
+                }));
+                info.push(...msg(upcoming));
+            }
+            else info.push(lang.noupcoming_all);
         }
-        else info.push(_.template(lang.noupcoming)({ days: cfg.days }));
+        else
+        {
+            if(upcoming.length)
+            {
+                info.push(_.template(lang.upcoming)({
+                    contestCount: upcoming.length,
+                    days: cfg.days,
+                    oj: _.uniq(upcoming.map(contest => contest.ojName))
+                }));
+                info.push(...msg(upcoming));
+            }
+            else info.push(_.template(lang.noupcoming)({ days: cfg.days }));
+        }
     }
 
     return pangu.spacing(info.join("\n\n"));
