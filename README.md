@@ -54,7 +54,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Mon, 23 May 2022 11:32:02 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Tue, 24 May 2022 12:17:18 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
@@ -76,14 +76,7 @@ Start time: 5/17/2022, 09:00:00
 End time: 5/24/2022, 14:00:00
 https://ac.nowcoder.com/acm/contest/34974
 
-There are 3 contests on Codeforces in the next 3 days
-
-OJ: Codeforces
-Contest name: Educational Codeforces Round 129 (Rated for Div. 2)
-Rule: ICPC
-Start time: 5/23/2022, 14:35:00
-End time: 5/23/2022, 16:35:00
-https://codeforces.com/contests/1681
+There are 3 contests on Codeforces,NowCoder in the next 3 days
 
 OJ: Codeforces
 Contest name: Codeforces Round #794 (Div. 1)
@@ -98,6 +91,13 @@ Rule: Codeforces
 Start time: 5/25/2022, 17:35:00
 End time: 5/25/2022, 19:50:00
 https://codeforces.com/contests/1686
+
+OJ: NowCoder
+Contest name: 牛客练习赛 99
+Rule: ICPC
+Start time: 5/27/2022, 11:00:00
+End time: 5/27/2022, 13:30:00
+https://ac.nowcoder.com/acm/contest/34330
 ```
 
 </details>
@@ -108,14 +108,7 @@ https://codeforces.com/contests/1686
 ```text
 No running contests
 
-There are 4 contests on Codeforces,AtCoder in the next 7 days
-
-OJ: Codeforces
-Contest name: Educational Codeforces Round 129 (Rated for Div. 2)
-Rule: ICPC
-Start time: 5/23/2022, 14:35:00
-End time: 5/23/2022, 16:35:00
-https://codeforces.com/contests/1681
+There are 3 contests on Codeforces,AtCoder in the next 7 days
 
 OJ: Codeforces
 Contest name: Codeforces Round #794 (Div. 1)
@@ -171,14 +164,6 @@ https://atcoder.jp/contests/ahc011
       "startTime": "2022-05-25T17:35:00.000Z",
       "endTime": "2022-05-25T19:50:00.000Z",
       "url": "https://codeforces.com/contests/1686"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Educational Codeforces Round 129 (Rated for Div. 2)",
-      "rule": "ICPC",
-      "startTime": "2022-05-23T14:35:00.000Z",
-      "endTime": "2022-05-23T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1681"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "lscontests",
-  "version": "1.11.3",
+  "version": "1.12.0",
   "description": "A tool to get information about the contests on each OJ",
   "keywords": [
     "cli",

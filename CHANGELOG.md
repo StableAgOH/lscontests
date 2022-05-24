@@ -1,5 +1,13 @@
 # CHANGELOG
 
+# [1.12.0](https://github.com/StableAgOH/lscontests/compare/v1.11.3...v1.12.0) (2022-05-24)
+
+
+### Features
+
+* add dockerfile ([6548eb2](https://github.com/StableAgOH/lscontests/commit/6548eb2e4f51df1da5bccb5326398d6367962cf0))
+* support generate ics ([3fd9c94](https://github.com/StableAgOH/lscontests/commit/3fd9c94233bbf66dc8a06a4c941ad0f3be672aa6))
+
 ## [1.11.3](https://github.com/StableAgOH/lscontests/compare/v1.11.2...v1.11.3) (2022-05-23)
 
 
