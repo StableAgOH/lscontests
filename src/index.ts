@@ -50,7 +50,7 @@ export async function getContests(config?: config) : Promise<{ running: contest[
         )
     )).reduce((ls1, ls2) => ls1.concat(ls2));
     const ret = {
-        running: cfg.upcoming ? contests.filter(ct => ct.startTime <= new Date() && ct.endTime > new Date()) : [],
+        running: cfg.running ? contests.filter(ct => ct.startTime <= new Date() && ct.endTime > new Date()) : [],
         upcoming: cfg.upcoming ? contests.filter(ct => ct.startTime > new Date() && ct.startTime <= new Date(Date.now() + cfg.days * 86400000)) : []
     };
     if(cfg.sort) Object.values(ret).forEach(ct => ct.sort((a, b) => a.startTime.getTime() - b.startTime.getTime()));
