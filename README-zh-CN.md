@@ -55,7 +55,7 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Tue, 24 May 2022 15:51:17 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Tue, 24 May 2022 16:40:26 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
@@ -102,7 +102,7 @@ https://ac.nowcoder.com/acm/contest/34330
 ```text
 没有正在进行的比赛捏
 
-接下来的 7 天内在 Codeforces,AtCoder 上有 3 场比赛
+接下来的 7 天内在 Codeforces,AtCoder 上有 5 场比赛
 
 比赛平台: Codeforces
 比赛名称: Codeforces Round #794 (Div. 1)
@@ -124,6 +124,20 @@ https://codeforces.com/contests/1686
 开始时间: 5/28/2022, 03:00:00
 结束时间: 6/5/2022, 10:00:00
 https://atcoder.jp/contests/ahc011
+
+比赛平台: AtCoder
+比赛名称: Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）
+赛制: AtCoder
+开始时间: 5/28/2022, 12:00:00
+结束时间: 5/28/2022, 13:40:00
+https://atcoder.jp/contests/abc253
+
+比赛平台: AtCoder
+比赛名称: Ⓐ AtCoder Regular Contest 141
+赛制: AtCoder
+开始时间: 5/29/2022, 12:00:00
+结束时间: 5/29/2022, 14:00:00
+https://atcoder.jp/contests/arc141
 ```
 
 </details>
@@ -142,6 +156,22 @@ https://atcoder.jp/contests/ahc011
       "startTime": "2022-05-28T03:00:00.000Z",
       "endTime": "2022-06-05T10:00:00.000Z",
       "url": "https://atcoder.jp/contests/ahc011"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）",
+      "rule": "AtCoder",
+      "startTime": "2022-05-28T12:00:00.000Z",
+      "endTime": "2022-05-28T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc253"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Regular Contest 141",
+      "rule": "AtCoder",
+      "startTime": "2022-05-29T12:00:00.000Z",
+      "endTime": "2022-05-29T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc141"
     },
     {
       "ojName": "Codeforces",

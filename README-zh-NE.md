@@ -55,7 +55,7 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Tue, 24 May 2022 15:51:23 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Tue, 24 May 2022 16:40:33 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>
@@ -102,7 +102,7 @@ https://ac.nowcoder.com/acm/contest/34330
 ```text
 这前属实是没比赛打
 
-之后 7 天搁 Codeforces,AtCoder 上拢共 3 场比赛
+之后 7 天搁 Codeforces,AtCoder 上拢共 5 场比赛
 
 搁哪: Codeforces
 叫啥: Codeforces Round #794 (Div. 1)
@@ -124,6 +124,20 @@ https://codeforces.com/contests/1686
 啥前开始: 5/28/2022, 03:00:00
 多前完事: 6/5/2022, 10:00:00
 https://atcoder.jp/contests/ahc011
+
+搁哪: AtCoder
+叫啥: Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）
+咋个整法: AtCoder
+啥前开始: 5/28/2022, 12:00:00
+多前完事: 5/28/2022, 13:40:00
+https://atcoder.jp/contests/abc253
+
+搁哪: AtCoder
+叫啥: Ⓐ AtCoder Regular Contest 141
+咋个整法: AtCoder
+啥前开始: 5/29/2022, 12:00:00
+多前完事: 5/29/2022, 14:00:00
+https://atcoder.jp/contests/arc141
 ```
 
 </details>
@@ -142,6 +156,22 @@ https://atcoder.jp/contests/ahc011
       "startTime": "2022-05-28T03:00:00.000Z",
       "endTime": "2022-06-05T10:00:00.000Z",
       "url": "https://atcoder.jp/contests/ahc011"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）",
+      "rule": "AtCoder",
+      "startTime": "2022-05-28T12:00:00.000Z",
+      "endTime": "2022-05-28T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc253"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Regular Contest 141",
+      "rule": "AtCoder",
+      "startTime": "2022-05-29T12:00:00.000Z",
+      "endTime": "2022-05-29T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc141"
     },
     {
       "ojName": "Codeforces",

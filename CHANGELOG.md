@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.1.2](https://github.com/StableAgOH/lscontests/compare/v2.1.1...v2.1.2) (2022-05-24)
+
+
+### Bug Fixes
+
+* the wrong selector to get atcoder contests infomation ([73df731](https://github.com/StableAgOH/lscontests/commit/73df7310cf5f0485df314c91a8dbd2a37fdddd10))
+
 ## [2.1.1](https://github.com/StableAgOH/lscontests/compare/v2.1.0...v2.1.1) (2022-05-24)
 
 

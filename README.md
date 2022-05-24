@@ -55,7 +55,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Tue, 24 May 2022 15:51:06 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Tue, 24 May 2022 16:40:17 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
@@ -102,7 +102,7 @@ https://ac.nowcoder.com/acm/contest/34330
 ```text
 No running contests
 
-There are 3 contests on Codeforces,AtCoder in the next 7 days
+There are 5 contests on Codeforces,AtCoder in the next 7 days
 
 OJ: Codeforces
 Contest name: Codeforces Round #794 (Div. 1)
@@ -124,6 +124,20 @@ Rule: AtCoder
 Start time: 5/28/2022, 03:00:00
 End time: 6/5/2022, 10:00:00
 https://atcoder.jp/contests/ahc011
+
+OJ: AtCoder
+Contest name: Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）
+Rule: AtCoder
+Start time: 5/28/2022, 12:00:00
+End time: 5/28/2022, 13:40:00
+https://atcoder.jp/contests/abc253
+
+OJ: AtCoder
+Contest name: Ⓐ AtCoder Regular Contest 141
+Rule: AtCoder
+Start time: 5/29/2022, 12:00:00
+End time: 5/29/2022, 14:00:00
+https://atcoder.jp/contests/arc141
 ```
 
 </details>
@@ -142,6 +156,22 @@ https://atcoder.jp/contests/ahc011
       "startTime": "2022-05-28T03:00:00.000Z",
       "endTime": "2022-06-05T10:00:00.000Z",
       "url": "https://atcoder.jp/contests/ahc011"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）",
+      "rule": "AtCoder",
+      "startTime": "2022-05-28T12:00:00.000Z",
+      "endTime": "2022-05-28T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc253"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Regular Contest 141",
+      "rule": "AtCoder",
+      "startTime": "2022-05-29T12:00:00.000Z",
+      "endTime": "2022-05-29T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc141"
     },
     {
       "ojName": "Codeforces",
