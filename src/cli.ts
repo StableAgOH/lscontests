@@ -11,7 +11,7 @@ function initCmd()
     return new Command()
         .name(Object.keys(bin)[0])
         .version(version)
-        .option("-d, --days, <day>", "number of days to display", "3")
+        .option("-d, --days, <day>", "number of days to display, set to 0 to get all contests infomation", "3")
         .option("-l, --list", "list all supported OJ and it's abbreviation")
         .addOption(new Option("-o, --oj <ojs...>", "OJs to display").choices(Object.keys(alloj)))
         .addOption(new Option("-r, --raw", "print raw contest list").conflicts("language"))
@@ -55,7 +55,7 @@ export async function cli(arg?: string, name?: string)
     {
         const config: config = {
             abbrList: _.uniq(opts.oj),
-            days: opts.days as number,
+            days: parseInt(opts.days),
             sort: opts.sort,
             running: opts.running,
             upcoming: opts.upcoming

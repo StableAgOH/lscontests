@@ -1,12 +1,12 @@
 import express from "express";
-import {contest, getContests} from "./index";
-import {alloj} from "./lib/oj";
-import {getLangDict} from "./locale";
-import {convertTimestampToArray, createEvents, EventAttributes} from "ics";
+import { contest, getContests } from "./index";
+import { alloj } from "./lib/oj";
+import { getLangDict } from "./locale";
+import { convertTimestampToArray, createEvents, EventAttributes } from "ics";
 import pangu from "pangu";
-import {randomUUID} from "crypto";
-import {Command} from "commander";
-import {bin, version} from "../package.json";
+import { randomUUID } from "crypto";
+import { Command } from "commander";
+import { bin, version } from "../package.json";
 import _ from "lodash";
 
 const app = express();
@@ -23,7 +23,7 @@ app.get("/", (req, res) =>
 
 app.get("/ics", async (req, res) =>
 {
-    const {language, l, ojs, o} = req.query;
+    const { language, l, ojs, o } = req.query;
     const lArg = language || l || "zh-CN";
     let oArg = ojs || o;
 
@@ -48,7 +48,7 @@ app.get("/ics", async (req, res) =>
 
 const contestsCache: {
     contests: contest[],
-    lastUpdate: number
+    lastUpdate: number;
 } = {
     contests: [],
     lastUpdate: 0
@@ -58,9 +58,7 @@ async function getIcs(lang: string, ojs: string[])
 {
     if(contestsCache.lastUpdate < Date.now() - 1000 * 60 * 5)
     {
-        const c = await getContests({
-            days: 365 * 10,
-        });
+        const c = await getContests({ days: -1 });
         contestsCache.contests = _.uniqBy(contestsCache.contests.concat(c.running.concat(c.upcoming)), c => JSON.stringify(c));
         contestsCache.lastUpdate = Date.now();
     }
@@ -90,7 +88,7 @@ async function getIcs(lang: string, ojs: string[])
         };
         return ret;
     });
-    const {value, error} = createEvents(events);
+    const { value, error } = createEvents(events);
     if(error) throw error;
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     return value!;
@@ -103,7 +101,7 @@ const command = new Command()
     .option("-p, --port, <port>", "Port to listen on", "8080");
 command.parse();
 
-const {host, port} = command.opts();
+const { host, port } = command.opts();
 
 app.listen(port, host, () =>
 {

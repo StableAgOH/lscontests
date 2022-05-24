@@ -32,7 +32,7 @@ function resolveConfig(config?: config)
  * @param config The config of contests that want to get
  * @returns A Promise that contains an array of all contests that match the given config
  */
-export async function getContests(config?: config) : Promise<{ running: contest[], upcoming: contest[] }>
+export async function getContests(config?: config): Promise<{ running: contest[], upcoming: contest[]; }>
 {
     const cfg = resolveConfig(config);
     const contests = (await Promise.all(
@@ -51,7 +51,7 @@ export async function getContests(config?: config) : Promise<{ running: contest[
     )).reduce((ls1, ls2) => ls1.concat(ls2));
     const ret = {
         running: cfg.running ? contests.filter(ct => ct.startTime <= new Date() && ct.endTime > new Date()) : [],
-        upcoming: cfg.upcoming ? contests.filter(ct => ct.startTime > new Date() && ct.startTime <= new Date(Date.now() + cfg.days * 86400000)) : []
+        upcoming: cfg.upcoming ? contests.filter(ct => ct.startTime > new Date() && (cfg.days === -1 || ct.startTime <= new Date(Date.now() + cfg.days * 86400000))) : []
     };
     if(cfg.sort) Object.values(ret).forEach(ct => ct.sort((a, b) => a.startTime.getTime() - b.startTime.getTime()));
     return ret;
