@@ -34,19 +34,10 @@ app.get("/ics", async (req, res) =>
     }
     if(typeof oArg === "string")
     {
-        if(oArg.includes(","))
-        {
-            oArg = oArg.split(",");
-        }
-        else
-        {
-            oArg = [oArg];
-        }
+        if(oArg.includes(",")) oArg = oArg.split(",");
+        else oArg = [oArg];
     }
-    else if(!oArg)
-    {
-        oArg = Object.keys(alloj);
-    }
+    else if(!oArg) oArg = Object.keys(alloj);
     assertType<string[]>(oArg);
     assertType<string>(lArg);
 
@@ -70,16 +61,11 @@ async function getIcs(lang: string, ojs: string[])
         const c = await getContests({
             days: 365 * 10,
         });
-        contestsCache.contests = _.uniqBy(contestsCache.contests.concat(c.running.concat(c.upcoming)), (c) =>
-        {
-            return JSON.stringify(c);
-        });
+        contestsCache.contests = _.uniqBy(contestsCache.contests.concat(c.running.concat(c.upcoming)), c => JSON.stringify(c));
         contestsCache.lastUpdate = Date.now();
     }
 
-    const contests = contestsCache.contests.filter(c =>
-        ojs.some(oj => c.ojName === alloj[oj].name)
-    );
+    const contests = contestsCache.contests.filter(c => ojs.some(oj => c.ojName === alloj[oj].name));
     const langDict = await getLangDict(lang);
 
     const events = contests.map((c) =>
@@ -105,10 +91,7 @@ async function getIcs(lang: string, ojs: string[])
         return ret;
     });
     const {value, error} = createEvents(events);
-    if(error)
-    {
-        throw error;
-    }
+    if(error) throw error;
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     return value!;
 }
