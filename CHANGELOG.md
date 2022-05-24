@@ -1,5 +1,22 @@
 # CHANGELOG
 
+# [2.0.0](https://github.com/StableAgOH/lscontests/compare/v1.12.0...v2.0.0) (2022-05-24)
+
+
+### Bug Fixes
+
+* typo ([674330b](https://github.com/StableAgOH/lscontests/commit/674330b7be46f511377fdcc9166ac5a763f761f8))
+
+
+### Features
+
+* add docker ci ([dc504d2](https://github.com/StableAgOH/lscontests/commit/dc504d233cb7728b5bd821dee1e990a368fad8f1))
+
+
+### BREAKING CHANGES
+
+* bump to 2.0.0
+
 # [1.12.0](https://github.com/StableAgOH/lscontests/compare/v1.11.3...v1.12.0) (2022-05-24)
 
 
