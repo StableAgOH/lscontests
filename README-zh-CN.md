@@ -38,7 +38,8 @@ Usage: lsct [options]
 
 Options:
   -V, --version          output the version number
-  -d, --days, <day>      number of days to display (default: "3")
+  -d, --days, <day>      number of days to display, set to 0 to get all
+                         contests infomation (default: "3")
   -l, --list             list all supported OJ and it's abbreviation
   -o, --oj <ojs...>      OJs to display (choices: "at", "cf", "lc", "lg", "nc")
   -r, --raw              print raw contest list
@@ -54,13 +55,13 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Tue, 24 May 2022 12:43:18 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Tue, 24 May 2022 14:03:59 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
 
 ```text
-在 NowCoder 上有 2 场正在进行的比赛
+在 NowCoder 上有 1 场正在进行的比赛
 
 比赛平台: NowCoder
 比赛名称: 2022 图论班第一章图匹配例题与习题
@@ -68,13 +69,6 @@ Options:
 开始时间: 5/13/2022, 06:00:00
 结束时间: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
-
-比赛平台: NowCoder
-比赛名称：牛客竞赛字符串专题班 SA（后缀数组 nlogn 构造和应用）习题
-赛制: ICPC
-开始时间: 5/17/2022, 09:00:00
-结束时间: 5/24/2022, 14:00:00
-https://ac.nowcoder.com/acm/contest/34974
 
 接下来的 3 天内在 Codeforces,NowCoder 上有 3 场比赛
 

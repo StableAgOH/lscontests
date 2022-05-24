@@ -1,5 +1,12 @@
 # CHANGELOG
 
+# [2.1.0](https://github.com/StableAgOH/lscontests/compare/v2.0.0...v2.1.0) (2022-05-24)
+
+
+### Features
+
+* allow list all contests infomation ([307859c](https://github.com/StableAgOH/lscontests/commit/307859c24e51715777ee3c906f156d2e8cf612ec))
+
 # [2.0.0](https://github.com/StableAgOH/lscontests/compare/v1.12.0...v2.0.0) (2022-05-24)
 
 
