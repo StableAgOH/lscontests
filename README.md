@@ -55,15 +55,22 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Wed, 25 May 2022 05:14:19 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Wed, 25 May 2022 12:38:41 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
 
 ```text
-No running contests
+There are 1 contests is running on NowCoder
 
-There are 3 contests on Codeforces,AtCoder in the next 3 days
+OJ: NowCoder
+Contest name: 2022 图论班第一章图匹配例题与习题
+Rule: ICPC
+Start time: 5/13/2022, 06:00:00
+End time: 5/30/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/34649
+
+There are 7 contests on Codeforces,NowCoder,AtCoder in the next 3 days
 
 OJ: Codeforces
 Contest name: Codeforces Round #794 (Div. 1)
@@ -79,12 +86,40 @@ Start time: 5/25/2022, 17:35:00
 End time: 5/25/2022, 19:50:00
 https://codeforces.com/contests/1686
 
+OJ: NowCoder
+Contest name: 牛客练习赛 99
+Rule: ICPC
+Start time: 5/27/2022, 11:00:00
+End time: 5/27/2022, 13:30:00
+https://ac.nowcoder.com/acm/contest/34330
+
 OJ: AtCoder
 Contest name: Ⓗ AtCoder Heuristic Contest 011
 Rule: AtCoder
 Start time: 5/28/2022, 03:00:00
 End time: 6/5/2022, 10:00:00
 https://atcoder.jp/contests/ahc011
+
+OJ: NowCoder
+Contest name: MINIEYE 杯第十六届华中科技大学程序设计邀请赛
+Rule: ICPC
+Start time: 5/28/2022, 04:30:00
+End time: 5/28/2022, 09:30:00
+https://ac.nowcoder.com/acm/contest/34866
+
+OJ: NowCoder
+Contest name: 福建农林大学校赛（同步赛）
+Rule: ICPC
+Start time: 5/28/2022, 05:30:00
+End time: 5/28/2022, 09:30:00
+https://ac.nowcoder.com/acm/contest/33869
+
+OJ: AtCoder
+Contest name: Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）
+Rule: AtCoder
+Start time: 5/28/2022, 12:00:00
+End time: 5/28/2022, 13:40:00
+https://atcoder.jp/contests/abc253
 ```
 
 </details>
@@ -133,7 +168,7 @@ End time: 5/29/2022, 14:00:00
 https://atcoder.jp/contests/arc141
 
 OJ: Codeforces
-Contest name: Codeforces Round #795 (Div. 2)
+Contest name: CodeCraft-22 and Codeforces Round #795 (Div. 2)
 Rule: Codeforces
 Start time: 5/31/2022, 14:35:00
 End time: 5/31/2022, 16:35:00
@@ -191,7 +226,7 @@ https://codeforces.com/contests/1691
     },
     {
       "ojName": "Codeforces",
-      "name": "Codeforces Round #795 (Div. 2)",
+      "name": "CodeCraft-22 and Codeforces Round #795 (Div. 2)",
       "rule": "Codeforces",
       "startTime": "2022-05-31T14:35:00.000Z",
       "endTime": "2022-05-31T16:35:00.000Z",

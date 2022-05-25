@@ -55,7 +55,7 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Wed, 25 May 2022 05:23:08 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Wed, 25 May 2022 12:38:49 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
@@ -70,7 +70,7 @@ Options:
 结束时间: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-接下来的 3 天内在 Codeforces,NowCoder,AtCoder 上有 6 场比赛
+接下来的 3 天内在 Codeforces,NowCoder,AtCoder 上有 7 场比赛
 
 比赛平台: Codeforces
 比赛名称: Codeforces Round #794 (Div. 1)
@@ -113,6 +113,13 @@ https://ac.nowcoder.com/acm/contest/34866
 开始时间: 5/28/2022, 05:30:00
 结束时间: 5/28/2022, 09:30:00
 https://ac.nowcoder.com/acm/contest/33869
+
+比赛平台: AtCoder
+比赛名称: Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）
+赛制: AtCoder
+开始时间: 5/28/2022, 12:00:00
+结束时间: 5/28/2022, 13:40:00
+https://atcoder.jp/contests/abc253
 ```
 
 </details>
@@ -161,7 +168,7 @@ https://atcoder.jp/contests/abc253
 https://atcoder.jp/contests/arc141
 
 比赛平台: Codeforces
-比赛名称: Codeforces Round #795 (Div. 2)
+比赛名称: CodeCraft-22 and Codeforces Round #795 (Div. 2)
 赛制: Codeforces
 开始时间: 5/31/2022, 14:35:00
 结束时间: 5/31/2022, 16:35:00
@@ -219,7 +226,7 @@ https://codeforces.com/contests/1691
     },
     {
       "ojName": "Codeforces",
-      "name": "Codeforces Round #795 (Div. 2)",
+      "name": "CodeCraft-22 and Codeforces Round #795 (Div. 2)",
       "rule": "Codeforces",
       "startTime": "2022-05-31T14:35:00.000Z",
       "endTime": "2022-05-31T16:35:00.000Z",

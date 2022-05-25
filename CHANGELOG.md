@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## [2.1.5](https://github.com/StableAgOH/lscontests/compare/v2.1.4...v2.1.5) (2022-05-25)
+
+
+### Bug Fixes
+
+* fix port parse ([81e6d12](https://github.com/StableAgOH/lscontests/commit/81e6d1207db12fe3370957a102043d046c3f8c1b))
+
+
+### Performance Improvements
+
+* update log ([fbe6544](https://github.com/StableAgOH/lscontests/commit/fbe654405be00345fc9cfd655ccd17f181ad9c37))
+
 ## [2.1.4](https://github.com/StableAgOH/lscontests/compare/v2.1.3...v2.1.4) (2022-05-25)
 
 

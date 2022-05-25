@@ -55,15 +55,22 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Wed, 25 May 2022 05:30:15 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Wed, 25 May 2022 12:38:55 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>
 
 ```text
-这前属实是没比赛打
+搁 NowCoder 上有 1 场比赛正偷摸干着呢
 
-之后 3 天搁 Codeforces,AtCoder 上拢共 3 场比赛
+搁哪: NowCoder
+叫啥: 2022 图论班第一章图匹配例题与习题
+咋个整法: ICPC
+啥前开始: 5/13/2022, 06:00:00
+多前完事: 5/30/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/34649
+
+之后 3 天搁 Codeforces,NowCoder,AtCoder 上拢共 7 场比赛
 
 搁哪: Codeforces
 叫啥: Codeforces Round #794 (Div. 1)
@@ -79,12 +86,40 @@ https://codeforces.com/contests/1685
 多前完事: 5/25/2022, 19:50:00
 https://codeforces.com/contests/1686
 
+搁哪: NowCoder
+叫啥：牛客练习赛 99
+咋个整法: ICPC
+啥前开始: 5/27/2022, 11:00:00
+多前完事: 5/27/2022, 13:30:00
+https://ac.nowcoder.com/acm/contest/34330
+
 搁哪: AtCoder
 叫啥: Ⓗ AtCoder Heuristic Contest 011
 咋个整法: AtCoder
 啥前开始: 5/28/2022, 03:00:00
 多前完事: 6/5/2022, 10:00:00
 https://atcoder.jp/contests/ahc011
+
+搁哪: NowCoder
+叫啥: MINIEYE 杯第十六届华中科技大学程序设计邀请赛
+咋个整法: ICPC
+啥前开始: 5/28/2022, 04:30:00
+多前完事: 5/28/2022, 09:30:00
+https://ac.nowcoder.com/acm/contest/34866
+
+搁哪: NowCoder
+叫啥：福建农林大学校赛（同步赛）
+咋个整法: ICPC
+啥前开始: 5/28/2022, 05:30:00
+多前完事: 5/28/2022, 09:30:00
+https://ac.nowcoder.com/acm/contest/33869
+
+搁哪: AtCoder
+叫啥: Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）
+咋个整法: AtCoder
+啥前开始: 5/28/2022, 12:00:00
+多前完事: 5/28/2022, 13:40:00
+https://atcoder.jp/contests/abc253
 ```
 
 </details>
@@ -133,7 +168,7 @@ https://atcoder.jp/contests/abc253
 https://atcoder.jp/contests/arc141
 
 搁哪: Codeforces
-叫啥: Codeforces Round #795 (Div. 2)
+叫啥: CodeCraft-22 and Codeforces Round #795 (Div. 2)
 咋个整法: Codeforces
 啥前开始: 5/31/2022, 14:35:00
 多前完事: 5/31/2022, 16:35:00
@@ -191,7 +226,7 @@ https://codeforces.com/contests/1691
     },
     {
       "ojName": "Codeforces",
-      "name": "Codeforces Round #795 (Div. 2)",
+      "name": "CodeCraft-22 and Codeforces Round #795 (Div. 2)",
       "rule": "Codeforces",
       "startTime": "2022-05-31T14:35:00.000Z",
       "endTime": "2022-05-31T16:35:00.000Z",
