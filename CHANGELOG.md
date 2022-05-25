@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.1.3](https://github.com/StableAgOH/lscontests/compare/v2.1.2...v2.1.3) (2022-05-25)
+
+
+### Performance Improvements
+
+* enhance sort by oj order ([2a71452](https://github.com/StableAgOH/lscontests/commit/2a71452a11a13e82fd1ad626222fbbf14ab0fe0d))
+
 ## [2.1.2](https://github.com/StableAgOH/lscontests/compare/v2.1.1...v2.1.2) (2022-05-24)
 
 

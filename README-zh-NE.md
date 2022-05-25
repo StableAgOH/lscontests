@@ -55,7 +55,7 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Tue, 24 May 2022 16:40:33 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Wed, 25 May 2022 03:45:08 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>
@@ -70,7 +70,7 @@ Options:
 多前完事: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-之后 3 天搁 Codeforces,NowCoder 上拢共 3 场比赛
+之后 3 天搁 Codeforces,NowCoder,AtCoder 上拢共 4 场比赛
 
 搁哪: Codeforces
 叫啥: Codeforces Round #794 (Div. 1)
@@ -92,6 +92,13 @@ https://codeforces.com/contests/1686
 啥前开始: 5/27/2022, 11:00:00
 多前完事: 5/27/2022, 13:30:00
 https://ac.nowcoder.com/acm/contest/34330
+
+搁哪: AtCoder
+叫啥: Ⓗ AtCoder Heuristic Contest 011
+咋个整法: AtCoder
+啥前开始: 5/28/2022, 03:00:00
+多前完事: 6/5/2022, 10:00:00
+https://atcoder.jp/contests/ahc011
 ```
 
 </details>
@@ -102,7 +109,7 @@ https://ac.nowcoder.com/acm/contest/34330
 ```text
 这前属实是没比赛打
 
-之后 7 天搁 Codeforces,AtCoder 上拢共 5 场比赛
+之后 7 天搁 Codeforces,AtCoder 上拢共 6 场比赛
 
 搁哪: Codeforces
 叫啥: Codeforces Round #794 (Div. 1)
@@ -138,6 +145,13 @@ https://atcoder.jp/contests/abc253
 啥前开始: 5/29/2022, 12:00:00
 多前完事: 5/29/2022, 14:00:00
 https://atcoder.jp/contests/arc141
+
+搁哪: Codeforces
+叫啥: Codeforces Round #795 (Div. 2)
+咋个整法: Codeforces
+啥前开始: 5/31/2022, 14:35:00
+多前完事: 5/31/2022, 16:35:00
+https://codeforces.com/contests/1691
 ```
 
 </details>
@@ -188,6 +202,14 @@ https://atcoder.jp/contests/arc141
       "startTime": "2022-05-25T17:35:00.000Z",
       "endTime": "2022-05-25T19:50:00.000Z",
       "url": "https://codeforces.com/contests/1686"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #795 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-31T14:35:00.000Z",
+      "endTime": "2022-05-31T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1691"
     }
   ]
 }

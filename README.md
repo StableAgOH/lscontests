@@ -55,7 +55,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Tue, 24 May 2022 16:40:17 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Wed, 25 May 2022 03:44:38 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
@@ -70,7 +70,7 @@ Start time: 5/13/2022, 06:00:00
 End time: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-There are 3 contests on Codeforces,NowCoder in the next 3 days
+There are 4 contests on Codeforces,NowCoder,AtCoder in the next 3 days
 
 OJ: Codeforces
 Contest name: Codeforces Round #794 (Div. 1)
@@ -92,6 +92,13 @@ Rule: ICPC
 Start time: 5/27/2022, 11:00:00
 End time: 5/27/2022, 13:30:00
 https://ac.nowcoder.com/acm/contest/34330
+
+OJ: AtCoder
+Contest name: Ⓗ AtCoder Heuristic Contest 011
+Rule: AtCoder
+Start time: 5/28/2022, 03:00:00
+End time: 6/5/2022, 10:00:00
+https://atcoder.jp/contests/ahc011
 ```
 
 </details>
@@ -102,7 +109,7 @@ https://ac.nowcoder.com/acm/contest/34330
 ```text
 No running contests
 
-There are 5 contests on Codeforces,AtCoder in the next 7 days
+There are 6 contests on Codeforces,AtCoder in the next 7 days
 
 OJ: Codeforces
 Contest name: Codeforces Round #794 (Div. 1)
@@ -138,6 +145,13 @@ Rule: AtCoder
 Start time: 5/29/2022, 12:00:00
 End time: 5/29/2022, 14:00:00
 https://atcoder.jp/contests/arc141
+
+OJ: Codeforces
+Contest name: Codeforces Round #795 (Div. 2)
+Rule: Codeforces
+Start time: 5/31/2022, 14:35:00
+End time: 5/31/2022, 16:35:00
+https://codeforces.com/contests/1691
 ```
 
 </details>
@@ -188,6 +202,14 @@ https://atcoder.jp/contests/arc141
       "startTime": "2022-05-25T17:35:00.000Z",
       "endTime": "2022-05-25T19:50:00.000Z",
       "url": "https://codeforces.com/contests/1686"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #795 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-31T14:35:00.000Z",
+      "endTime": "2022-05-31T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1691"
     }
   ]
 }
