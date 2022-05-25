@@ -58,7 +58,11 @@
         ],
         "semi": "error",
         "eol-last": "error",
-        "no-trailing-spaces": "warn",
-        "eqeqeq": "error"
+        "no-trailing-spaces": "error",
+        "eqeqeq": "error",
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ]
     }
 }
