@@ -7,7 +7,7 @@ import { lc } from "./leetcode";
 import { lg } from "./luogu";
 import { nc } from "./nowcoder";
 
-axiosRetry(axios, { retries: 3, retryDelay: (retryCount) => retryCount * 1000 });
+axiosRetry(axios, { retries: 3, retryDelay: () => 1000 });
 
 /**
  * name: OJ name
