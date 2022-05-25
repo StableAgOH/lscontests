@@ -105,11 +105,9 @@ const command = new Command()
     .option("-p, --port, <port>", "Port to listen on", "8080");
 command.parse();
 
-const {host, ports} = command.opts() as {
-    host: string,
-    ports: string
-};
-const port = parseInt(ports, 10);
+const host = command.opts().host as string;
+let port: number | string = command.opts().port as string;
+port = parseInt(port, 10);
 app.listen(port, host, () =>
 {
     const logURL = `http://${host === "0.0.0.0" ? "127.0.0.1" : host}:${port}/`;
