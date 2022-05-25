@@ -55,7 +55,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Wed, 25 May 2022 12:38:41 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Wed, 25 May 2022 15:56:07 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
@@ -70,21 +70,7 @@ Start time: 5/13/2022, 06:00:00
 End time: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-There are 7 contests on Codeforces,NowCoder,AtCoder in the next 3 days
-
-OJ: Codeforces
-Contest name: Codeforces Round #794 (Div. 1)
-Rule: Codeforces
-Start time: 5/25/2022, 17:35:00
-End time: 5/25/2022, 19:50:00
-https://codeforces.com/contests/1685
-
-OJ: Codeforces
-Contest name: Codeforces Round #794 (Div. 2)
-Rule: Codeforces
-Start time: 5/25/2022, 17:35:00
-End time: 5/25/2022, 19:50:00
-https://codeforces.com/contests/1686
+There are 6 contests on NowCoder,AtCoder,LeetCode in the next 3 days
 
 OJ: NowCoder
 Contest name: 牛客练习赛 99
@@ -120,6 +106,13 @@ Rule: AtCoder
 Start time: 5/28/2022, 12:00:00
 End time: 5/28/2022, 13:40:00
 https://atcoder.jp/contests/abc253
+
+OJ: LeetCode
+Contest name: Biweekly Contest 79
+Rule: AtCoder
+Start time: 5/28/2022, 14:30:00
+End time: 5/28/2022, 16:00:00
+https://leetcode.com/contest/biweekly-contest-79
 ```
 
 </details>
@@ -130,21 +123,7 @@ https://atcoder.jp/contests/abc253
 ```text
 No running contests
 
-There are 6 contests on Codeforces,AtCoder in the next 7 days
-
-OJ: Codeforces
-Contest name: Codeforces Round #794 (Div. 1)
-Rule: Codeforces
-Start time: 5/25/2022, 17:35:00
-End time: 5/25/2022, 19:50:00
-https://codeforces.com/contests/1685
-
-OJ: Codeforces
-Contest name: Codeforces Round #794 (Div. 2)
-Rule: Codeforces
-Start time: 5/25/2022, 17:35:00
-End time: 5/25/2022, 19:50:00
-https://codeforces.com/contests/1686
+There are 3 contests on AtCoder in the next 7 days
 
 OJ: AtCoder
 Contest name: Ⓗ AtCoder Heuristic Contest 011
@@ -166,19 +145,12 @@ Rule: AtCoder
 Start time: 5/29/2022, 12:00:00
 End time: 5/29/2022, 14:00:00
 https://atcoder.jp/contests/arc141
-
-OJ: Codeforces
-Contest name: CodeCraft-22 and Codeforces Round #795 (Div. 2)
-Rule: Codeforces
-Start time: 5/31/2022, 14:35:00
-End time: 5/31/2022, 16:35:00
-https://codeforces.com/contests/1691
 ```
 
 </details>
 
 <details>
-<summary> <code>> lsct -o at cf -d 7 -r --no-sort</code> </summary>
+<summary> <code>> lsct -o at cf -d -1 -r --no-sort</code> </summary>
 
 ```json
 {
@@ -209,28 +181,36 @@ https://codeforces.com/contests/1691
       "url": "https://atcoder.jp/contests/arc141"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #794 (Div. 1)",
-      "rule": "Codeforces",
-      "startTime": "2022-05-25T17:35:00.000Z",
-      "endTime": "2022-05-25T19:50:00.000Z",
-      "url": "https://codeforces.com/contests/1685"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Beginner Contest 254",
+      "rule": "AtCoder",
+      "startTime": "2022-06-04T12:00:00.000Z",
+      "endTime": "2022-06-04T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc254"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #794 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-05-25T17:35:00.000Z",
-      "endTime": "2022-05-25T19:50:00.000Z",
-      "url": "https://codeforces.com/contests/1686"
+      "ojName": "AtCoder",
+      "name": "Ⓐ Aising Programming Contest 2022（AtCoder Beginner Contest 255）",
+      "rule": "AtCoder",
+      "startTime": "2022-06-11T12:00:00.000Z",
+      "endTime": "2022-06-11T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc255"
     },
     {
-      "ojName": "Codeforces",
-      "name": "CodeCraft-22 and Codeforces Round #795 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-05-31T14:35:00.000Z",
-      "endTime": "2022-05-31T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1691"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Regular Contest 142",
+      "rule": "AtCoder",
+      "startTime": "2022-06-19T12:00:00.000Z",
+      "endTime": "2022-06-19T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc142"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Regular Contest 143",
+      "rule": "AtCoder",
+      "startTime": "2022-06-26T12:00:00.000Z",
+      "endTime": "2022-06-26T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc143"
     }
   ]
 }

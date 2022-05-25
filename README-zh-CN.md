@@ -55,7 +55,7 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Wed, 25 May 2022 12:38:49 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Wed, 25 May 2022 15:56:15 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
@@ -70,21 +70,7 @@ Options:
 结束时间: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-接下来的 3 天内在 Codeforces,NowCoder,AtCoder 上有 7 场比赛
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #794 (Div. 1)
-赛制: Codeforces
-开始时间: 5/25/2022, 17:35:00
-结束时间: 5/25/2022, 19:50:00
-https://codeforces.com/contests/1685
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #794 (Div. 2)
-赛制: Codeforces
-开始时间: 5/25/2022, 17:35:00
-结束时间: 5/25/2022, 19:50:00
-https://codeforces.com/contests/1686
+接下来的 3 天内在 NowCoder,AtCoder,LeetCode 上有 6 场比赛
 
 比赛平台: NowCoder
 比赛名称：牛客练习赛 99
@@ -120,6 +106,13 @@ https://ac.nowcoder.com/acm/contest/33869
 开始时间: 5/28/2022, 12:00:00
 结束时间: 5/28/2022, 13:40:00
 https://atcoder.jp/contests/abc253
+
+比赛平台: LeetCode
+比赛名称: Biweekly Contest 79
+赛制: AtCoder
+开始时间: 5/28/2022, 14:30:00
+结束时间: 5/28/2022, 16:00:00
+https://leetcode.com/contest/biweekly-contest-79
 ```
 
 </details>
@@ -130,21 +123,7 @@ https://atcoder.jp/contests/abc253
 ```text
 没有正在进行的比赛捏
 
-接下来的 7 天内在 Codeforces,AtCoder 上有 6 场比赛
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #794 (Div. 1)
-赛制: Codeforces
-开始时间: 5/25/2022, 17:35:00
-结束时间: 5/25/2022, 19:50:00
-https://codeforces.com/contests/1685
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #794 (Div. 2)
-赛制: Codeforces
-开始时间: 5/25/2022, 17:35:00
-结束时间: 5/25/2022, 19:50:00
-https://codeforces.com/contests/1686
+接下来的 7 天内在 AtCoder 上有 3 场比赛
 
 比赛平台: AtCoder
 比赛名称: Ⓗ AtCoder Heuristic Contest 011
@@ -166,19 +145,12 @@ https://atcoder.jp/contests/abc253
 开始时间: 5/29/2022, 12:00:00
 结束时间: 5/29/2022, 14:00:00
 https://atcoder.jp/contests/arc141
-
-比赛平台: Codeforces
-比赛名称: CodeCraft-22 and Codeforces Round #795 (Div. 2)
-赛制: Codeforces
-开始时间: 5/31/2022, 14:35:00
-结束时间: 5/31/2022, 16:35:00
-https://codeforces.com/contests/1691
 ```
 
 </details>
 
 <details>
-<summary> <code>> lsct -o at cf -d 7 -r --no-sort</code> </summary>
+<summary> <code>> lsct -o at cf -d -1 -r --no-sort</code> </summary>
 
 ```json
 {
@@ -209,28 +181,36 @@ https://codeforces.com/contests/1691
       "url": "https://atcoder.jp/contests/arc141"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #794 (Div. 1)",
-      "rule": "Codeforces",
-      "startTime": "2022-05-25T17:35:00.000Z",
-      "endTime": "2022-05-25T19:50:00.000Z",
-      "url": "https://codeforces.com/contests/1685"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Beginner Contest 254",
+      "rule": "AtCoder",
+      "startTime": "2022-06-04T12:00:00.000Z",
+      "endTime": "2022-06-04T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc254"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #794 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-05-25T17:35:00.000Z",
-      "endTime": "2022-05-25T19:50:00.000Z",
-      "url": "https://codeforces.com/contests/1686"
+      "ojName": "AtCoder",
+      "name": "Ⓐ Aising Programming Contest 2022（AtCoder Beginner Contest 255）",
+      "rule": "AtCoder",
+      "startTime": "2022-06-11T12:00:00.000Z",
+      "endTime": "2022-06-11T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc255"
     },
     {
-      "ojName": "Codeforces",
-      "name": "CodeCraft-22 and Codeforces Round #795 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-05-31T14:35:00.000Z",
-      "endTime": "2022-05-31T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1691"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Regular Contest 142",
+      "rule": "AtCoder",
+      "startTime": "2022-06-19T12:00:00.000Z",
+      "endTime": "2022-06-19T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc142"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Regular Contest 143",
+      "rule": "AtCoder",
+      "startTime": "2022-06-26T12:00:00.000Z",
+      "endTime": "2022-06-26T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc143"
     }
   ]
 }

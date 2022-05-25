@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.1.6](https://github.com/StableAgOH/lscontests/compare/v2.1.5...v2.1.6) (2022-05-25)
+
+
+### Bug Fixes
+
+* **server:** add banner ([8c3133a](https://github.com/StableAgOH/lscontests/commit/8c3133af8b19bc779165bc030e1bf2e3b8321bf6))
+
 ## [2.1.5](https://github.com/StableAgOH/lscontests/compare/v2.1.4...v2.1.5) (2022-05-25)
 
 
