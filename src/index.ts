@@ -23,7 +23,7 @@ const defaultConfig = {
 function resolveConfig(config?: config)
 {
     const cfg = { ...defaultConfig, ...config };
-    if(cfg.abbrList.length == 0) cfg.abbrList = defaultConfig.abbrList;
+    if(cfg.abbrList.length === 0) cfg.abbrList = defaultConfig.abbrList;
     return cfg;
 }
 

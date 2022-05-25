@@ -11,7 +11,7 @@ axiosRetry(axios, { retries: 3, retryDelay: (retryCount) => retryCount * 1000 })
 
 /**
  * name: OJ name
- * 
+ *
  * get: return a Promise that contains an array of all contests with end times after the current time
  */
 export type oj = {
@@ -30,7 +30,7 @@ export const alloj: { [abbr: string]: oj; } = {
 /**
  * Add an OJ to get information about the contests held on it
  * @param abbr Abbreviation of the OJ to be added
- * @param oj OJ to be added 
+ * @param oj OJ to be added
  */
 export function addOJ(abbr: string, oj: oj)
 {

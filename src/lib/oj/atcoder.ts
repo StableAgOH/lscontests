@@ -22,14 +22,14 @@ export const at: oj = {
             };
             $("td", this).each(function (idx)
             {
-                if(idx == 0) ct.startTime = new Date($(this).text());
-                else if(idx == 1)
+                if(idx === 0) ct.startTime = new Date($(this).text());
+                else if(idx === 1)
                 {
                     const ele = $("a", this);
                     ct.name = `${$("span:first", this).text()} ${ele.text()}`;
                     ct.url = `https://atcoder.jp${ele.attr()?.href}`;
                 }
-                else if(idx == 2)
+                else if(idx === 2)
                 {
                     const [h, m] = $(this).text().split(":");
                     ct.endTime = new Date(ct.startTime.getTime() + (parseInt(h) * 60 + parseInt(m)) * 60 * 1000);

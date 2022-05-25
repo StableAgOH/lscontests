@@ -28,7 +28,7 @@
     "build": "rimraf ./dist/* && tsc -p src",
     "clean": "rimraf ./dist",
     "docs": "typedoc",
-    "lint": "eslint && markdownlint README.md",
+    "lint": "eslint . && markdownlint .",
     "release": "mkdirp docs && yarn semantic-release",
     "start": "tsx src/cli.ts",
     "start-s": "tsx src/server.ts"

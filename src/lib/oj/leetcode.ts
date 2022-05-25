@@ -23,7 +23,7 @@ export const lc: oj = {
         const $ = cheerio.load(response.data);
         const resList: result[] = JSON.parse($("#__NEXT_DATA__").html() ?? "")
             .props.pageProps.dehydratedState.queries
-            .find((v: { queryKey: unknown[]; }) => v.queryKey[0] == "topTwoContests")
+            .find((v: { queryKey: unknown[]; }) => v.queryKey[0] === "topTwoContests")
             .state.data.topTwoContests;
         return resList.map((res): contest =>
         {
