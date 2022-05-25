@@ -16,6 +16,32 @@ function assertType<T>(obj: unknown): asserts obj is T
 {
 }
 
+const logger = () =>
+{
+    return (req: express.Request, res: express.Response, next: express.NextFunction) =>
+    {
+        const start = process.hrtime();
+        res.on("finish", () =>
+        {
+            const diff = process.hrtime(start);
+            const ms = diff[0] * 1e3 + diff[1] * 1e-6;
+
+            const divider = " | ";
+            const log = ` ${res.statusCode}` + divider +
+                `${(ms.toFixed(3) + "ms").padStart(13)}` + divider +
+                `${req.ip.padStart(15)}` + divider +
+                `${req.method.padEnd(7)}` +
+                `"${req.originalUrl}"`;
+            console.log(log);
+        });
+        next();
+    };
+};
+
+
+app.set("trust proxy", true);
+app.use(logger());
+
 app.get("/", (req, res) =>
 {
     res.redirect("https://github.com/StableAgOH/lscontests");
