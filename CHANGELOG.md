@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.1.4](https://github.com/StableAgOH/lscontests/compare/v2.1.3...v2.1.4) (2022-05-25)
+
+
+### Performance Improvements
+
+* optimize server ([739e6b4](https://github.com/StableAgOH/lscontests/commit/739e6b46fa47d12842be13d7d4407f1782b5b215))
+
 ## [2.1.3](https://github.com/StableAgOH/lscontests/compare/v2.1.2...v2.1.3) (2022-05-25)
 
 

@@ -55,22 +55,15 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Wed, 25 May 2022 03:45:08 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Wed, 25 May 2022 05:30:15 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>
 
 ```text
-搁 NowCoder 上有 1 场比赛正偷摸干着呢
+这前属实是没比赛打
 
-搁哪: NowCoder
-叫啥: 2022 图论班第一章图匹配例题与习题
-咋个整法: ICPC
-啥前开始: 5/13/2022, 06:00:00
-多前完事: 5/30/2022, 08:00:00
-https://ac.nowcoder.com/acm/contest/34649
-
-之后 3 天搁 Codeforces,NowCoder,AtCoder 上拢共 4 场比赛
+之后 3 天搁 Codeforces,AtCoder 上拢共 3 场比赛
 
 搁哪: Codeforces
 叫啥: Codeforces Round #794 (Div. 1)
@@ -85,13 +78,6 @@ https://codeforces.com/contests/1685
 啥前开始: 5/25/2022, 17:35:00
 多前完事: 5/25/2022, 19:50:00
 https://codeforces.com/contests/1686
-
-搁哪: NowCoder
-叫啥：牛客练习赛 99
-咋个整法: ICPC
-啥前开始: 5/27/2022, 11:00:00
-多前完事: 5/27/2022, 13:30:00
-https://ac.nowcoder.com/acm/contest/34330
 
 搁哪: AtCoder
 叫啥: Ⓗ AtCoder Heuristic Contest 011

@@ -55,22 +55,15 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Wed, 25 May 2022 03:44:38 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Wed, 25 May 2022 05:14:19 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
 
 ```text
-There are 1 contests is running on NowCoder
+No running contests
 
-OJ: NowCoder
-Contest name: 2022 图论班第一章图匹配例题与习题
-Rule: ICPC
-Start time: 5/13/2022, 06:00:00
-End time: 5/30/2022, 08:00:00
-https://ac.nowcoder.com/acm/contest/34649
-
-There are 4 contests on Codeforces,NowCoder,AtCoder in the next 3 days
+There are 3 contests on Codeforces,AtCoder in the next 3 days
 
 OJ: Codeforces
 Contest name: Codeforces Round #794 (Div. 1)
@@ -85,13 +78,6 @@ Rule: Codeforces
 Start time: 5/25/2022, 17:35:00
 End time: 5/25/2022, 19:50:00
 https://codeforces.com/contests/1686
-
-OJ: NowCoder
-Contest name: 牛客练习赛 99
-Rule: ICPC
-Start time: 5/27/2022, 11:00:00
-End time: 5/27/2022, 13:30:00
-https://ac.nowcoder.com/acm/contest/34330
 
 OJ: AtCoder
 Contest name: Ⓗ AtCoder Heuristic Contest 011

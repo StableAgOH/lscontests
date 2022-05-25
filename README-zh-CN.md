@@ -55,7 +55,7 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Wed, 25 May 2022 03:44:52 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Wed, 25 May 2022 05:23:08 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
@@ -70,7 +70,7 @@ Options:
 结束时间: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-接下来的 3 天内在 Codeforces,NowCoder,AtCoder 上有 4 场比赛
+接下来的 3 天内在 Codeforces,NowCoder,AtCoder 上有 6 场比赛
 
 比赛平台: Codeforces
 比赛名称: Codeforces Round #794 (Div. 1)
@@ -99,6 +99,20 @@ https://ac.nowcoder.com/acm/contest/34330
 开始时间: 5/28/2022, 03:00:00
 结束时间: 6/5/2022, 10:00:00
 https://atcoder.jp/contests/ahc011
+
+比赛平台: NowCoder
+比赛名称: MINIEYE 杯第十六届华中科技大学程序设计邀请赛
+赛制: ICPC
+开始时间: 5/28/2022, 04:30:00
+结束时间: 5/28/2022, 09:30:00
+https://ac.nowcoder.com/acm/contest/34866
+
+比赛平台: NowCoder
+比赛名称：福建农林大学校赛（同步赛）
+赛制: ICPC
+开始时间: 5/28/2022, 05:30:00
+结束时间: 5/28/2022, 09:30:00
+https://ac.nowcoder.com/acm/contest/33869
 ```
 
 </details>
