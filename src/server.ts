@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import express from "express";
 import { contest, getContests } from "./index";
 import { alloj } from "./lib/oj";
