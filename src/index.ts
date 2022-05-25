@@ -39,7 +39,7 @@ export async function getContests(config?: config): Promise<{ running: contest[]
         cfg.abbrList.map(
             async abbr =>
             {
-                try { return await alloj[abbr].get(); }
+                try { return (await alloj[abbr].get()).sort((a, b) => a.startTime.getTime() - b.startTime.getTime()); }
                 catch(e)
                 {
                     console.error(`Failed to get contest information for ${alloj[abbr].name}, details:`);
