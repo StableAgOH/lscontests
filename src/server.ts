@@ -1,12 +1,12 @@
 import express from "express";
-import {contest, getContests} from "./index";
-import {alloj} from "./lib/oj";
-import {getLangDict} from "./locale";
-import {convertTimestampToArray, createEvents, EventAttributes} from "ics";
+import { contest, getContests } from "./index";
+import { alloj } from "./lib/oj";
+import { getLangDict } from "./locale";
+import { convertTimestampToArray, createEvents, EventAttributes } from "ics";
 import pangu from "pangu";
-import {randomUUID} from "crypto";
-import {Command} from "commander";
-import {bin, version} from "../package.json";
+import { randomUUID } from "crypto";
+import { Command } from "commander";
+import { bin, version } from "../package.json";
 import _ from "lodash";
 
 const app = express();
@@ -49,7 +49,7 @@ app.get("/", (req, res) =>
 
 app.get("/ics", async (req, res) =>
 {
-    const {language, l, ojs, o} = req.query;
+    const { language, l, ojs, o } = req.query;
     const lArg = language || l || "zh-CN";
     let oArg = ojs || o;
 
@@ -84,7 +84,7 @@ async function getIcs(lang: string, ojs: string[])
 {
     if(contestsCache.lastUpdate < Date.now() - 1000 * 60 * 5)
     {
-        const c = await getContests({days: -1});
+        const c = await getContests({ days: -1 });
         contestsCache.contests = _.uniqBy(contestsCache.contests.concat(c.running.concat(c.upcoming)), JSON.stringify);
         contestsCache.contests = contestsCache.contests.filter(
             c => c.endTime.getTime() - c.startTime.getTime() < 1000 * 60 * 60 * 24 * 2
@@ -117,7 +117,7 @@ async function getIcs(lang: string, ojs: string[])
         };
         return ret;
     });
-    const {value, error} = createEvents(events);
+    const { value, error } = createEvents(events);
     if(error) throw error;
     assertType<string>(value);
     value.replace("X-PUBLISHED-TTL:PT1H\r\n", "X-PUBLISHED-TTL:PT1H\r\nREFRESH-INTERVAL:PT1H\r\n");
