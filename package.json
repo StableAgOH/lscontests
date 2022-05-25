@@ -28,6 +28,7 @@
     "clean": "rimraf ./dist ./docs ./node_modules",
     "docs": "typedoc",
     "lint": "eslint . && markdownlint .",
+    "lint:fix": "eslint . --fix && markdownlint . --fix",
     "release": "mkdirp docs && yarn semantic-release",
     "start": "tsx src/cli.ts",
     "start-s": "tsx src/server.ts"
