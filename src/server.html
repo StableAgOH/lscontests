@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+            href="https://fonts.loli.net/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            href="https://cdnjs.loli.net/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css"
+            rel="stylesheet"
+    />
+    <title>LSCT</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        #content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+        }
+
+        main {
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="container">
+        <div id="content" class="row">
+            <div id="selects" class="col-md-8 gx-5 d-inline-flex">
+                <div class="flex-fill">
+                    <h2>目标 OJ</h2>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="cf" checked/>
+                        <label class="form-check-label" for="cf">Codeforces</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="at" checked/>
+                        <label class="form-check-label" for="at">AtCoder</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="lc" checked/>
+                        <label class="form-check-label" for="lc">Leetcode</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="lg" checked/>
+                        <label class="form-check-label" for="lg">洛谷</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="nc" checked/>
+                        <label class="form-check-label" for="nc">牛客</label>
+                    </div>
+                </div>
+                <div class="flex-fill">
+                    <h2>语言</h2>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="lang" id="zhCN"
+                               checked/>
+                        <label class="form-check-label" for="zhCN">zh-CN</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="lang"
+                               id="zhNE"/>
+                        <label class="form-check-label" for="zhNE">zh-NE</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="lang"
+                               id="zhTW"/>
+                        <label class="form-check-label" for="zhTW">zh-TW</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="lang"
+                               id="en"/>
+                        <label class="form-check-label" for="en">en</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 gx-5 my-4 d-inline-flex">
+                <div class="form-outline me-2 flex-fill">
+                    <!--suppress HtmlFormInputWithoutLabel -->
+                    <input type="text" id="url" readonly class="form-control"/>
+                </div>
+                <button class="btn btn-primary" id="copy">Copy</button>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://cdnjs.loli.net/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+<script>
+    function updateURL()
+    {
+        const curr = window.location.href.split("?")[0].trimEnd() + "/ics";
+        const args = new URLSearchParams();
+
+        //process ojs
+        const cf = $("#cf").prop("checked");
+        const at = $("#at").prop("checked");
+        const lc = $("#lc").prop("checked");
+        const lg = $("#lg").prop("checked");
+        const nc = $("#nc").prop("checked");
+        if(!(cf && at && lc && lg && nc))
+        {
+            const ojs = [];
+            if(cf) ojs.push("cf");
+            if(at) ojs.push("at");
+            if(lc) ojs.push("lc");
+            if(lg) ojs.push("lg");
+            if(nc) ojs.push("nc");
+            args.append("o", ojs.join(","));
+        }
+
+        //process lang
+        const lang = $("input[name='lang']:checked").next().text();
+        if(lang !== "zh-CN") args.append("l", lang);
+        const query = args.toString();
+        let url = curr;
+        if(query.length > 0) url += "?" + query;
+        $("#url").val(url);
+    }
+
+    document.addEventListener("DOMContentLoaded", function ()
+        {
+            updateURL();
+            $("#cf,#at,#lc,#lg,#nc,input[name='lang']").change(updateURL);
+
+            const copy = $("#copy");
+
+            copy.tooltip({
+                trigger: "click",
+                placement: "bottom",
+                title: "Copied!"
+            });
+
+            copy.click(function ()
+            {
+                const url = $("#url").val();
+                if(url.length > 0)
+                {
+                    new ClipboardJS("#copy", {
+                        text: function ()
+                        {
+                            return url;
+                        }
+                    });
+                    copy.tooltip("show");
+                    setTimeout(function ()
+                    {
+                        copy.tooltip("hide");
+                    }, 1000);
+                }
+            });
+        }
+    );
+</script>
+</body>
+</html>

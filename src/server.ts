@@ -9,6 +9,7 @@ import { randomUUID } from "crypto";
 import { Command } from "commander";
 import { bin, version } from "../package.json";
 import _ from "lodash";
+import { readFileSync } from "fs";
 
 const app = express();
 
@@ -39,13 +40,15 @@ const logger = () =>
     };
 };
 
+const web = readFileSync(`${__dirname}/server.html`).toString();
 
 app.set("trust proxy", true);
 app.use(logger());
 
 app.get("/", (req, res) =>
 {
-    res.redirect("https://github.com/StableAgOH/lscontests");
+    res.set("Content-Type", "text/html");
+    res.send(web);
 });
 
 app.get("/ics", async (req, res) =>
