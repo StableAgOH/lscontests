@@ -1,5 +1,18 @@
 # CHANGELOG
 
+# [2.2.0](https://github.com/StableAgOH/lscontests/compare/v2.1.6...v2.2.0) (2022-05-26)
+
+
+### Bug Fixes
+
+* add banner ([b529deb](https://github.com/StableAgOH/lscontests/commit/b529deb94b126bff1ad33d38bcdad486e83deab2))
+* fix dependency ([c6cf685](https://github.com/StableAgOH/lscontests/commit/c6cf685826fa9ab2a77cf85d2c2173d49c28fb1c))
+
+
+### Features
+
+* add ui ([ff79c7d](https://github.com/StableAgOH/lscontests/commit/ff79c7de8afad3efdefed7f1787224b8db2ea57f))
+
 ## [2.1.6](https://github.com/StableAgOH/lscontests/compare/v2.1.5...v2.1.6) (2022-05-25)
 
 

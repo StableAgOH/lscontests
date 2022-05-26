@@ -55,7 +55,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Wed, 25 May 2022 15:56:07 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Thu, 26 May 2022 07:08:14 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
@@ -70,7 +70,7 @@ Start time: 5/13/2022, 06:00:00
 End time: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-There are 6 contests on NowCoder,AtCoder,LeetCode in the next 3 days
+There are 7 contests on NowCoder,AtCoder,LeetCode in the next 3 days
 
 OJ: NowCoder
 Contest name: 牛客练习赛 99
@@ -113,6 +113,13 @@ Rule: AtCoder
 Start time: 5/28/2022, 14:30:00
 End time: 5/28/2022, 16:00:00
 https://leetcode.com/contest/biweekly-contest-79
+
+OJ: LeetCode
+Contest name: Weekly Contest 295
+Rule: AtCoder
+Start time: 5/29/2022, 02:30:00
+End time: 5/29/2022, 04:00:00
+https://leetcode.com/contest/weekly-contest-295
 ```
 
 </details>
@@ -123,7 +130,7 @@ https://leetcode.com/contest/biweekly-contest-79
 ```text
 No running contests
 
-There are 3 contests on AtCoder in the next 7 days
+There are 4 contests on AtCoder,Codeforces in the next 7 days
 
 OJ: AtCoder
 Contest name: Ⓗ AtCoder Heuristic Contest 011
@@ -145,6 +152,13 @@ Rule: AtCoder
 Start time: 5/29/2022, 12:00:00
 End time: 5/29/2022, 14:00:00
 https://atcoder.jp/contests/arc141
+
+OJ: Codeforces
+Contest name: CodeCraft-22 and Codeforces Round #795 (Div. 2)
+Rule: Codeforces
+Start time: 5/31/2022, 14:35:00
+End time: 5/31/2022, 16:35:00
+https://codeforces.com/contests/1691
 ```
 
 </details>
@@ -211,6 +225,46 @@ https://atcoder.jp/contests/arc141
       "startTime": "2022-06-26T12:00:00.000Z",
       "endTime": "2022-06-26T14:00:00.000Z",
       "url": "https://atcoder.jp/contests/arc143"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "CodeCraft-22 and Codeforces Round #795 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-05-31T14:35:00.000Z",
+      "endTime": "2022-05-31T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1691"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #796 (Div. 1)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-03T14:35:00.000Z",
+      "endTime": "2022-06-03T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1687"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #796 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-03T14:35:00.000Z",
+      "endTime": "2022-06-03T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1688"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #797 (Div. 3)",
+      "rule": "ICPC",
+      "startTime": "2022-06-07T14:35:00.000Z",
+      "endTime": "2022-06-07T16:50:00.000Z",
+      "url": "https://codeforces.com/contests/1690"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #798 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-10T16:35:00.000Z",
+      "endTime": "2022-06-10T18:35:00.000Z",
+      "url": "https://codeforces.com/contests/1689"
     }
   ]
 }
