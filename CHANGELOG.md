@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.2.3](https://github.com/StableAgOH/lscontests/compare/v2.2.2...v2.2.3) (2022-05-26)
+
+
+### Performance Improvements
+
+* add prefetch to build cache ([c90e861](https://github.com/StableAgOH/lscontests/commit/c90e8614411029c9acd7d3351b78b3a026e7152a))
+
 ## [2.2.2](https://github.com/StableAgOH/lscontests/compare/v2.2.1...v2.2.2) (2022-05-26)
 
 
