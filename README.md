@@ -55,7 +55,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Thu, 26 May 2022 07:08:14 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Thu, 26 May 2022 07:14:28 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>

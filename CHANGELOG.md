@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.2.1](https://github.com/StableAgOH/lscontests/compare/v2.2.0...v2.2.1) (2022-05-26)
+
+
+### Bug Fixes
+
+* url generate ([46dea49](https://github.com/StableAgOH/lscontests/commit/46dea49078f1b9629689663fb20c16c1d0bd09f7))
+
 # [2.2.0](https://github.com/StableAgOH/lscontests/compare/v2.1.6...v2.2.0) (2022-05-26)
 
 
