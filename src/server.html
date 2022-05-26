@@ -108,7 +108,12 @@
 <script>
     function updateURL()
     {
-        const curr = window.location.href.split("?")[0].trimEnd() + "/ics";
+        let curr = window.location.href.split("?")[0];
+        if(!curr.endsWith("/"))
+        {
+            curr += "/";
+        }
+        curr += "ics";
         const args = new URLSearchParams();
 
         //process ojs
