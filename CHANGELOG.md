@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.2.2](https://github.com/StableAgOH/lscontests/compare/v2.2.1...v2.2.2) (2022-05-26)
+
+
+### Performance Improvements
+
+* decrease retry delay time ([9ece1a9](https://github.com/StableAgOH/lscontests/commit/9ece1a9d8afb32b17396dd3f32ae1737ff838000))
+
 ## [2.2.1](https://github.com/StableAgOH/lscontests/compare/v2.2.0...v2.2.1) (2022-05-26)
 
 

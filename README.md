@@ -55,29 +55,15 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Thu, 26 May 2022 07:14:28 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Thu, 26 May 2022 09:01:52 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
 
 ```text
-There are 1 contests is running on NowCoder
+No running contests
 
-OJ: NowCoder
-Contest name: 2022 图论班第一章图匹配例题与习题
-Rule: ICPC
-Start time: 5/13/2022, 06:00:00
-End time: 5/30/2022, 08:00:00
-https://ac.nowcoder.com/acm/contest/34649
-
-There are 7 contests on NowCoder,AtCoder,LeetCode in the next 3 days
-
-OJ: NowCoder
-Contest name: 牛客练习赛 99
-Rule: ICPC
-Start time: 5/27/2022, 11:00:00
-End time: 5/27/2022, 13:30:00
-https://ac.nowcoder.com/acm/contest/34330
+There are 4 contests on AtCoder,LeetCode in the next 3 days
 
 OJ: AtCoder
 Contest name: Ⓗ AtCoder Heuristic Contest 011
@@ -85,20 +71,6 @@ Rule: AtCoder
 Start time: 5/28/2022, 03:00:00
 End time: 6/5/2022, 10:00:00
 https://atcoder.jp/contests/ahc011
-
-OJ: NowCoder
-Contest name: MINIEYE 杯第十六届华中科技大学程序设计邀请赛
-Rule: ICPC
-Start time: 5/28/2022, 04:30:00
-End time: 5/28/2022, 09:30:00
-https://ac.nowcoder.com/acm/contest/34866
-
-OJ: NowCoder
-Contest name: 福建农林大学校赛（同步赛）
-Rule: ICPC
-Start time: 5/28/2022, 05:30:00
-End time: 5/28/2022, 09:30:00
-https://ac.nowcoder.com/acm/contest/33869
 
 OJ: AtCoder
 Contest name: Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）
