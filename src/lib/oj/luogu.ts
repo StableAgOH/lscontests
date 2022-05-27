@@ -1,6 +1,6 @@
 import axios from "axios";
-import { contest, rule } from "../contest";
-import { oj } from ".";
+import { Contest, rule } from "../contest";
+import { OJ } from ".";
 
 type result = {
     ruleType: number;
@@ -28,12 +28,12 @@ const headers = {
     "x-luogu-type": "content-only"
 };
 
-export const lg: oj = {
+export const lg: OJ = {
     name: "Luogu",
     async get()
     {
         const resList: result[] = (await axios.get("https://www.luogu.com.cn/contest/list", { headers })).data.currentData.contests.result;
-        return resList.map((res): contest =>
+        return resList.map((res): Contest =>
         {
             return {
                 ojName: lg.name,

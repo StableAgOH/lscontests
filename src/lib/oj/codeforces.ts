@@ -1,7 +1,7 @@
 import axios from "axios";
-import * as cheerio from "cheerio";
-import { contest, rule } from "../contest";
-import { oj } from ".";
+import { load } from "cheerio";
+import { Contest, rule } from "../contest";
+import { OJ } from ".";
 
 type result = {
     id: string;
@@ -19,18 +19,18 @@ const ruleRecord: Record<string, rule> = {
     ICPC: "ICPC"
 };
 
-export const cf: oj = {
+export const cf: OJ = {
     name: "Codeforces",
     async get()
     {
         const response = await axios.get("https://codeforces.com/api/contest.list");
         if(!(response.data instanceof Object))
         {
-            const $ = cheerio.load(response.data);
+            const $ = load(response.data);
             throw new Error($.text());
         }
         const resList: result[] = response.data.result;
-        return resList.map((res): contest =>
+        return resList.map((res): Contest =>
         {
             return {
                 ojName: cf.name,

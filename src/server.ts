@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import express from "express";
-import { contest, getContests } from "./index";
+import Lscontests, { Contest } from ".";
 import { alloj } from "./lib/oj";
 import { getLangDict } from "./locale";
 import { convertTimestampToArray, createEvents, EventAttributes } from "ics";
@@ -77,7 +77,7 @@ app.get("/ics", async (req, res) =>
 });
 
 const contestsCache: {
-    contests: contest[],
+    contests: Contest[],
     lastUpdate: number;
 } = {
     contests: [],
@@ -88,7 +88,7 @@ async function getIcs(lang: string, ojs: string[])
 {
     if(contestsCache.lastUpdate < Date.now() - 1000 * 60 * 5)
     {
-        const c = await getContests({ days: -1 });
+        const c = await new Lscontests({ days: -1 }).getContests();
         contestsCache.contests = _.uniqBy(contestsCache.contests.concat(c.running.concat(c.upcoming)), JSON.stringify);
         contestsCache.contests = contestsCache.contests.filter(
             c => c.endTime.getTime() - c.startTime.getTime() < 1000 * 60 * 60 * 24 * 2

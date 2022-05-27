@@ -1,7 +1,7 @@
 import axios from "axios";
-import * as cheerio from "cheerio";
-import { oj } from ".";
-import { contest, rule } from "../contest";
+import { load } from "cheerio";
+import { OJ } from ".";
+import { Contest, rule } from "../contest";
 
 type result = {
     isSignUp: boolean,
@@ -58,11 +58,11 @@ const url = "https://ac.nowcoder.com/acm/contest/vip-index";
 async function getResultList(tcf: topCategoryFilter)
 {
     const html = (await axios.get(`${url}?topCategoryFilter=${tcf}`)).data;
-    const $ = cheerio.load(html);
+    const $ = load(html);
     const ls: result[] = [];
     $("div[class='platform-item js-item ']").each(function ()
     {
-        ls.push(JSON.parse(cheerio.load(this.attribs["data-json"]).text()));
+        ls.push(JSON.parse(load(this.attribs["data-json"]).text()));
     });
     return ls;
 }
@@ -73,7 +73,7 @@ const ruleRecord: Record<number, rule> = {
     3: "IOI"
 };
 
-export const nc: oj = {
+export const nc: OJ = {
     name: "NowCoder",
     async get()
     {
@@ -81,7 +81,7 @@ export const nc: oj = {
             ...await getResultList(topCategoryFilter.NOWCODERSERIES),
             ...await getResultList(topCategoryFilter.SCHOOLCONTEST)
         ];
-        return res.filter(res => res.signUpEndCountDownTime > 0).map((res): contest =>
+        return res.filter(res => res.signUpEndCountDownTime > 0).map((res): Contest =>
         {
             return {
                 ojName: nc.name,

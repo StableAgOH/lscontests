@@ -1,18 +1,18 @@
 import axios from "axios";
-import * as cheerio from "cheerio";
-import { contest } from "../contest";
-import { oj } from ".";
+import { load } from "cheerio";
+import { Contest } from "../contest";
+import { OJ } from ".";
 
-export const at: oj = {
+export const at: OJ = {
     name: "AtCoder",
     async get()
     {
         const response = await axios.get("https://atcoder.jp/contests");
-        const $ = cheerio.load(response.data);
-        const contests: contest[] = [];
+        const $ = load(response.data);
+        const contests: Contest[] = [];
         $("table > tbody > tr", "#contest-table-action, #contest-table-upcoming").each(function ()
         {
-            const ct: contest = {
+            const ct: Contest = {
                 ojName: at.name,
                 name: "",
                 rule: "AtCoder",

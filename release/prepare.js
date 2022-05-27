@@ -43,16 +43,16 @@ ${content}
 async function update(path, cmds, releaseMsg)
 {
     let content = fs.readFileSync(path).toString();
-    content = repl(content, "help", codeblock("text", await lsct.cli("-h")));
+    lsct.cli("-h", undefined, msg => content = repl(content, "help", codeblock("text", msg)));
     const res = await Promise.all(
         cmds.map(async cmd =>
         {
-            const text = await lsct.cli(cmd);
-            await new Promise(resolve => setTimeout(resolve, 2000));
-            return detailsblock(
+            let text;
+            await lsct.cli(cmd, undefined, msg => text = detailsblock(
                 `<code>> lsct ${cmd}</code>`,
-                codeblock(cmd.includes("-r") || cmd.includes("--raw") ? "json" : "text", text)
-            );
+                codeblock(cmd.includes("-r") || cmd.includes("--raw") ? "json" : "text", msg)
+            ));
+            return text;
         })
     );
     res.unshift(releaseMsg);
