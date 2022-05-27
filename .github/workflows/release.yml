@@ -17,8 +17,16 @@ jobs:
         run: yarn lint
       - name: Build
         run: yarn build
+      - name: Create docs directory
+        run: mkdir -p docs
       - name: Semantic Release
-        run: yarn release
+        uses: cycjimmy/semantic-release-action@v3
+        with:
+          extra_plugins: |
+            @semantic-release/changelog
+            @semantic-release/git
+            @semantic-release/exec
+            @qiwi/semantic-release-gh-pages-plugin
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
