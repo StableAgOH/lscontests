@@ -41,6 +41,7 @@ Options:
   -d, --days, <day>      number of days to display, set to 0 to get all
                          contests infomation (default: "3")
   -l, --list             list all supported OJ and it's abbreviation
+  -s, --silent           do not print log
   -o, --oj <ojs...>      OJs to display (choices: "at", "cf", "lc", "lg", "nc")
   -r, --raw              print raw contest list
   -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-NE",
@@ -55,7 +56,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Thu, 26 May 2022 11:39:17 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Fri, 27 May 2022 15:42:23 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
@@ -70,14 +71,7 @@ Start time: 5/13/2022, 06:00:00
 End time: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-There are 7 contests on NowCoder,AtCoder,LeetCode in the next 3 days
-
-OJ: NowCoder
-Contest name: 牛客练习赛 99
-Rule: ICPC
-Start time: 5/27/2022, 11:00:00
-End time: 5/27/2022, 13:30:00
-https://ac.nowcoder.com/acm/contest/34330
+There are 8 contests on AtCoder,NowCoder,LeetCode in the next 3 days
 
 OJ: AtCoder
 Contest name: Ⓗ AtCoder Heuristic Contest 011
@@ -120,6 +114,20 @@ Rule: AtCoder
 Start time: 5/29/2022, 02:30:00
 End time: 5/29/2022, 04:00:00
 https://leetcode.com/contest/weekly-contest-295
+
+OJ: NowCoder
+Contest name: 第四届 SCPC 中南民族大学程序设计竞赛（同步赛）
+Rule: ICPC
+Start time: 5/29/2022, 04:00:00
+End time: 5/29/2022, 09:00:00
+https://ac.nowcoder.com/acm/contest/35624
+
+OJ: AtCoder
+Contest name: Ⓐ AtCoder Regular Contest 141
+Rule: AtCoder
+Start time: 5/29/2022, 12:00:00
+End time: 5/29/2022, 14:00:00
+https://atcoder.jp/contests/arc141
 ```
 
 </details>
@@ -130,7 +138,7 @@ https://leetcode.com/contest/weekly-contest-295
 ```text
 No running contests
 
-There are 4 contests on AtCoder,Codeforces in the next 7 days
+There are 6 contests on AtCoder,Codeforces in the next 7 days
 
 OJ: AtCoder
 Contest name: Ⓗ AtCoder Heuristic Contest 011
@@ -159,6 +167,20 @@ Rule: Codeforces
 Start time: 5/31/2022, 14:35:00
 End time: 5/31/2022, 16:35:00
 https://codeforces.com/contests/1691
+
+OJ: Codeforces
+Contest name: Codeforces Round #796 (Div. 1)
+Rule: Codeforces
+Start time: 6/3/2022, 14:35:00
+End time: 6/3/2022, 16:35:00
+https://codeforces.com/contests/1687
+
+OJ: Codeforces
+Contest name: Codeforces Round #796 (Div. 2)
+Rule: Codeforces
+Start time: 6/3/2022, 14:35:00
+End time: 6/3/2022, 16:35:00
+https://codeforces.com/contests/1688
 ```
 
 </details>
@@ -265,6 +287,14 @@ https://codeforces.com/contests/1691
       "startTime": "2022-06-10T16:35:00.000Z",
       "endTime": "2022-06-10T18:35:00.000Z",
       "url": "https://codeforces.com/contests/1689"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #799 (Div. 4)",
+      "rule": "ICPC",
+      "startTime": "2022-06-14T14:35:00.000Z",
+      "endTime": "2022-06-14T16:50:00.000Z",
+      "url": "https://codeforces.com/contests/1692"
     }
   ]
 }

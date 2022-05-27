@@ -1,5 +1,12 @@
 # CHANGELOG
 
+# [2.3.0](https://github.com/StableAgOH/lscontests/compare/v2.2.3...v2.3.0) (2022-05-27)
+
+
+### Features
+
+* add logger ([22f12df](https://github.com/StableAgOH/lscontests/commit/22f12dff8d2dd7ada47748b4823303e581a57ec3))
+
 ## [2.2.3](https://github.com/StableAgOH/lscontests/compare/v2.2.2...v2.2.3) (2022-05-26)
 
 

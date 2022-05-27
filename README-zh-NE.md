@@ -41,6 +41,7 @@ Options:
   -d, --days, <day>      number of days to display, set to 0 to get all
                          contests infomation (default: "3")
   -l, --list             list all supported OJ and it's abbreviation
+  -s, --silent           do not print log
   -o, --oj <ojs...>      OJs to display (choices: "at", "cf", "lc", "lg", "nc")
   -r, --raw              print raw contest list
   -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-NE",
@@ -55,7 +56,7 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Thu, 26 May 2022 11:41:42 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Fri, 27 May 2022 15:42:41 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>
@@ -70,14 +71,7 @@ Options:
 多前完事: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-之后 3 天搁 NowCoder,AtCoder,LeetCode 上拢共 7 场比赛
-
-搁哪: NowCoder
-叫啥：牛客练习赛 99
-咋个整法: ICPC
-啥前开始: 5/27/2022, 11:00:00
-多前完事: 5/27/2022, 13:30:00
-https://ac.nowcoder.com/acm/contest/34330
+之后 3 天搁 AtCoder,NowCoder,LeetCode 上拢共 8 场比赛
 
 搁哪: AtCoder
 叫啥: Ⓗ AtCoder Heuristic Contest 011
@@ -120,6 +114,20 @@ https://leetcode.com/contest/biweekly-contest-79
 啥前开始: 5/29/2022, 02:30:00
 多前完事: 5/29/2022, 04:00:00
 https://leetcode.com/contest/weekly-contest-295
+
+搁哪: NowCoder
+叫啥：第四届 SCPC 中南民族大学程序设计竞赛（同步赛）
+咋个整法: ICPC
+啥前开始: 5/29/2022, 04:00:00
+多前完事: 5/29/2022, 09:00:00
+https://ac.nowcoder.com/acm/contest/35624
+
+搁哪: AtCoder
+叫啥: Ⓐ AtCoder Regular Contest 141
+咋个整法: AtCoder
+啥前开始: 5/29/2022, 12:00:00
+多前完事: 5/29/2022, 14:00:00
+https://atcoder.jp/contests/arc141
 ```
 
 </details>
@@ -130,7 +138,7 @@ https://leetcode.com/contest/weekly-contest-295
 ```text
 这前属实是没比赛打
 
-之后 7 天搁 AtCoder,Codeforces 上拢共 4 场比赛
+之后 7 天搁 AtCoder,Codeforces 上拢共 6 场比赛
 
 搁哪: AtCoder
 叫啥: Ⓗ AtCoder Heuristic Contest 011
@@ -159,6 +167,20 @@ https://atcoder.jp/contests/arc141
 啥前开始: 5/31/2022, 14:35:00
 多前完事: 5/31/2022, 16:35:00
 https://codeforces.com/contests/1691
+
+搁哪: Codeforces
+叫啥: Codeforces Round #796 (Div. 1)
+咋个整法: Codeforces
+啥前开始: 6/3/2022, 14:35:00
+多前完事: 6/3/2022, 16:35:00
+https://codeforces.com/contests/1687
+
+搁哪: Codeforces
+叫啥: Codeforces Round #796 (Div. 2)
+咋个整法: Codeforces
+啥前开始: 6/3/2022, 14:35:00
+多前完事: 6/3/2022, 16:35:00
+https://codeforces.com/contests/1688
 ```
 
 </details>
@@ -265,6 +287,14 @@ https://codeforces.com/contests/1691
       "startTime": "2022-06-10T16:35:00.000Z",
       "endTime": "2022-06-10T18:35:00.000Z",
       "url": "https://codeforces.com/contests/1689"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #799 (Div. 4)",
+      "rule": "ICPC",
+      "startTime": "2022-06-14T14:35:00.000Z",
+      "endTime": "2022-06-14T16:50:00.000Z",
+      "url": "https://codeforces.com/contests/1692"
     }
   ]
 }

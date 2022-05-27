@@ -41,6 +41,7 @@ Options:
   -d, --days, <day>      number of days to display, set to 0 to get all
                          contests infomation (default: "3")
   -l, --list             list all supported OJ and it's abbreviation
+  -s, --silent           do not print log
   -o, --oj <ojs...>      OJs to display (choices: "at", "cf", "lc", "lg", "nc")
   -r, --raw              print raw contest list
   -L, --language <lang>  set output language (choices: "en", "zh-CN", "zh-NE",
@@ -55,7 +56,7 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Thu, 26 May 2022 11:41:09 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Fri, 27 May 2022 15:42:29 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
@@ -70,14 +71,7 @@ Options:
 结束时间: 5/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/34649
 
-接下来的 3 天内在 NowCoder,AtCoder,LeetCode 上有 7 场比赛
-
-比赛平台: NowCoder
-比赛名称：牛客练习赛 99
-赛制: ICPC
-开始时间: 5/27/2022, 11:00:00
-结束时间: 5/27/2022, 13:30:00
-https://ac.nowcoder.com/acm/contest/34330
+接下来的 3 天内在 AtCoder,NowCoder,LeetCode 上有 8 场比赛
 
 比赛平台: AtCoder
 比赛名称: Ⓗ AtCoder Heuristic Contest 011
@@ -120,6 +114,20 @@ https://leetcode.com/contest/biweekly-contest-79
 开始时间: 5/29/2022, 02:30:00
 结束时间: 5/29/2022, 04:00:00
 https://leetcode.com/contest/weekly-contest-295
+
+比赛平台: NowCoder
+比赛名称：第四届 SCPC 中南民族大学程序设计竞赛（同步赛）
+赛制: ICPC
+开始时间: 5/29/2022, 04:00:00
+结束时间: 5/29/2022, 09:00:00
+https://ac.nowcoder.com/acm/contest/35624
+
+比赛平台: AtCoder
+比赛名称: Ⓐ AtCoder Regular Contest 141
+赛制: AtCoder
+开始时间: 5/29/2022, 12:00:00
+结束时间: 5/29/2022, 14:00:00
+https://atcoder.jp/contests/arc141
 ```
 
 </details>
@@ -130,7 +138,7 @@ https://leetcode.com/contest/weekly-contest-295
 ```text
 没有正在进行的比赛捏
 
-接下来的 7 天内在 AtCoder,Codeforces 上有 4 场比赛
+接下来的 7 天内在 AtCoder,Codeforces 上有 6 场比赛
 
 比赛平台: AtCoder
 比赛名称: Ⓗ AtCoder Heuristic Contest 011
@@ -159,6 +167,20 @@ https://atcoder.jp/contests/arc141
 开始时间: 5/31/2022, 14:35:00
 结束时间: 5/31/2022, 16:35:00
 https://codeforces.com/contests/1691
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #796 (Div. 1)
+赛制: Codeforces
+开始时间: 6/3/2022, 14:35:00
+结束时间: 6/3/2022, 16:35:00
+https://codeforces.com/contests/1687
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #796 (Div. 2)
+赛制: Codeforces
+开始时间: 6/3/2022, 14:35:00
+结束时间: 6/3/2022, 16:35:00
+https://codeforces.com/contests/1688
 ```
 
 </details>
@@ -265,6 +287,14 @@ https://codeforces.com/contests/1691
       "startTime": "2022-06-10T16:35:00.000Z",
       "endTime": "2022-06-10T18:35:00.000Z",
       "url": "https://codeforces.com/contests/1689"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #799 (Div. 4)",
+      "rule": "ICPC",
+      "startTime": "2022-06-14T14:35:00.000Z",
+      "endTime": "2022-06-14T16:50:00.000Z",
+      "url": "https://codeforces.com/contests/1692"
     }
   ]
 }
