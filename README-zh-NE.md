@@ -312,9 +312,9 @@ https://codeforces.com/contests/1688
 #### 就要纯字的
 
 ```typescript
-import { getContestInfo } from "lscontests";
+import lsct from "lscontests";
 
-getContestsInfoText({ abbrList: ["cf", "lg"] }).then(console.log);
+new lsct({ abbrList: ["cf", "lg"] }).getContestsText().then(console.log);
 ```
 
 输出跟 `lsct -o cf lg` 是一样式的。
@@ -322,9 +322,9 @@ getContestsInfoText({ abbrList: ["cf", "lg"] }).then(console.log);
 #### 要个列表回来
 
 ```typescript
-import { getContestList } from "lscontests";
+import lsct from "lscontests";
 
-getContests({ sort: false }).then(console.log);
+new lsct({ abbrList: ["cf", "lg"] }).getContests().then(console.log);
 ```
 
 输出跟 `lsct -r --no-sort` 是一样式的。
@@ -332,7 +332,7 @@ getContests({ sort: false }).then(console.log);
 #### 自个添加对其他 OJ 的支持
 
 ```typescript
-import { addOJ, getContestsInfoText, getContests } from "lscontests";
+import lsct, { addOJ } from "lscontests";
 
 addOJ("ts", {
     name: "testOJ", get: async () => [{
@@ -346,9 +346,9 @@ addOJ("ts", {
 });
 
 async function main() {
-    console.log(await getContestsInfoText({ abbrList: ["cf", "ts"], days: 1 }, "en"));
+    console.log(await new lsct({ abbrList: ["cf", "ts"], days: 1 }).getContestsText("zh-NE"));
     console.log();
-    console.log(await getContests({ abbrList: ["at", "ts"], days: 7 }));
+    console.log(await new lsct({ abbrList: ["at", "ts"], days: 7 }).getContests());
 }
 
 main();
@@ -357,30 +357,23 @@ main();
 照上面那么整出来是这样式的：
 
 ```text
-There are 2 contests is running on Codeforces,testOJ
+搁 testOJ 上有 1 场比赛正偷摸干着呢
 
-OJ: Codeforces
-Contest name: Educational Codeforces Round 128 (Rated for Div. 2)
-Rule: ICPC
-Start time: 2022/5/13 22:35:00
-End time: 2022/5/14 00:35:00
-https://codeforces.com/contests/1680
-
-OJ: testOJ
-Contest name: testContest
-Rule: ICPC
-Start time: 2022/5/13 23:23:31
-End time: 2022/5/14 00:23:31
+搁哪: testOJ
+叫啥: testContest
+咋个整法: ICPC
+啥前开始: 2022/6/10 21:46:40
+多前完事: 2022/6/10 22:46:40
 https://www.test.com
 
-There are 1 contests on Codeforces,testOJ in the next 1 days
+之后 1 天搁 Codeforces 上拢共 1 场比赛
 
-OJ: Codeforces
-Contest name: Codeforces Round #791 (Div. 2)
-Rule: Codeforces
-Start time: 2022/5/14 17:35:00
-End time: 2022/5/14 19:35:00
-https://codeforces.com/contests/1679
+搁哪: Codeforces
+叫啥: Codeforces Round #798 (Div. 2)
+咋个整法: Codeforces
+啥前开始: 2022/6/11 00:35:00
+多前完事: 2022/6/11 02:35:00
+https://codeforces.com/contests/1689
 
 {
   running: [
@@ -388,41 +381,33 @@ https://codeforces.com/contests/1679
       ojName: 'testOJ',
       name: 'testContest',
       rule: 'ICPC',
-      startTime: 2022-05-13T15:23:37.245Z,
-      endTime: 2022-05-13T16:23:37.246Z,
+      startTime: 2022-06-10T13:46:42.917Z,
+      endTime: 2022-06-10T14:46:42.918Z,
       url: 'https://www.test.com'
     }
   ],
   upcoming: [
     {
       ojName: 'AtCoder',
-      name: 'Ⓐ Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)',
+      name: 'Ⓐ Aising Programming Contest 2022（AtCoder Beginner Contest 255）',
       rule: 'AtCoder',
-      startTime: 2022-05-14T12:00:00.000Z,
-      endTime: 2022-05-14T13:40:00.000Z,
-      url: 'https://atcoder.jp/contests/abc251'
-    },
-    {
-      ojName: 'AtCoder',
-      name: 'Ⓐ AtCoder Regular Contest 140',
-      rule: 'AtCoder',
-      startTime: 2022-05-15T12:00:00.000Z,
-      endTime: 2022-05-15T14:00:00.000Z,
-      url: 'https://atcoder.jp/contests/arc140'
+      startTime: 2022-06-11T12:00:00.000Z,
+      endTime: 2022-06-11T13:40:00.000Z,
+      url: 'https://atcoder.jp/contests/abc255'
     }
   ]
 }
 ```
 
-#### 跟用 CLI 一样
+#### 照 CLI 那样式用
 
 ```typescript
 import { cli } from "lscontests";
 
-cli("-o cf -L en").then(console.log);
+cli("-o cf -L en", undefined, console.log);
 ```
 
-输出跟 `lsct -o cf -L en` 是一样式的。
+输出跟 `lsct -o cf -L en` 一样一样的。
 
 ## 用滴是这个开源许可证
 
