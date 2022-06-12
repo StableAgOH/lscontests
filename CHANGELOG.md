@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.3.1](https://github.com/StableAgOH/lscontests/compare/v2.3.0...v2.3.1) (2022-06-12)
+
+
+### Performance Improvements
+
+* enhance message ([c04998c](https://github.com/StableAgOH/lscontests/commit/c04998c99f03b6827ff353ac7e94a695d6095eaf))
+
 # [2.3.0](https://github.com/StableAgOH/lscontests/compare/v2.2.3...v2.3.0) (2022-05-27)
 
 

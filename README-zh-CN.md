@@ -56,7 +56,7 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Fri, 27 May 2022 15:42:29 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Sun, 12 Jun 2022 17:05:49 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
@@ -65,69 +65,13 @@ Options:
 在 NowCoder 上有 1 场正在进行的比赛
 
 比赛平台: NowCoder
-比赛名称: 2022 图论班第一章图匹配例题与习题
+比赛名称：牛客竞赛计算几何专题班扫描线
 赛制: ICPC
-开始时间: 5/13/2022, 06:00:00
-结束时间: 5/30/2022, 08:00:00
-https://ac.nowcoder.com/acm/contest/34649
+开始时间: 6/6/2022, 07:00:00
+结束时间: 6/30/2022, 08:00:00
+https://ac.nowcoder.com/acm/contest/36088
 
-接下来的 3 天内在 AtCoder,NowCoder,LeetCode 上有 8 场比赛
-
-比赛平台: AtCoder
-比赛名称: Ⓗ AtCoder Heuristic Contest 011
-赛制: AtCoder
-开始时间: 5/28/2022, 03:00:00
-结束时间: 6/5/2022, 10:00:00
-https://atcoder.jp/contests/ahc011
-
-比赛平台: NowCoder
-比赛名称: MINIEYE 杯第十六届华中科技大学程序设计邀请赛
-赛制: ICPC
-开始时间: 5/28/2022, 04:30:00
-结束时间: 5/28/2022, 09:30:00
-https://ac.nowcoder.com/acm/contest/34866
-
-比赛平台: NowCoder
-比赛名称：福建农林大学校赛（同步赛）
-赛制: ICPC
-开始时间: 5/28/2022, 05:30:00
-结束时间: 5/28/2022, 09:30:00
-https://ac.nowcoder.com/acm/contest/33869
-
-比赛平台: AtCoder
-比赛名称: Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）
-赛制: AtCoder
-开始时间: 5/28/2022, 12:00:00
-结束时间: 5/28/2022, 13:40:00
-https://atcoder.jp/contests/abc253
-
-比赛平台: LeetCode
-比赛名称: Biweekly Contest 79
-赛制: AtCoder
-开始时间: 5/28/2022, 14:30:00
-结束时间: 5/28/2022, 16:00:00
-https://leetcode.com/contest/biweekly-contest-79
-
-比赛平台: LeetCode
-比赛名称: Weekly Contest 295
-赛制: AtCoder
-开始时间: 5/29/2022, 02:30:00
-结束时间: 5/29/2022, 04:00:00
-https://leetcode.com/contest/weekly-contest-295
-
-比赛平台: NowCoder
-比赛名称：第四届 SCPC 中南民族大学程序设计竞赛（同步赛）
-赛制: ICPC
-开始时间: 5/29/2022, 04:00:00
-结束时间: 5/29/2022, 09:00:00
-https://ac.nowcoder.com/acm/contest/35624
-
-比赛平台: AtCoder
-比赛名称: Ⓐ AtCoder Regular Contest 141
-赛制: AtCoder
-开始时间: 5/29/2022, 12:00:00
-结束时间: 5/29/2022, 14:00:00
-https://atcoder.jp/contests/arc141
+接下来的 3 天内在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上没有比赛捏
 ```
 
 </details>
@@ -136,51 +80,23 @@ https://atcoder.jp/contests/arc141
 <summary> <code>> lsct -o at cf -d 7</code> </summary>
 
 ```text
-没有正在进行的比赛捏
+在 AtCoder,Codeforces 上没有正在进行的比赛捏
 
-接下来的 7 天内在 AtCoder,Codeforces 上有 6 场比赛
-
-比赛平台: AtCoder
-比赛名称: Ⓗ AtCoder Heuristic Contest 011
-赛制: AtCoder
-开始时间: 5/28/2022, 03:00:00
-结束时间: 6/5/2022, 10:00:00
-https://atcoder.jp/contests/ahc011
+接下来的 7 天内在 AtCoder 上有 2 场比赛
 
 比赛平台: AtCoder
-比赛名称: Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）
+比赛名称: Ⓐ Tokio Marine & Nichido Fire Insurance Programming Contest 2022（AtCoder Beginner Contest 256)
 赛制: AtCoder
-开始时间: 5/28/2022, 12:00:00
-结束时间: 5/28/2022, 13:40:00
-https://atcoder.jp/contests/abc253
+开始时间: 6/18/2022, 12:00:00
+结束时间: 6/18/2022, 13:40:00
+https://atcoder.jp/contests/abc256
 
 比赛平台: AtCoder
-比赛名称: Ⓐ AtCoder Regular Contest 141
+比赛名称: Ⓐ AtCoder Regular Contest 142
 赛制: AtCoder
-开始时间: 5/29/2022, 12:00:00
-结束时间: 5/29/2022, 14:00:00
-https://atcoder.jp/contests/arc141
-
-比赛平台: Codeforces
-比赛名称: CodeCraft-22 and Codeforces Round #795 (Div. 2)
-赛制: Codeforces
-开始时间: 5/31/2022, 14:35:00
-结束时间: 5/31/2022, 16:35:00
-https://codeforces.com/contests/1691
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #796 (Div. 1)
-赛制: Codeforces
-开始时间: 6/3/2022, 14:35:00
-结束时间: 6/3/2022, 16:35:00
-https://codeforces.com/contests/1687
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #796 (Div. 2)
-赛制: Codeforces
-开始时间: 6/3/2022, 14:35:00
-结束时间: 6/3/2022, 16:35:00
-https://codeforces.com/contests/1688
+开始时间: 6/19/2022, 12:00:00
+结束时间: 6/19/2022, 14:00:00
+https://atcoder.jp/contests/arc142
 ```
 
 </details>
@@ -194,43 +110,11 @@ https://codeforces.com/contests/1688
   "upcoming": [
     {
       "ojName": "AtCoder",
-      "name": "Ⓗ AtCoder Heuristic Contest 011",
+      "name": "Ⓐ Tokio Marine & Nichido Fire Insurance Programming Contest 2022（AtCoder Beginner Contest 256)",
       "rule": "AtCoder",
-      "startTime": "2022-05-28T03:00:00.000Z",
-      "endTime": "2022-06-05T10:00:00.000Z",
-      "url": "https://atcoder.jp/contests/ahc011"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）",
-      "rule": "AtCoder",
-      "startTime": "2022-05-28T12:00:00.000Z",
-      "endTime": "2022-05-28T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc253"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Regular Contest 141",
-      "rule": "AtCoder",
-      "startTime": "2022-05-29T12:00:00.000Z",
-      "endTime": "2022-05-29T14:00:00.000Z",
-      "url": "https://atcoder.jp/contests/arc141"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Beginner Contest 254",
-      "rule": "AtCoder",
-      "startTime": "2022-06-04T12:00:00.000Z",
-      "endTime": "2022-06-04T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc254"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ Aising Programming Contest 2022（AtCoder Beginner Contest 255）",
-      "rule": "AtCoder",
-      "startTime": "2022-06-11T12:00:00.000Z",
-      "endTime": "2022-06-11T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc255"
+      "startTime": "2022-06-18T12:00:00.000Z",
+      "endTime": "2022-06-18T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc256"
     },
     {
       "ojName": "AtCoder",
@@ -242,6 +126,14 @@ https://codeforces.com/contests/1688
     },
     {
       "ojName": "AtCoder",
+      "name": "Ⓐ NS Solutions Corporation Programming Contest 2022（AtCoder Beginner Contest 257）",
+      "rule": "AtCoder",
+      "startTime": "2022-06-25T12:00:00.000Z",
+      "endTime": "2022-06-25T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc257"
+    },
+    {
+      "ojName": "AtCoder",
       "name": "Ⓐ AtCoder Regular Contest 143",
       "rule": "AtCoder",
       "startTime": "2022-06-26T12:00:00.000Z",
@@ -249,52 +141,20 @@ https://codeforces.com/contests/1688
       "url": "https://atcoder.jp/contests/arc143"
     },
     {
-      "ojName": "Codeforces",
-      "name": "CodeCraft-22 and Codeforces Round #795 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-05-31T14:35:00.000Z",
-      "endTime": "2022-05-31T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1691"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Beginner Contest 258",
+      "rule": "AtCoder",
+      "startTime": "2022-07-02T12:00:00.000Z",
+      "endTime": "2022-07-02T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc258"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #796 (Div. 1)",
-      "rule": "Codeforces",
-      "startTime": "2022-06-03T14:35:00.000Z",
-      "endTime": "2022-06-03T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1687"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #796 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-06-03T14:35:00.000Z",
-      "endTime": "2022-06-03T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1688"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #797 (Div. 3)",
-      "rule": "ICPC",
-      "startTime": "2022-06-07T14:35:00.000Z",
-      "endTime": "2022-06-07T16:50:00.000Z",
-      "url": "https://codeforces.com/contests/1690"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #798 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-06-10T16:35:00.000Z",
-      "endTime": "2022-06-10T18:35:00.000Z",
-      "url": "https://codeforces.com/contests/1689"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #799 (Div. 4)",
-      "rule": "ICPC",
-      "startTime": "2022-06-14T14:35:00.000Z",
-      "endTime": "2022-06-14T16:50:00.000Z",
-      "url": "https://codeforces.com/contests/1692"
+      "ojName": "AtCoder",
+      "name": "Ⓗ AtCoder Heuristic Contest 012",
+      "rule": "AtCoder",
+      "startTime": "2022-07-03T06:00:00.000Z",
+      "endTime": "2022-07-03T10:00:00.000Z",
+      "url": "https://atcoder.jp/contests/ahc012"
     }
   ]
 }
