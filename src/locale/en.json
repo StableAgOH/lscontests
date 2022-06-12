@@ -1,10 +1,10 @@
 {
     "runnning": "There are ${contestCount} contests is running on ${oj}",
-    "norunning": "No running contests",
+    "norunning": "There are no running contests on ${oj}",
     "upcoming": "There are ${contestCount} contests on ${oj} in the next ${days} days",
     "upcoming_all": "There will be ${contestCount} contests on ${oj} in the future",
-    "noupcoming": "No contests for the next ${days} days",
-    "noupcoming_all": "There is no contests in the future???",
+    "noupcoming": "No contests on ${oj} for the next ${days} days",
+    "noupcoming_all": "There are no future contests on ${oj}",
     "ojName": "OJ",
     "name": "Contest name",
     "rule": "Rule",

@@ -103,7 +103,7 @@ export default class Lscontests
                 }));
                 info.push(...msg(running));
             }
-            else info.push(lang.norunning);
+            else info.push(_.template(lang.norunning)({ oj: this.config.abbrList.map(abbr => alloj[abbr].name) }));
         }
 
         if(this.config.upcoming)
@@ -118,7 +118,7 @@ export default class Lscontests
                     }));
                     info.push(...msg(upcoming));
                 }
-                else info.push(lang.noupcoming_all);
+                else info.push(_.template(lang.noupcoming_all)({ oj: this.config.abbrList.map(abbr => alloj[abbr].name) }));
             }
             else
             {
@@ -131,7 +131,10 @@ export default class Lscontests
                     }));
                     info.push(...msg(upcoming));
                 }
-                else info.push(_.template(lang.noupcoming)({ days: this.config.days }));
+                else info.push(_.template(lang.noupcoming)({
+                    oj: this.config.abbrList.map(abbr => alloj[abbr].name),
+                    days: this.config.days
+                }));
             }
         }
         return pangu.spacing(info.join("\n\n"));
