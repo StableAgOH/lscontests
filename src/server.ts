@@ -84,6 +84,26 @@ const contestsCache: {
     lastUpdate: 0
 };
 
+function icsPostProcess(value: string)
+{
+    return value
+        .replace("X-PUBLISHED-TTL:PT1H", "X-PUBLISHED-TTL:PT1H\r\nREFRESH-INTERVAL:PT1H")
+        .replace("X-WR-CALNAME:算法竞赛",
+            "X-WR-CALNAME:算法竞赛\r\n" +
+            "X-WR-TIMEZONE:Asia/Shanghai\r\n" +
+            "BEGIN:VTIMEZONE\r\n" +
+            "TZID:Asia/Shanghai\r\n" +
+            "X-LIC-LOCATION:Asia/Shanghai\r\n" +
+            "BEGIN:STANDARD\r\n" +
+            "TZOFFSETFROM:+0800\r\n" +
+            "TZOFFSETTO:+0800\r\n" +
+            "TZNAME:CST\r\n" +
+            "DTSTART:19700101T000000\r\n" +
+            "END:STANDARD\r\n" +
+            "END:VTIMEZONE"
+        );
+}
+
 async function getIcs(lang: string, ojs: string[])
 {
     if(contestsCache.lastUpdate < Date.now() - 1000 * 60 * 5)
@@ -109,6 +129,7 @@ async function getIcs(lang: string, ojs: string[])
         const description = pangu.spacing(ls.join("\n"));
         const ret: EventAttributes = {
             start: convertTimestampToArray(c.startTime.getTime(), "local"),
+            startOutputType: "local",
             end: convertTimestampToArray(c.endTime.getTime(), "local"),
             calName: "算法竞赛",
             productId: "-//StableAgOH//LSCT//CN",
@@ -124,8 +145,7 @@ async function getIcs(lang: string, ojs: string[])
     const { value, error } = createEvents(events);
     if(error) throw error;
     assertType<string>(value);
-    value.replace("X-PUBLISHED-TTL:PT1H\r\n", "X-PUBLISHED-TTL:PT1H\r\nREFRESH-INTERVAL:PT1H\r\n");
-    return value;
+    return icsPostProcess(value);
 }
 
 const command = new Command()
