@@ -56,7 +56,7 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Sun, 12 Jun 2022 17:05:49 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Mon, 13 Jun 2022 05:06:43 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
@@ -71,7 +71,14 @@ Options:
 结束时间: 6/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/36088
 
-接下来的 3 天内在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上没有比赛捏
+接下来的 3 天内在 Codeforces 上有 1 场比赛
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #799 (Div. 4)
+赛制: ICPC
+开始时间: 6/14/2022, 14:35:00
+结束时间: 6/14/2022, 16:50:00
+https://codeforces.com/contests/1692
 ```
 
 </details>
@@ -82,7 +89,28 @@ https://ac.nowcoder.com/acm/contest/36088
 ```text
 在 AtCoder,Codeforces 上没有正在进行的比赛捏
 
-接下来的 7 天内在 AtCoder 上有 2 场比赛
+接下来的 7 天内在 Codeforces,AtCoder 上有 6 场比赛
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #799 (Div. 4)
+赛制: ICPC
+开始时间: 6/14/2022, 14:35:00
+结束时间: 6/14/2022, 16:50:00
+https://codeforces.com/contests/1692
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #800 (Div. 1)
+赛制: Codeforces
+开始时间: 6/16/2022, 14:35:00
+结束时间: 6/16/2022, 16:35:00
+https://codeforces.com/contests/1693
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #800 (Div. 2)
+赛制: Codeforces
+开始时间: 6/16/2022, 14:35:00
+结束时间: 6/16/2022, 16:35:00
+https://codeforces.com/contests/1694
 
 比赛平台: AtCoder
 比赛名称: Ⓐ Tokio Marine & Nichido Fire Insurance Programming Contest 2022（AtCoder Beginner Contest 256)
@@ -90,6 +118,13 @@ https://ac.nowcoder.com/acm/contest/36088
 开始时间: 6/18/2022, 12:00:00
 结束时间: 6/18/2022, 13:40:00
 https://atcoder.jp/contests/abc256
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #TBA (Div. 2)
+赛制: Codeforces
+开始时间: 6/18/2022, 14:35:00
+结束时间: 6/18/2022, 16:35:00
+https://codeforces.com/contests/1695
 
 比赛平台: AtCoder
 比赛名称: Ⓐ AtCoder Regular Contest 142
@@ -155,6 +190,46 @@ https://atcoder.jp/contests/arc142
       "startTime": "2022-07-03T06:00:00.000Z",
       "endTime": "2022-07-03T10:00:00.000Z",
       "url": "https://atcoder.jp/contests/ahc012"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #799 (Div. 4)",
+      "rule": "ICPC",
+      "startTime": "2022-06-14T14:35:00.000Z",
+      "endTime": "2022-06-14T16:50:00.000Z",
+      "url": "https://codeforces.com/contests/1692"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #800 (Div. 1)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-16T14:35:00.000Z",
+      "endTime": "2022-06-16T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1693"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #800 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-16T14:35:00.000Z",
+      "endTime": "2022-06-16T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1694"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #TBA (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-18T14:35:00.000Z",
+      "endTime": "2022-06-18T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1695"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Global Round 21",
+      "rule": "Codeforces",
+      "startTime": "2022-06-25T14:35:00.000Z",
+      "endTime": "2022-06-25T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1696"
     }
   ]
 }

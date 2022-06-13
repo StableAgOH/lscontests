@@ -56,7 +56,7 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Sun, 12 Jun 2022 17:05:44 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Mon, 13 Jun 2022 05:05:09 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
@@ -71,7 +71,14 @@ Start time: 6/6/2022, 07:00:00
 End time: 6/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/36088
 
-No contests on AtCoder,Codeforces,LeetCode,Luogu,NowCoder for the next 3 days
+There are 1 contests on Codeforces in the next 3 days
+
+OJ: Codeforces
+Contest name: Codeforces Round #799 (Div. 4)
+Rule: ICPC
+Start time: 6/14/2022, 14:35:00
+End time: 6/14/2022, 16:50:00
+https://codeforces.com/contests/1692
 ```
 
 </details>
@@ -82,7 +89,28 @@ No contests on AtCoder,Codeforces,LeetCode,Luogu,NowCoder for the next 3 days
 ```text
 There are no running contests on AtCoder,Codeforces
 
-There are 2 contests on AtCoder in the next 7 days
+There are 6 contests on Codeforces,AtCoder in the next 7 days
+
+OJ: Codeforces
+Contest name: Codeforces Round #799 (Div. 4)
+Rule: ICPC
+Start time: 6/14/2022, 14:35:00
+End time: 6/14/2022, 16:50:00
+https://codeforces.com/contests/1692
+
+OJ: Codeforces
+Contest name: Codeforces Round #800 (Div. 1)
+Rule: Codeforces
+Start time: 6/16/2022, 14:35:00
+End time: 6/16/2022, 16:35:00
+https://codeforces.com/contests/1693
+
+OJ: Codeforces
+Contest name: Codeforces Round #800 (Div. 2)
+Rule: Codeforces
+Start time: 6/16/2022, 14:35:00
+End time: 6/16/2022, 16:35:00
+https://codeforces.com/contests/1694
 
 OJ: AtCoder
 Contest name: Ⓐ Tokio Marine & Nichido Fire Insurance Programming Contest 2022（AtCoder Beginner Contest 256)
@@ -90,6 +118,13 @@ Rule: AtCoder
 Start time: 6/18/2022, 12:00:00
 End time: 6/18/2022, 13:40:00
 https://atcoder.jp/contests/abc256
+
+OJ: Codeforces
+Contest name: Codeforces Round #TBA (Div. 2)
+Rule: Codeforces
+Start time: 6/18/2022, 14:35:00
+End time: 6/18/2022, 16:35:00
+https://codeforces.com/contests/1695
 
 OJ: AtCoder
 Contest name: Ⓐ AtCoder Regular Contest 142
@@ -155,6 +190,46 @@ https://atcoder.jp/contests/arc142
       "startTime": "2022-07-03T06:00:00.000Z",
       "endTime": "2022-07-03T10:00:00.000Z",
       "url": "https://atcoder.jp/contests/ahc012"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #799 (Div. 4)",
+      "rule": "ICPC",
+      "startTime": "2022-06-14T14:35:00.000Z",
+      "endTime": "2022-06-14T16:50:00.000Z",
+      "url": "https://codeforces.com/contests/1692"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #800 (Div. 1)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-16T14:35:00.000Z",
+      "endTime": "2022-06-16T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1693"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #800 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-16T14:35:00.000Z",
+      "endTime": "2022-06-16T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1694"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #TBA (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-18T14:35:00.000Z",
+      "endTime": "2022-06-18T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1695"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Global Round 21",
+      "rule": "Codeforces",
+      "startTime": "2022-06-25T14:35:00.000Z",
+      "endTime": "2022-06-25T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1696"
     }
   ]
 }

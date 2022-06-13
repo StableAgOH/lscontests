@@ -1,5 +1,12 @@
 # CHANGELOG
 
+# [2.4.0](https://github.com/StableAgOH/lscontests/compare/v2.3.1...v2.4.0) (2022-06-13)
+
+
+### Features
+
+* add timezone to ics ([ffbe3d6](https://github.com/StableAgOH/lscontests/commit/ffbe3d612cbd835919547fc41a5f4eb54a75cea2))
+
 ## [2.3.1](https://github.com/StableAgOH/lscontests/compare/v2.3.0...v2.3.1) (2022-06-12)
 
 
