@@ -19,6 +19,62 @@ const ruleRecord: Record<string, rule> = {
     ICPC: "ICPC"
 };
 
+function mergeDuplicate(data: Contest[]): Contest[]
+{
+    const testRe = /Codeforces Round #(\d{2,4}) \(Div. (\d)\)/;
+    const tmpMap: Map<number, [number, Contest][]> = new Map();
+    const rets: Contest[] = [];
+    data.forEach((item) =>
+    {
+        if(testRe.test(item.name))
+        {
+            const group = item.name.match(testRe)?.groups;
+            if(group !== undefined)
+            {
+                const round = parseInt(group[1]);
+                const div = parseInt(group[2]);
+
+                const i = tmpMap.get(round);
+                if(i !== undefined)
+                {
+                    i.push([div, item]);
+                }
+                else
+                {
+                    tmpMap.set(round, [[div, item]]);
+                }
+            }
+        }
+        else
+        {
+            rets.push(item);
+        }
+    });
+    tmpMap.forEach((v, k) =>
+    {
+        if(v.length === 1)
+        {
+            rets.push(v[0][1]);
+        }
+        else
+        {
+            const divs = v.map(([div]) => div).sort().join("/");
+            const urls = v.map(([, item]) => item.url).join("\n");
+            const item: Contest = {
+                name: `Codeforces Round #${k} (Div. ${divs})`,
+                ojName: cf.name,
+                rule: ruleRecord.CF,
+                startTime: v[0][1].startTime,
+                endTime: v[0][1].endTime,
+                url: urls
+            };
+            rets.push(item);
+        }
+    });
+
+    return rets;
+}
+
 export const cf: OJ = {
     name: "Codeforces",
     async get()
@@ -30,7 +86,7 @@ export const cf: OJ = {
             throw new Error($.text());
         }
         const resList: result[] = response.data.result;
-        return resList.map((res): Contest =>
+        const ret = resList.map((res): Contest =>
         {
             return {
                 ojName: cf.name,
@@ -41,5 +97,6 @@ export const cf: OJ = {
                 url: `https://codeforces.com/contests/${res.id}`
             };
         }).filter(contest => contest.endTime >= new Date());
+        return mergeDuplicate(ret);
     }
 };

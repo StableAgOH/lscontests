@@ -134,7 +134,6 @@ async function getIcs(lang: string, ojs: string[])
             calName: "算法竞赛",
             productId: "-//StableAgOH//LSCT//CN",
             title: c.name,
-            url: c.url,
             location: c.ojName,
             categories: [c.rule],
             uid: `${randomUUID()}@LSCT`,
