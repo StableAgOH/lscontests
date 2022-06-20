@@ -11,7 +11,7 @@ function initCmd()
 {
     return new commander.Command()
         .version(version)
-        .option("-d, --days, <day>", "number of days to display, set to 0 to get all contests infomation", "3")
+        .option("-d, --days, <day>", "number of days to display, set to -1 to get all contests infomation", "3")
         .option("-l, --list", "list all supported OJ and it's abbreviation")
         .option("-s, --silent", "do not print log")
         .addOption(new commander.Option("-o, --oj <ojs...>", "OJs to display").choices(Object.keys(alloj)))
