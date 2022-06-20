@@ -28,11 +28,11 @@ function mergeDuplicate(data: Contest[]): Contest[]
     {
         if(testRe.test(item.name))
         {
-            const group = item.name.match(testRe)?.groups;
-            if(group !== undefined)
+            const reRet = item.name.match(testRe);
+            if(reRet !== null)
             {
-                const round = parseInt(group[1]);
-                const div = parseInt(group[2]);
+                const round = parseInt(reRet[1]);
+                const div = parseInt(reRet[2]);
 
                 const i = tmpMap.get(round);
                 if(i !== undefined)
@@ -43,6 +43,10 @@ function mergeDuplicate(data: Contest[]): Contest[]
                 {
                     tmpMap.set(round, [[div, item]]);
                 }
+            }
+            else
+            {
+                throw new Error("MergeDuplicate: regex failed");
             }
         }
         else
