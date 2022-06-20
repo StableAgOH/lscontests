@@ -1,5 +1,18 @@
 # CHANGELOG
 
+# [2.5.0](https://github.com/StableAgOH/lscontests/compare/v2.4.0...v2.5.0) (2022-06-20)
+
+
+### Bug Fixes
+
+* fix codeforces merge ([5f3eaa2](https://github.com/StableAgOH/lscontests/commit/5f3eaa20c57404854039a7de671ffed0a528f756))
+* fix help text ([f479f0e](https://github.com/StableAgOH/lscontests/commit/f479f0eeec367b45899f5c4ad4ab738805c4eb19))
+
+
+### Features
+
+* remove duplicate contest for codeforces ([9b3b24a](https://github.com/StableAgOH/lscontests/commit/9b3b24a73af51d439ef38f267338635d0066fcda))
+
 # [2.4.0](https://github.com/StableAgOH/lscontests/compare/v2.3.1...v2.4.0) (2022-06-13)
 
 

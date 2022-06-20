@@ -38,7 +38,7 @@ Usage: lsct [options]
 
 Options:
   -V, --version          output the version number
-  -d, --days, <day>      number of days to display, set to 0 to get all
+  -d, --days, <day>      number of days to display, set to -1 to get all
                          contests infomation (default: "3")
   -l, --list             list all supported OJ and it's abbreviation
   -s, --silent           do not print log
@@ -56,7 +56,7 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Mon, 13 Jun 2022 05:06:43 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Mon, 20 Jun 2022 13:41:48 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
@@ -71,14 +71,7 @@ Options:
 结束时间: 6/30/2022, 08:00:00
 https://ac.nowcoder.com/acm/contest/36088
 
-接下来的 3 天内在 Codeforces 上有 1 场比赛
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #799 (Div. 4)
-赛制: ICPC
-开始时间: 6/14/2022, 14:35:00
-结束时间: 6/14/2022, 16:50:00
-https://codeforces.com/contests/1692
+接下来的 3 天内在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上没有比赛捏
 ```
 
 </details>
@@ -89,49 +82,28 @@ https://codeforces.com/contests/1692
 ```text
 在 AtCoder,Codeforces 上没有正在进行的比赛捏
 
-接下来的 7 天内在 Codeforces,AtCoder 上有 6 场比赛
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #799 (Div. 4)
-赛制: ICPC
-开始时间: 6/14/2022, 14:35:00
-结束时间: 6/14/2022, 16:50:00
-https://codeforces.com/contests/1692
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #800 (Div. 1)
-赛制: Codeforces
-开始时间: 6/16/2022, 14:35:00
-结束时间: 6/16/2022, 16:35:00
-https://codeforces.com/contests/1693
-
-比赛平台: Codeforces
-比赛名称: Codeforces Round #800 (Div. 2)
-赛制: Codeforces
-开始时间: 6/16/2022, 14:35:00
-结束时间: 6/16/2022, 16:35:00
-https://codeforces.com/contests/1694
+接下来的 7 天内在 AtCoder,Codeforces 上有 3 场比赛
 
 比赛平台: AtCoder
-比赛名称: Ⓐ Tokio Marine & Nichido Fire Insurance Programming Contest 2022（AtCoder Beginner Contest 256)
+比赛名称: Ⓐ NS Solutions Corporation Programming Contest 2022（AtCoder Beginner Contest 257）
 赛制: AtCoder
-开始时间: 6/18/2022, 12:00:00
-结束时间: 6/18/2022, 13:40:00
-https://atcoder.jp/contests/abc256
+开始时间: 6/25/2022, 12:00:00
+结束时间: 6/25/2022, 13:40:00
+https://atcoder.jp/contests/abc257
 
 比赛平台: Codeforces
-比赛名称: Codeforces Round #TBA (Div. 2)
+比赛名称: Codeforces Global Round 21
 赛制: Codeforces
-开始时间: 6/18/2022, 14:35:00
-结束时间: 6/18/2022, 16:35:00
-https://codeforces.com/contests/1695
+开始时间: 6/25/2022, 14:35:00
+结束时间: 6/25/2022, 16:35:00
+https://codeforces.com/contests/1696
 
 比赛平台: AtCoder
-比赛名称: Ⓐ AtCoder Regular Contest 142
+比赛名称: Ⓐ AtCoder Regular Contest 143
 赛制: AtCoder
-开始时间: 6/19/2022, 12:00:00
-结束时间: 6/19/2022, 14:00:00
-https://atcoder.jp/contests/arc142
+开始时间: 6/26/2022, 12:00:00
+结束时间: 6/26/2022, 14:00:00
+https://atcoder.jp/contests/arc143
 ```
 
 </details>
@@ -143,22 +115,6 @@ https://atcoder.jp/contests/arc142
 {
   "running": [],
   "upcoming": [
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ Tokio Marine & Nichido Fire Insurance Programming Contest 2022（AtCoder Beginner Contest 256)",
-      "rule": "AtCoder",
-      "startTime": "2022-06-18T12:00:00.000Z",
-      "endTime": "2022-06-18T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc256"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Regular Contest 142",
-      "rule": "AtCoder",
-      "startTime": "2022-06-19T12:00:00.000Z",
-      "endTime": "2022-06-19T14:00:00.000Z",
-      "url": "https://atcoder.jp/contests/arc142"
-    },
     {
       "ojName": "AtCoder",
       "name": "Ⓐ NS Solutions Corporation Programming Contest 2022（AtCoder Beginner Contest 257）",
@@ -192,36 +148,20 @@ https://atcoder.jp/contests/arc142
       "url": "https://atcoder.jp/contests/ahc012"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #799 (Div. 4)",
-      "rule": "ICPC",
-      "startTime": "2022-06-14T14:35:00.000Z",
-      "endTime": "2022-06-14T16:50:00.000Z",
-      "url": "https://codeforces.com/contests/1692"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Beginner Contest 259",
+      "rule": "AtCoder",
+      "startTime": "2022-07-09T12:00:00.000Z",
+      "endTime": "2022-07-09T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc259"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #800 (Div. 1)",
-      "rule": "Codeforces",
-      "startTime": "2022-06-16T14:35:00.000Z",
-      "endTime": "2022-06-16T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1693"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #800 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-06-16T14:35:00.000Z",
-      "endTime": "2022-06-16T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1694"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #TBA (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-06-18T14:35:00.000Z",
-      "endTime": "2022-06-18T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1695"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Beginner Contest 260",
+      "rule": "AtCoder",
+      "startTime": "2022-07-16T12:00:00.000Z",
+      "endTime": "2022-07-16T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc260"
     },
     {
       "ojName": "Codeforces",
@@ -230,6 +170,22 @@ https://atcoder.jp/contests/arc142
       "startTime": "2022-06-25T14:35:00.000Z",
       "endTime": "2022-06-25T16:35:00.000Z",
       "url": "https://codeforces.com/contests/1696"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #803 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-06-28T14:35:00.000Z",
+      "endTime": "2022-06-28T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1698"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round #804 (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-07-04T14:35:00.000Z",
+      "endTime": "2022-07-04T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1699"
     }
   ]
 }
