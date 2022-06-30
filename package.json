@@ -35,6 +35,7 @@
     "start-s": "tsx src/server.ts"
   },
   "dependencies": {
+    "await-lock": "^2.2.2",
     "axios": "^0.27.2",
     "axios-retry": "^3.2.5",
     "cheerio": "^1.0.0-rc.11",

@@ -10,6 +10,7 @@ import { Command } from "commander";
 import { bin, version } from "../package.json";
 import _ from "lodash";
 import { readFileSync } from "fs";
+import AwaitLock from "await-lock";
 
 const app = express();
 
@@ -84,6 +85,8 @@ const contestsCache: {
     lastUpdate: 0
 };
 
+const lock = new AwaitLock();
+
 function icsPostProcess(value: string)
 {
     return value
@@ -104,17 +107,30 @@ function icsPostProcess(value: string)
         );
 }
 
+async function checkCache()
+{
+    await lock.acquireAsync();
+    try
+    {
+        if(contestsCache.lastUpdate < Date.now() - 1000 * 60 * 5)
+        {
+            const c = await new Lscontests({ days: -1 }).getContests();
+            contestsCache.contests = _.uniqBy(contestsCache.contests.concat(c.running.concat(c.upcoming)), JSON.stringify);
+            contestsCache.contests = contestsCache.contests.filter(
+                c => c.endTime.getTime() - c.startTime.getTime() < 1000 * 60 * 60 * 24 * 2
+            ); // ignore too long contests
+            contestsCache.lastUpdate = Date.now();
+        }
+    }
+    finally
+    {
+        lock.release();
+    }
+}
+
 async function getIcs(lang: string, ojs: string[])
 {
-    if(contestsCache.lastUpdate < Date.now() - 1000 * 60 * 5)
-    {
-        const c = await new Lscontests({ days: -1 }).getContests();
-        contestsCache.contests = _.uniqBy(contestsCache.contests.concat(c.running.concat(c.upcoming)), JSON.stringify);
-        contestsCache.contests = contestsCache.contests.filter(
-            c => c.endTime.getTime() - c.startTime.getTime() < 1000 * 60 * 60 * 24 * 2
-        ); // ignore too long contests
-        contestsCache.lastUpdate = Date.now();
-    }
+    await checkCache();
 
     const contests = contestsCache.contests.filter(c => ojs.some(oj => c.ojName === alloj[oj].name));
     const langDict = await getLangDict(lang);
