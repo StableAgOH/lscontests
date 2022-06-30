@@ -56,22 +56,43 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Mon, 20 Jun 2022 13:41:48 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Thu, 30 Jun 2022 08:32:55 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>
 
 ```text
-在 NowCoder 上有 1 场正在进行的比赛
+在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上没有正在进行的比赛捏
+
+接下来的 3 天内在 NowCoder,AtCoder,LeetCode 上有 4 场比赛
 
 比赛平台: NowCoder
-比赛名称：牛客竞赛计算几何专题班扫描线
+比赛名称：第 20 届上海大学程序设计联赛夏季赛（校外同步赛）
 赛制: ICPC
-开始时间: 6/6/2022, 07:00:00
-结束时间: 6/30/2022, 08:00:00
-https://ac.nowcoder.com/acm/contest/36088
+开始时间: 7/2/2022, 05:00:00
+结束时间: 7/2/2022, 08:30:00
+https://ac.nowcoder.com/acm/contest/36652
 
-接下来的 3 天内在 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上没有比赛捏
+比赛平台: AtCoder
+比赛名称: Ⓐ AtCoder Beginner Contest 258
+赛制: AtCoder
+开始时间: 7/2/2022, 12:00:00
+结束时间: 7/2/2022, 13:40:00
+https://atcoder.jp/contests/abc258
+
+比赛平台: LeetCode
+比赛名称: Weekly Contest 300
+赛制: AtCoder
+开始时间: 7/3/2022, 02:30:00
+结束时间: 7/3/2022, 04:00:00
+https://leetcode.com/contest/weekly-contest-300
+
+比赛平台: AtCoder
+比赛名称: Ⓗ AtCoder Heuristic Contest 012
+赛制: AtCoder
+开始时间: 7/3/2022, 06:00:00
+结束时间: 7/3/2022, 10:00:00
+https://atcoder.jp/contests/ahc012
 ```
 
 </details>
@@ -85,25 +106,25 @@ https://ac.nowcoder.com/acm/contest/36088
 接下来的 7 天内在 AtCoder,Codeforces 上有 3 场比赛
 
 比赛平台: AtCoder
-比赛名称: Ⓐ NS Solutions Corporation Programming Contest 2022（AtCoder Beginner Contest 257）
+比赛名称: Ⓐ AtCoder Beginner Contest 258
 赛制: AtCoder
-开始时间: 6/25/2022, 12:00:00
-结束时间: 6/25/2022, 13:40:00
-https://atcoder.jp/contests/abc257
-
-比赛平台: Codeforces
-比赛名称: Codeforces Global Round 21
-赛制: Codeforces
-开始时间: 6/25/2022, 14:35:00
-结束时间: 6/25/2022, 16:35:00
-https://codeforces.com/contests/1696
+开始时间: 7/2/2022, 12:00:00
+结束时间: 7/2/2022, 13:40:00
+https://atcoder.jp/contests/abc258
 
 比赛平台: AtCoder
-比赛名称: Ⓐ AtCoder Regular Contest 143
+比赛名称: Ⓗ AtCoder Heuristic Contest 012
 赛制: AtCoder
-开始时间: 6/26/2022, 12:00:00
-结束时间: 6/26/2022, 14:00:00
-https://atcoder.jp/contests/arc143
+开始时间: 7/3/2022, 06:00:00
+结束时间: 7/3/2022, 10:00:00
+https://atcoder.jp/contests/ahc012
+
+比赛平台: Codeforces
+比赛名称: Codeforces Round #804 (Div. 2)
+赛制: Codeforces
+开始时间: 7/4/2022, 14:35:00
+结束时间: 7/4/2022, 16:35:00
+https://codeforces.com/contests/1699
 ```
 
 </details>
@@ -115,22 +136,6 @@ https://atcoder.jp/contests/arc143
 {
   "running": [],
   "upcoming": [
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ NS Solutions Corporation Programming Contest 2022（AtCoder Beginner Contest 257）",
-      "rule": "AtCoder",
-      "startTime": "2022-06-25T12:00:00.000Z",
-      "endTime": "2022-06-25T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc257"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Regular Contest 143",
-      "rule": "AtCoder",
-      "startTime": "2022-06-26T12:00:00.000Z",
-      "endTime": "2022-06-26T14:00:00.000Z",
-      "url": "https://atcoder.jp/contests/arc143"
-    },
     {
       "ojName": "AtCoder",
       "name": "Ⓐ AtCoder Beginner Contest 258",
@@ -157,27 +162,35 @@ https://atcoder.jp/contests/arc143
     },
     {
       "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Beginner Contest 260",
+      "name": "Ⓐ AtCoder Regular Contest 144",
       "rule": "AtCoder",
       "startTime": "2022-07-16T12:00:00.000Z",
-      "endTime": "2022-07-16T13:40:00.000Z",
+      "endTime": "2022-07-16T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc144"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Beginner Contest 260",
+      "rule": "AtCoder",
+      "startTime": "2022-07-17T12:00:00.000Z",
+      "endTime": "2022-07-17T13:40:00.000Z",
       "url": "https://atcoder.jp/contests/abc260"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Global Round 21",
-      "rule": "Codeforces",
-      "startTime": "2022-06-25T14:35:00.000Z",
-      "endTime": "2022-06-25T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1696"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Regular Contest 145",
+      "rule": "AtCoder",
+      "startTime": "2022-07-30T12:00:00.000Z",
+      "endTime": "2022-07-30T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc145"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round #803 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-06-28T14:35:00.000Z",
-      "endTime": "2022-06-28T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1698"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Grand Contest 058",
+      "rule": "AtCoder",
+      "startTime": "2022-08-14T12:00:00.000Z",
+      "endTime": "2022-08-14T15:00:00.000Z",
+      "url": "https://atcoder.jp/contests/agc058"
     },
     {
       "ojName": "Codeforces",

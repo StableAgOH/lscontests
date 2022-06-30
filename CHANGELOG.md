@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.5.1](https://github.com/StableAgOH/lscontests/compare/v2.5.0...v2.5.1) (2022-06-30)
+
+
+### Bug Fixes
+
+* fix ics timezone ([1e93bf9](https://github.com/StableAgOH/lscontests/commit/1e93bf943fe24f150e1e5cb2df387c079b447d74))
+
 # [2.5.0](https://github.com/StableAgOH/lscontests/compare/v2.4.0...v2.5.0) (2022-06-20)
 
 
