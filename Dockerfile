@@ -8,6 +8,7 @@ FROM alpine
 WORKDIR /app
 EXPOSE 8080
 ENV NODE_ENV production
+ENV TZ Asia/Shanghai
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/LICENSE /app/package.json /app/yarn.lock ./
 RUN apk add --no-cache nodejs yarn && \

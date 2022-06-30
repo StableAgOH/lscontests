@@ -131,6 +131,7 @@ async function getIcs(lang: string, ojs: string[])
             start: convertTimestampToArray(c.startTime.getTime(), "local"),
             startOutputType: "local",
             end: convertTimestampToArray(c.endTime.getTime(), "local"),
+            endOutputType: "local",
             calName: "算法竞赛",
             productId: "-//StableAgOH//LSCT//CN",
             title: c.name,
