@@ -56,7 +56,7 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Thu, 30 Jun 2022 08:32:59 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Thu, 30 Jun 2022 09:00:39 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>

@@ -56,7 +56,7 @@ Options:
 来欣赏一下它的表演：
 
 <!-- block_cli begin -->
-（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Thu, 30 Jun 2022 08:32:55 GMT 自动生成的*）
+（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 Thu, 30 Jun 2022 09:00:35 GMT 自动生成的*）
 
 <details>
 <summary> <code>> lsct </code> </summary>

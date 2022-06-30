@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.5.2](https://github.com/StableAgOH/lscontests/compare/v2.5.1...v2.5.2) (2022-06-30)
+
+
+### Performance Improvements
+
+* prevent duplicate cache refresh ([6cfee2f](https://github.com/StableAgOH/lscontests/commit/6cfee2f7b32e4f421ed36475957a1f5a37c32269))
+
 ## [2.5.1](https://github.com/StableAgOH/lscontests/compare/v2.5.0...v2.5.1) (2022-06-30)
 
 
