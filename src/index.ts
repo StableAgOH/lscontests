@@ -17,7 +17,7 @@ export interface LscontestsConfig
 
 export default class Lscontests
 {
-    private config = {
+    private readonly config = {
         abbrList: Object.keys(alloj),
         days: 3,
         sort: true,
@@ -47,12 +47,14 @@ export default class Lscontests
             this.config.abbrList.map(
                 async abbr =>
                 {
+                    const startTime = new Date();
                     try
                     {
                         const oj = alloj[abbr];
                         this.logger.info(`Start getting contests information about ${oj.name}`);
                         const res = (await oj.get()).sort((a, b) => a.startTime.getTime() - b.startTime.getTime());
-                        this.logger.info(`Successfully get contests information about ${oj.name}`);
+                        const duration = (new Date().getTime() - startTime.getTime()) / 1000;
+                        this.logger.info(`Successfully get contests information about ${oj.name} in ${duration} seconds`);
                         return res;
                     }
                     catch(e)
