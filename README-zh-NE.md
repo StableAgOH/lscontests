@@ -56,7 +56,7 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Thu, 30 Jun 2022 09:00:39 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Fri, 22 Jul 2022 05:49:41 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>
@@ -64,35 +64,78 @@ Options:
 ```text
 这前搁 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上属实是没比赛打
 
-之后 3 天搁 NowCoder,AtCoder,LeetCode 上拢共 4 场比赛
+之后 3 天搁 Luogu,NowCoder,AtCoder,LeetCode,Codeforces 上拢共 10 场比赛
+
+搁哪: Luogu
+叫啥: FAOI-R1 & CSP 赛前信心赛
+咋个整法: LeDuo
+啥前开始: 7/22/2022, 09:00:00
+多前完事: 7/22/2022, 13:00:00
+https://www.luogu.com.cn/contest/73362
 
 搁哪: NowCoder
-叫啥：第 20 届上海大学程序设计联赛夏季赛（校外同步赛）
+叫啥: "蔚来杯"2022 牛客暑期多校训练营 2
 咋个整法: ICPC
-啥前开始: 7/2/2022, 05:00:00
-多前完事: 7/2/2022, 08:30:00
-https://ac.nowcoder.com/acm/contest/36652
+啥前开始: 7/23/2022, 04:00:00
+多前完事: 7/23/2022, 09:00:00
+https://ac.nowcoder.com/acm/contest/33187
+
+搁哪: Luogu
+叫啥: 「KDOI」Round 1
+咋个整法: IOI
+啥前开始: 7/23/2022, 06:00:00
+多前完事: 7/23/2022, 10:00:00
+https://www.luogu.com.cn/contest/71146
 
 搁哪: AtCoder
-叫啥: Ⓐ AtCoder Beginner Contest 258
+叫啥: Ⓐ AtCoder Beginner Contest 261
 咋个整法: AtCoder
-啥前开始: 7/2/2022, 12:00:00
-多前完事: 7/2/2022, 13:40:00
-https://atcoder.jp/contests/abc258
+啥前开始: 7/23/2022, 12:00:00
+多前完事: 7/23/2022, 13:40:00
+https://atcoder.jp/contests/abc261
 
 搁哪: LeetCode
-叫啥: Weekly Contest 300
+叫啥: Biweekly Contest 83
 咋个整法: AtCoder
-啥前开始: 7/3/2022, 02:30:00
-多前完事: 7/3/2022, 04:00:00
-https://leetcode.com/contest/weekly-contest-300
+啥前开始: 7/23/2022, 14:30:00
+多前完事: 7/23/2022, 16:00:00
+https://leetcode.com/contest/biweekly-contest-83
 
-搁哪: AtCoder
-叫啥: Ⓗ AtCoder Heuristic Contest 012
+搁哪: LeetCode
+叫啥: Weekly Contest 303
 咋个整法: AtCoder
-啥前开始: 7/3/2022, 06:00:00
-多前完事: 7/3/2022, 10:00:00
-https://atcoder.jp/contests/ahc012
+啥前开始: 7/24/2022, 02:30:00
+多前完事: 7/24/2022, 04:00:00
+https://leetcode.com/contest/weekly-contest-303
+
+搁哪: NowCoder
+叫啥: 2022 河南萌新联赛第（三）场：河南大学
+咋个整法: ICPC
+啥前开始: 7/24/2022, 05:00:00
+多前完事: 7/24/2022, 09:00:00
+https://ac.nowcoder.com/acm/contest/37782
+
+搁哪: Luogu
+叫啥: 【LGR-113】洛谷 7 月普及组月赛 & JROI R6
+咋个整法: OI
+啥前开始: 7/24/2022, 06:00:00
+多前完事: 7/24/2022, 09:30:00
+https://www.luogu.com.cn/contest/65483
+
+搁哪: Codeforces
+叫啥: Codeforces Round #810 (Div. 1/2)
+咋个整法: Codeforces
+啥前开始: 7/24/2022, 14:35:00
+多前完事: 7/24/2022, 17:05:00
+https://codeforces.com/contests/1710
+https://codeforces.com/contests/1711
+
+搁哪: NowCoder
+叫啥: "蔚来杯"2022 牛客暑期多校训练营 3
+咋个整法: ICPC
+啥前开始: 7/25/2022, 04:00:00
+多前完事: 7/25/2022, 09:00:00
+https://ac.nowcoder.com/acm/contest/33188
 ```
 
 </details>
@@ -103,28 +146,22 @@ https://atcoder.jp/contests/ahc012
 ```text
 这前搁 AtCoder,Codeforces 上属实是没比赛打
 
-之后 7 天搁 AtCoder,Codeforces 上拢共 3 场比赛
+之后 7 天搁 AtCoder,Codeforces 上拢共 2 场比赛
 
 搁哪: AtCoder
-叫啥: Ⓐ AtCoder Beginner Contest 258
+叫啥: Ⓐ AtCoder Beginner Contest 261
 咋个整法: AtCoder
-啥前开始: 7/2/2022, 12:00:00
-多前完事: 7/2/2022, 13:40:00
-https://atcoder.jp/contests/abc258
-
-搁哪: AtCoder
-叫啥: Ⓗ AtCoder Heuristic Contest 012
-咋个整法: AtCoder
-啥前开始: 7/3/2022, 06:00:00
-多前完事: 7/3/2022, 10:00:00
-https://atcoder.jp/contests/ahc012
+啥前开始: 7/23/2022, 12:00:00
+多前完事: 7/23/2022, 13:40:00
+https://atcoder.jp/contests/abc261
 
 搁哪: Codeforces
-叫啥: Codeforces Round #804 (Div. 2)
+叫啥: Codeforces Round #810 (Div. 1/2)
 咋个整法: Codeforces
-啥前开始: 7/4/2022, 14:35:00
-多前完事: 7/4/2022, 16:35:00
-https://codeforces.com/contests/1699
+啥前开始: 7/24/2022, 14:35:00
+多前完事: 7/24/2022, 17:05:00
+https://codeforces.com/contests/1710
+https://codeforces.com/contests/1711
 ```
 
 </details>
@@ -138,43 +175,11 @@ https://codeforces.com/contests/1699
   "upcoming": [
     {
       "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Beginner Contest 258",
+      "name": "Ⓐ AtCoder Beginner Contest 261",
       "rule": "AtCoder",
-      "startTime": "2022-07-02T12:00:00.000Z",
-      "endTime": "2022-07-02T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc258"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓗ AtCoder Heuristic Contest 012",
-      "rule": "AtCoder",
-      "startTime": "2022-07-03T06:00:00.000Z",
-      "endTime": "2022-07-03T10:00:00.000Z",
-      "url": "https://atcoder.jp/contests/ahc012"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Beginner Contest 259",
-      "rule": "AtCoder",
-      "startTime": "2022-07-09T12:00:00.000Z",
-      "endTime": "2022-07-09T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc259"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Regular Contest 144",
-      "rule": "AtCoder",
-      "startTime": "2022-07-16T12:00:00.000Z",
-      "endTime": "2022-07-16T14:00:00.000Z",
-      "url": "https://atcoder.jp/contests/arc144"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Beginner Contest 260",
-      "rule": "AtCoder",
-      "startTime": "2022-07-17T12:00:00.000Z",
-      "endTime": "2022-07-17T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc260"
+      "startTime": "2022-07-23T12:00:00.000Z",
+      "endTime": "2022-07-23T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc261"
     },
     {
       "ojName": "AtCoder",
@@ -186,6 +191,38 @@ https://codeforces.com/contests/1699
     },
     {
       "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Beginner Contest 262",
+      "rule": "AtCoder",
+      "startTime": "2022-07-31T12:00:00.000Z",
+      "endTime": "2022-07-31T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc262"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ LINE  Verda Programming Contest（AtCoder Beginner Contest 263）",
+      "rule": "AtCoder",
+      "startTime": "2022-08-06T12:00:00.000Z",
+      "endTime": "2022-08-06T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc263"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓗ RECRUIT Nihonbashi Half Marathon 2022 Summer（AHC013）",
+      "rule": "AtCoder",
+      "startTime": "2022-08-09T12:00:00.000Z",
+      "endTime": "2022-08-16T12:00:00.000Z",
+      "url": "https://atcoder.jp/contests/ahc013"
+    },
+    {
+      "ojName": "AtCoder",
+      "name": "Ⓐ freee Programming Contest 2022（AtCoder Beginner Contest 264）",
+      "rule": "AtCoder",
+      "startTime": "2022-08-13T12:00:00.000Z",
+      "endTime": "2022-08-13T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc264"
+    },
+    {
+      "ojName": "AtCoder",
       "name": "Ⓐ AtCoder Grand Contest 058",
       "rule": "AtCoder",
       "startTime": "2022-08-14T12:00:00.000Z",
@@ -193,12 +230,36 @@ https://codeforces.com/contests/1699
       "url": "https://atcoder.jp/contests/agc058"
     },
     {
+      "name": "Codeforces Round #810 (Div. 1/2)",
       "ojName": "Codeforces",
-      "name": "Codeforces Round #804 (Div. 2)",
       "rule": "Codeforces",
-      "startTime": "2022-07-04T14:35:00.000Z",
-      "endTime": "2022-07-04T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1699"
+      "startTime": "2022-07-24T14:35:00.000Z",
+      "endTime": "2022-07-24T17:05:00.000Z",
+      "url": "https://codeforces.com/contests/1710\nhttps://codeforces.com/contests/1711"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)",
+      "rule": "Codeforces",
+      "startTime": "2022-07-31T14:05:00.000Z",
+      "endTime": "2022-07-31T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1704"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-08-06T14:35:00.000Z",
+      "endTime": "2022-08-06T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1713"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-08-13T14:35:00.000Z",
+      "endTime": "2022-08-13T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1712"
     }
   ]
 }

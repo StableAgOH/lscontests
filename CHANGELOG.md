@@ -1,5 +1,12 @@
 # CHANGELOG
 
+# [2.6.0](https://github.com/StableAgOH/lscontests/compare/v2.5.2...v2.6.0) (2022-07-22)
+
+
+### Features
+
+* add spider time log ([57358bd](https://github.com/StableAgOH/lscontests/commit/57358bd3a4ce1a24cce005b72a00634fc1a58310))
+
 ## [2.5.2](https://github.com/StableAgOH/lscontests/compare/v2.5.1...v2.5.2) (2022-06-30)
 
 
