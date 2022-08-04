@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.6.1](https://github.com/StableAgOH/lscontests/compare/v2.6.0...v2.6.1) (2022-08-04)
+
+
+### Bug Fixes
+
+* prevent same contest appear multi times ([26d568c](https://github.com/StableAgOH/lscontests/commit/26d568c40071b827255ce0f9c2c65f0fc62cc3ef))
+
 # [2.6.0](https://github.com/StableAgOH/lscontests/compare/v2.5.2...v2.6.0) (2022-07-22)
 
 
