@@ -8,7 +8,6 @@ import pangu from "pangu";
 import { randomUUID } from "crypto";
 import { Command } from "commander";
 import { bin, version } from "../package.json";
-import _ from "lodash";
 import { readFileSync } from "fs";
 import AwaitLock from "await-lock";
 
@@ -115,7 +114,7 @@ async function checkCache()
         if(contestsCache.lastUpdate < Date.now() - 1000 * 60 * 5)
         {
             const c = await new Lscontests({ days: -1 }).getContests();
-            contestsCache.contests = _.uniqBy(contestsCache.contests.concat(c.running.concat(c.upcoming)), JSON.stringify);
+            contestsCache.contests = c.running.concat(...c.upcoming);
             contestsCache.contests = contestsCache.contests.filter(
                 c => c.endTime.getTime() - c.startTime.getTime() < 1000 * 60 * 60 * 24 * 2
             ); // ignore too long contests
