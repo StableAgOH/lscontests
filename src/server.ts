@@ -63,7 +63,7 @@ app.get("/ics", async (req, res) =>
         else oArg = [oArg];
     }
     else if(!oArg) oArg = Object.keys(alloj);
-    
+
     const data = await getIcs(lArg as unknown as string, oArg as unknown as string[]);
     res.setHeader("Content-Type", "text/calendar");
     res.send(data);
@@ -152,7 +152,8 @@ async function getIcs(lang: string, ojs: string[])
     });
     const { value, error } = createEvents(events);
     if(error) throw error;
-    return icsPostProcess(value!);
+    if(!value) throw new Error("No valid ics string.");
+    return icsPostProcess(value);
 }
 
 const command = new Command()
