@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [2.6.2](https://github.com/StableAgOH/lscontests/compare/v2.6.1...v2.6.2) (2022-10-16)
+
+
+### Bug Fixes
+
+* remove type assert function ([09d161f](https://github.com/StableAgOH/lscontests/commit/09d161f443e96daebd31b13eb25eecce550966b5))
+* unescape html entity ([69efdae](https://github.com/StableAgOH/lscontests/commit/69efdaed10b9815e31db817e112f76f178646393))
+
 ## [2.6.1](https://github.com/StableAgOH/lscontests/compare/v2.6.0...v2.6.1) (2022-08-04)
 
 

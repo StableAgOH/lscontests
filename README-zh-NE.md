@@ -56,7 +56,7 @@ Options:
 多少整几个活：
 
 <!-- block_cli begin -->
-（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Thu, 04 Aug 2022 07:30:19 GMT 自个生成的*）
+（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 Sun, 16 Oct 2022 05:22:42 GMT 自个生成的*）
 
 <details>
 <summary> <code>> lsct -L zh-NE</code> </summary>
@@ -64,84 +64,28 @@ Options:
 ```text
 这前搁 AtCoder,Codeforces,LeetCode,Luogu,NowCoder 上属实是没比赛打
 
-之后 3 天搁 NowCoder,Codeforces,Luogu,AtCoder,LeetCode 上拢共 11 场比赛
-
-搁哪: NowCoder
-叫啥：牛客 2022 年七夕节比赛
-咋个整法: ICPC
-啥前开始: 8/4/2022, 11:00:00
-多前完事: 8/4/2022, 14:00:00
-https://ac.nowcoder.com/acm/contest/38105
-
-搁哪: Codeforces
-叫啥: Educational Codeforces Round 133 (Rated for Div. 2)
-咋个整法: ICPC
-啥前开始: 8/4/2022, 14:35:00
-多前完事: 8/4/2022, 16:35:00
-https://codeforces.com/contests/1716
-
-搁哪: NowCoder
-叫啥：长沙学院 2022 暑假训练赛（一）
-咋个整法: ICPC
-啥前开始: 8/5/2022, 01:00:00
-多前完事: 8/5/2022, 05:30:00
-https://ac.nowcoder.com/acm/contest/38762
-
-搁哪: NowCoder
-叫啥: "蔚来杯"2022 牛客暑期多校训练营 6
-咋个整法: ICPC
-啥前开始: 8/6/2022, 04:00:00
-多前完事: 8/6/2022, 09:00:00
-https://ac.nowcoder.com/acm/contest/33191
-
-搁哪: Luogu
-叫啥: 【LGR-115】洛谷 8 月月赛 I & 终末祭 REOI Round 1
-咋个整法: IOI
-啥前开始: 8/6/2022, 06:00:00
-多前完事: 8/6/2022, 10:00:00
-https://www.luogu.com.cn/contest/76483
+之后 3 天搁 AtCoder,Codeforces 上拢共 3 场比赛
 
 搁哪: AtCoder
-叫啥: Ⓐ LINE  Verda Programming Contest（AtCoder Beginner Contest 263）
+叫啥: Ⓐ AtCoder Regular Contest 151
 咋个整法: AtCoder
-啥前开始: 8/6/2022, 12:00:00
-多前完事: 8/6/2022, 13:40:00
-https://atcoder.jp/contests/abc263
-
-搁哪: LeetCode
-叫啥: Biweekly Contest 84
-咋个整法: AtCoder
-啥前开始: 8/6/2022, 14:30:00
-多前完事: 8/6/2022, 16:00:00
-https://leetcode.com/contest/biweekly-contest-84
+啥前开始: 10/16/2022, 12:00:00
+多前完事: 10/16/2022, 14:00:00
+https://atcoder.jp/contests/arc151
 
 搁哪: Codeforces
-叫啥: Codeforces Round #812 (Div. 2)
-咋个整法: Codeforces
-啥前开始: 8/6/2022, 14:35:00
-多前完事: 8/6/2022, 16:35:00
-https://codeforces.com/contests/1713
-
-搁哪: LeetCode
-叫啥: Weekly Contest 305
-咋个整法: AtCoder
-啥前开始: 8/7/2022, 02:30:00
-多前完事: 8/7/2022, 04:00:00
-https://leetcode.com/contest/weekly-contest-305
-
-搁哪: NowCoder
-叫啥: &ldquo; 科林明伦杯 & rdquo; 哈尔滨理工大学暑假训练赛
+叫啥: Codeforces Round  #828 (Div. 3)
 咋个整法: ICPC
-啥前开始: 8/7/2022, 05:00:00
-多前完事: 8/7/2022, 09:00:00
-https://ac.nowcoder.com/acm/contest/37895
+啥前开始: 10/16/2022, 14:35:00
+多前完事: 10/16/2022, 16:50:00
+https://codeforces.com/contests/1744
 
-搁哪: Luogu
-叫啥: 【LGR-116】洛谷 8 月入门赛 & AyaOI Round 1
+搁哪: Codeforces
+叫啥: Educational Codeforces Round 137 (Rated for Div. 2)
 咋个整法: ICPC
-啥前开始: 8/7/2022, 06:00:00
-多前完事: 8/7/2022, 09:00:00
-https://www.luogu.com.cn/contest/76791
+啥前开始: 10/17/2022, 14:35:00
+多前完事: 10/17/2022, 16:35:00
+https://codeforces.com/contests/1743
 ```
 
 </details>
@@ -152,35 +96,42 @@ https://www.luogu.com.cn/contest/76791
 ```text
 这前搁 AtCoder,Codeforces 上属实是没比赛打
 
-之后 7 天搁 Codeforces,AtCoder 上拢共 4 场比赛
+之后 7 天搁 AtCoder,Codeforces 上拢共 5 场比赛
+
+搁哪: AtCoder
+叫啥: Ⓐ AtCoder Regular Contest 151
+咋个整法: AtCoder
+啥前开始: 10/16/2022, 12:00:00
+多前完事: 10/16/2022, 14:00:00
+https://atcoder.jp/contests/arc151
 
 搁哪: Codeforces
-叫啥: Educational Codeforces Round 133 (Rated for Div. 2)
+叫啥: Codeforces Round  #828 (Div. 3)
 咋个整法: ICPC
-啥前开始: 8/4/2022, 14:35:00
-多前完事: 8/4/2022, 16:35:00
-https://codeforces.com/contests/1716
-
-搁哪: AtCoder
-叫啥: Ⓐ LINE  Verda Programming Contest（AtCoder Beginner Contest 263）
-咋个整法: AtCoder
-啥前开始: 8/6/2022, 12:00:00
-多前完事: 8/6/2022, 13:40:00
-https://atcoder.jp/contests/abc263
+啥前开始: 10/16/2022, 14:35:00
+多前完事: 10/16/2022, 16:50:00
+https://codeforces.com/contests/1744
 
 搁哪: Codeforces
-叫啥: Codeforces Round #812 (Div. 2)
-咋个整法: Codeforces
-啥前开始: 8/6/2022, 14:35:00
-多前完事: 8/6/2022, 16:35:00
-https://codeforces.com/contests/1713
+叫啥: Educational Codeforces Round 137 (Rated for Div. 2)
+咋个整法: ICPC
+啥前开始: 10/17/2022, 14:35:00
+多前完事: 10/17/2022, 16:35:00
+https://codeforces.com/contests/1743
+
+搁哪: Codeforces
+叫啥: Educational Codeforces Round 138 (Rated for Div. 2)
+咋个整法: ICPC
+啥前开始: 10/20/2022, 14:35:00
+多前完事: 10/20/2022, 16:35:00
+https://codeforces.com/contests/1749
 
 搁哪: AtCoder
-叫啥: Ⓗ RECRUIT Nihonbashi Half Marathon 2022 Summer（AHC013）
+叫啥: Ⓐ キーエンスプログラミングコンテスト 2022（AtCoder Beginner Contest 274）
 咋个整法: AtCoder
-啥前开始: 8/9/2022, 12:00:00
-多前完事: 8/16/2022, 12:00:00
-https://atcoder.jp/contests/ahc013
+啥前开始: 10/22/2022, 12:00:00
+多前完事: 10/22/2022, 13:40:00
+https://atcoder.jp/contests/abc274
 ```
 
 </details>
@@ -194,99 +145,99 @@ https://atcoder.jp/contests/ahc013
   "upcoming": [
     {
       "ojName": "AtCoder",
-      "name": "Ⓐ LINE  Verda Programming Contest（AtCoder Beginner Contest 263）",
+      "name": "Ⓐ AtCoder Regular Contest 151",
       "rule": "AtCoder",
-      "startTime": "2022-08-06T12:00:00.000Z",
-      "endTime": "2022-08-06T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc263"
+      "startTime": "2022-10-16T12:00:00.000Z",
+      "endTime": "2022-10-16T14:00:00.000Z",
+      "url": "https://atcoder.jp/contests/arc151"
     },
     {
       "ojName": "AtCoder",
-      "name": "Ⓗ RECRUIT Nihonbashi Half Marathon 2022 Summer（AHC013）",
+      "name": "Ⓐ キーエンスプログラミングコンテスト2022（AtCoder Beginner Contest 274）",
       "rule": "AtCoder",
-      "startTime": "2022-08-09T12:00:00.000Z",
-      "endTime": "2022-08-16T12:00:00.000Z",
-      "url": "https://atcoder.jp/contests/ahc013"
+      "startTime": "2022-10-22T12:00:00.000Z",
+      "endTime": "2022-10-22T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc274"
     },
     {
       "ojName": "AtCoder",
-      "name": "Ⓐ freee Programming Contest 2022（AtCoder Beginner Contest 264）",
+      "name": "Ⓐ AtCoder Beginner Contest 275",
       "rule": "AtCoder",
-      "startTime": "2022-08-13T12:00:00.000Z",
-      "endTime": "2022-08-13T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc264"
+      "startTime": "2022-10-29T12:00:00.000Z",
+      "endTime": "2022-10-29T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc275"
     },
     {
       "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Grand Contest 058",
+      "name": "Ⓗ TOYOTA MOTOR CORPORATION Programming Contest 2022（AtCoder Heuristic Contest 015）",
       "rule": "AtCoder",
-      "startTime": "2022-08-14T12:00:00.000Z",
-      "endTime": "2022-08-14T15:00:00.000Z",
-      "url": "https://atcoder.jp/contests/agc058"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Beginner Contest 265",
-      "rule": "AtCoder",
-      "startTime": "2022-08-20T12:00:00.000Z",
-      "endTime": "2022-08-20T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc265"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Beginner Contest 266",
-      "rule": "AtCoder",
-      "startTime": "2022-08-27T12:00:00.000Z",
-      "endTime": "2022-08-27T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc266"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓗ 9th Asprova Programming Contest",
-      "rule": "AtCoder",
-      "startTime": "2022-08-28T01:00:00.000Z",
-      "endTime": "2022-09-04T11:00:00.000Z",
-      "url": "https://atcoder.jp/contests/asprocon9"
+      "startTime": "2022-10-30T06:00:00.000Z",
+      "endTime": "2022-10-30T10:00:00.000Z",
+      "url": "https://atcoder.jp/contests/ahc015"
     },
     {
       "ojName": "Codeforces",
-      "name": "Educational Codeforces Round 133 (Rated for Div. 2)",
+      "name": "Codeforces Round  #828 (Div. 3)",
       "rule": "ICPC",
-      "startTime": "2022-08-04T14:35:00.000Z",
-      "endTime": "2022-08-04T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1716"
+      "startTime": "2022-10-16T14:35:00.000Z",
+      "endTime": "2022-10-16T16:50:00.000Z",
+      "url": "https://codeforces.com/contests/1744"
     },
     {
       "ojName": "Codeforces",
-      "name": "Codeforces Round #812 (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-08-06T14:35:00.000Z",
-      "endTime": "2022-08-06T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1713"
+      "name": "Educational Codeforces Round 137 (Rated for Div. 2)",
+      "rule": "ICPC",
+      "startTime": "2022-10-17T14:35:00.000Z",
+      "endTime": "2022-10-17T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1743"
     },
     {
       "ojName": "Codeforces",
-      "name": "Codeforces Round (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-08-13T14:35:00.000Z",
-      "endTime": "2022-08-13T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1712"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-08-20T14:35:00.000Z",
-      "endTime": "2022-08-20T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1715"
+      "name": "Educational Codeforces Round 138 (Rated for Div. 2)",
+      "rule": "ICPC",
+      "startTime": "2022-10-20T14:35:00.000Z",
+      "endTime": "2022-10-20T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1749"
     },
     {
       "ojName": "Codeforces",
       "name": "Codeforces Round (Div. 2)",
       "rule": "Codeforces",
-      "startTime": "2022-09-02T14:35:00.000Z",
-      "endTime": "2022-09-02T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1717"
+      "startTime": "2022-10-23T10:05:00.000Z",
+      "endTime": "2022-10-23T12:05:00.000Z",
+      "url": "https://codeforces.com/contests/1732"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round (Div. 1 + Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-10-29T09:05:00.000Z",
+      "endTime": "2022-10-29T11:05:00.000Z",
+      "url": "https://codeforces.com/contests/1740"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-11-04T14:35:00.000Z",
+      "endTime": "2022-11-04T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1747"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round (Div. 1 + Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-11-06T14:35:00.000Z",
+      "endTime": "2022-11-06T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1750"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-12-27T14:35:00.000Z",
+      "endTime": "2022-12-27T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1731"
     }
   ]
 }
