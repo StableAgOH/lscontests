@@ -2999,9 +2999,9 @@ type-is@~1.6.18:
     mime-types "~2.1.24"
 
 typedoc-plugin-extras@^2.2.3:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/typedoc-plugin-extras/-/typedoc-plugin-extras-2.2.5.tgz#db5df8efee373759db75a9c99d06fb3fc4405c36"
-  integrity sha512-5sDFsONfrj2xXhTWDR/IHjwTYey3J3iX6q1rXr+EK0241RaXpVgH1Q2AcoT59j1olkJSKnHtZqBpluFeF/9K9g==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/typedoc-plugin-extras/-/typedoc-plugin-extras-2.3.0.tgz#f2265256d6844d74ea40fe026d0a1b3d0277e9f5"
+  integrity sha512-XjzutqICAkSpl1vhyloYfd35mn0U6WwOQ7BttRkwGhmBQs/qFLz2K+AU0/lj2Cx4WY6AqVr4c/PzFbqI4fACqw==
 
 typedoc@^0.23.16:
   version "0.23.16"
