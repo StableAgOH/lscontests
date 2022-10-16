@@ -13,11 +13,6 @@ import AwaitLock from "await-lock";
 
 const app = express();
 
-function assertType<T>(obj: unknown): asserts obj is T
-// eslint-disable-next-line @typescript-eslint/no-empty-function
-{
-}
-
 const logger = () =>
 {
     return (req: express.Request, res: express.Response, next: express.NextFunction) =>
@@ -68,10 +63,8 @@ app.get("/ics", async (req, res) =>
         else oArg = [oArg];
     }
     else if(!oArg) oArg = Object.keys(alloj);
-    assertType<string[]>(oArg);
-    assertType<string>(lArg);
-
-    const data = await getIcs(lArg, oArg);
+    
+    const data = await getIcs(lArg as unknown as string, oArg as unknown as string[]);
     res.setHeader("Content-Type", "text/calendar");
     res.send(data);
 });
@@ -159,8 +152,7 @@ async function getIcs(lang: string, ojs: string[])
     });
     const { value, error } = createEvents(events);
     if(error) throw error;
-    assertType<string>(value);
-    return icsPostProcess(value);
+    return icsPostProcess(value!);
 }
 
 const command = new Command()
