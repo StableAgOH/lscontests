@@ -2,6 +2,7 @@ import axios from "axios";
 import { load } from "cheerio";
 import { OJ } from ".";
 import { Contest, rule } from "../contest";
+import { unescape } from "lodash";
 
 type result = {
     isSignUp: boolean,
@@ -85,7 +86,7 @@ export const nc: OJ = {
         {
             return {
                 ojName: nc.name,
-                name: res.contestName,
+                name: unescape(res.contestName),
                 rule: ruleRecord[res.type],
                 startTime: new Date(res.contestStartTime),
                 endTime: new Date(res.contestEndTime),
