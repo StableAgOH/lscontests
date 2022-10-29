@@ -56,36 +56,43 @@ Options:
 It performs as follows:
 
 <!-- block_cli begin -->
-(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Sun, 16 Oct 2022 05:22:37 GMT*)
+(*The following content was automatically generated using [semantic-release](https://github.com/semantic-release/semantic-release) on Sat, 29 Oct 2022 17:43:19 GMT*)
 
 <details>
 <summary> <code>> lsct -L en</code> </summary>
 
 ```text
-There are no running contests on AtCoder,Codeforces,LeetCode,Luogu,NowCoder
+There are 2 contests is running on Luogu
 
-There are 3 contests on AtCoder,Codeforces in the next 3 days
+OJ: Luogu
+Contest name: CSP-J 2022 自测
+Rule: IOI
+Start time: 10/29/2022, 04:30:00
+End time: 11/5/2022, 14:00:00
+https://www.luogu.com.cn/contest/90215
+
+OJ: Luogu
+Contest name: CSP-S 2022 自测
+Rule: IOI
+Start time: 10/29/2022, 10:45:00
+End time: 11/5/2022, 14:00:00
+https://www.luogu.com.cn/contest/90216
+
+There are 2 contests on LeetCode,AtCoder in the next 3 days
+
+OJ: LeetCode
+Contest name: Weekly Contest 317
+Rule: AtCoder
+Start time: 10/30/2022, 02:30:00
+End time: 10/30/2022, 04:00:00
+https://leetcode.com/contest/weekly-contest-317
 
 OJ: AtCoder
-Contest name: Ⓐ AtCoder Regular Contest 151
+Contest name: Ⓗ TOYOTA MOTOR CORPORATION Programming Contest 2022（AtCoder Heuristic Contest 015）
 Rule: AtCoder
-Start time: 10/16/2022, 12:00:00
-End time: 10/16/2022, 14:00:00
-https://atcoder.jp/contests/arc151
-
-OJ: Codeforces
-Contest name: Codeforces Round  #828 (Div. 3)
-Rule: ICPC
-Start time: 10/16/2022, 14:35:00
-End time: 10/16/2022, 16:50:00
-https://codeforces.com/contests/1744
-
-OJ: Codeforces
-Contest name: Educational Codeforces Round 137 (Rated for Div. 2)
-Rule: ICPC
-Start time: 10/17/2022, 14:35:00
-End time: 10/17/2022, 16:35:00
-https://codeforces.com/contests/1743
+Start time: 10/30/2022, 06:00:00
+End time: 10/30/2022, 10:00:00
+https://atcoder.jp/contests/ahc015
 ```
 
 </details>
@@ -96,42 +103,28 @@ https://codeforces.com/contests/1743
 ```text
 There are no running contests on AtCoder,Codeforces
 
-There are 5 contests on AtCoder,Codeforces in the next 7 days
+There are 3 contests on AtCoder,Codeforces in the next 7 days
 
 OJ: AtCoder
-Contest name: Ⓐ AtCoder Regular Contest 151
+Contest name: Ⓗ TOYOTA MOTOR CORPORATION Programming Contest 2022（AtCoder Heuristic Contest 015）
 Rule: AtCoder
-Start time: 10/16/2022, 12:00:00
-End time: 10/16/2022, 14:00:00
-https://atcoder.jp/contests/arc151
+Start time: 10/30/2022, 06:00:00
+End time: 10/30/2022, 10:00:00
+https://atcoder.jp/contests/ahc015
 
 OJ: Codeforces
-Contest name: Codeforces Round  #828 (Div. 3)
-Rule: ICPC
-Start time: 10/16/2022, 14:35:00
-End time: 10/16/2022, 16:50:00
-https://codeforces.com/contests/1744
-
-OJ: Codeforces
-Contest name: Educational Codeforces Round 137 (Rated for Div. 2)
-Rule: ICPC
-Start time: 10/17/2022, 14:35:00
-End time: 10/17/2022, 16:35:00
-https://codeforces.com/contests/1743
-
-OJ: Codeforces
-Contest name: Educational Codeforces Round 138 (Rated for Div. 2)
-Rule: ICPC
-Start time: 10/20/2022, 14:35:00
-End time: 10/20/2022, 16:35:00
-https://codeforces.com/contests/1749
+Contest name: Codeforces Round (Div. 2)
+Rule: Codeforces
+Start time: 11/4/2022, 14:35:00
+End time: 11/4/2022, 16:35:00
+https://codeforces.com/contests/1747
 
 OJ: AtCoder
-Contest name: Ⓐ キーエンスプログラミングコンテスト 2022（AtCoder Beginner Contest 274）
+Contest name: Ⓐ AtCoder Beginner Contest 276
 Rule: AtCoder
-Start time: 10/22/2022, 12:00:00
-End time: 10/22/2022, 13:40:00
-https://atcoder.jp/contests/abc274
+Start time: 11/5/2022, 12:00:00
+End time: 11/5/2022, 13:40:00
+https://atcoder.jp/contests/abc276
 ```
 
 </details>
@@ -145,30 +138,6 @@ https://atcoder.jp/contests/abc274
   "upcoming": [
     {
       "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Regular Contest 151",
-      "rule": "AtCoder",
-      "startTime": "2022-10-16T12:00:00.000Z",
-      "endTime": "2022-10-16T14:00:00.000Z",
-      "url": "https://atcoder.jp/contests/arc151"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ キーエンスプログラミングコンテスト2022（AtCoder Beginner Contest 274）",
-      "rule": "AtCoder",
-      "startTime": "2022-10-22T12:00:00.000Z",
-      "endTime": "2022-10-22T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc274"
-    },
-    {
-      "ojName": "AtCoder",
-      "name": "Ⓐ AtCoder Beginner Contest 275",
-      "rule": "AtCoder",
-      "startTime": "2022-10-29T12:00:00.000Z",
-      "endTime": "2022-10-29T13:40:00.000Z",
-      "url": "https://atcoder.jp/contests/abc275"
-    },
-    {
-      "ojName": "AtCoder",
       "name": "Ⓗ TOYOTA MOTOR CORPORATION Programming Contest 2022（AtCoder Heuristic Contest 015）",
       "rule": "AtCoder",
       "startTime": "2022-10-30T06:00:00.000Z",
@@ -176,44 +145,36 @@ https://atcoder.jp/contests/abc274
       "url": "https://atcoder.jp/contests/ahc015"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round  #828 (Div. 3)",
-      "rule": "ICPC",
-      "startTime": "2022-10-16T14:35:00.000Z",
-      "endTime": "2022-10-16T16:50:00.000Z",
-      "url": "https://codeforces.com/contests/1744"
+      "ojName": "AtCoder",
+      "name": "Ⓐ AtCoder Beginner Contest 276",
+      "rule": "AtCoder",
+      "startTime": "2022-11-05T12:00:00.000Z",
+      "endTime": "2022-11-05T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc276"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Educational Codeforces Round 137 (Rated for Div. 2)",
-      "rule": "ICPC",
-      "startTime": "2022-10-17T14:35:00.000Z",
-      "endTime": "2022-10-17T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1743"
+      "ojName": "AtCoder",
+      "name": "Ⓗ HACK TO THE FUTURE 2023 qual（AtCoder Heuristic Contest 016）",
+      "rule": "AtCoder",
+      "startTime": "2022-11-11T10:00:00.000Z",
+      "endTime": "2022-11-20T10:00:00.000Z",
+      "url": "https://atcoder.jp/contests/ahc016"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Educational Codeforces Round 138 (Rated for Div. 2)",
-      "rule": "ICPC",
-      "startTime": "2022-10-20T14:35:00.000Z",
-      "endTime": "2022-10-20T16:35:00.000Z",
-      "url": "https://codeforces.com/contests/1749"
+      "ojName": "AtCoder",
+      "name": "Ⓐ Daiwa Securities Co. Ltd. Programming Contest 2022 Autumn (AtCoder Beginner Contest 277)",
+      "rule": "AtCoder",
+      "startTime": "2022-11-12T12:00:00.000Z",
+      "endTime": "2022-11-12T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc277"
     },
     {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round (Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-10-23T10:05:00.000Z",
-      "endTime": "2022-10-23T12:05:00.000Z",
-      "url": "https://codeforces.com/contests/1732"
-    },
-    {
-      "ojName": "Codeforces",
-      "name": "Codeforces Round (Div. 1 + Div. 2)",
-      "rule": "Codeforces",
-      "startTime": "2022-10-29T09:05:00.000Z",
-      "endTime": "2022-10-29T11:05:00.000Z",
-      "url": "https://codeforces.com/contests/1740"
+      "ojName": "AtCoder",
+      "name": "Ⓐ TOYOTA SYSTEMS Programming Contest 2022(AtCoder Beginner Contest 279)",
+      "rule": "AtCoder",
+      "startTime": "2022-11-26T12:00:00.000Z",
+      "endTime": "2022-11-26T13:40:00.000Z",
+      "url": "https://atcoder.jp/contests/abc279"
     },
     {
       "ojName": "Codeforces",
@@ -225,11 +186,33 @@ https://atcoder.jp/contests/abc274
     },
     {
       "ojName": "Codeforces",
-      "name": "Codeforces Round (Div. 1 + Div. 2)",
+      "name": "CodeTON Round 3 (Div. 1 + Div. 2, Rated, Prizes!)",
       "rule": "Codeforces",
       "startTime": "2022-11-06T14:35:00.000Z",
       "endTime": "2022-11-06T16:35:00.000Z",
       "url": "https://codeforces.com/contests/1750"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "Codeforces Round (Div. 2)",
+      "rule": "Codeforces",
+      "startTime": "2022-11-12T14:35:00.000Z",
+      "endTime": "2022-11-12T16:35:00.000Z",
+      "url": "https://codeforces.com/contests/1748"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "45th ICPC World Finals Challenge powered by Huawei - Problem 1",
+      "startTime": "2022-11-17T00:00:00.000Z",
+      "endTime": "2022-11-30T23:59:00.000Z",
+      "url": "https://codeforces.com/contests/1751"
+    },
+    {
+      "ojName": "Codeforces",
+      "name": "45th ICPC World Finals Challenge powered by Huawei - Problem 2",
+      "startTime": "2022-11-17T00:00:00.000Z",
+      "endTime": "2022-11-30T23:59:00.000Z",
+      "url": "https://codeforces.com/contests/1752"
     },
     {
       "ojName": "Codeforces",

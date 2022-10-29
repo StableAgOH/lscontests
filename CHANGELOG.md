@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.6.3](https://github.com/StableAgOH/lscontests/compare/v2.6.2...v2.6.3) (2022-10-29)
+
+
+### Bug Fixes
+
+* handle html entity correctly ([dcc7ba2](https://github.com/StableAgOH/lscontests/commit/dcc7ba22d3b0aa861fe35806853bdd382bff46c3))
+
 ## [2.6.2](https://github.com/StableAgOH/lscontests/compare/v2.6.1...v2.6.2) (2022-10-16)
 
 
