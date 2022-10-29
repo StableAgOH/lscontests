@@ -2,7 +2,7 @@ import axios from "axios";
 import { load } from "cheerio";
 import { OJ } from ".";
 import { Contest, rule } from "../contest";
-import { decode } from 'html-entities';
+import { decode } from "html-entities";
 
 type result = {
     isSignUp: boolean,
