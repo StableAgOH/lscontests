@@ -10,7 +10,7 @@
 
 一个用来获取各大 OJ 上比赛信息的工具。
 
-[东北话文档](./README-zh-NE.md) | [English Document](./README.md)
+[English Document](./README.md)
 
 ## 如何安装
 

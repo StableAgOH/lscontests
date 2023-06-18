@@ -74,12 +74,6 @@ async function main()
         "-o at cf -d -1 -r --no-sort"
     ], `（*以下内容是使用 [semantic-release](https://github.com/semantic-release/semantic-release) 于 ${new Date().toUTCString()} 自动生成的*）`);
     console.error("Resolved README-zh-CN.md");
-    await update("README-zh-NE.md", [
-        "-L zh-NE",
-        "-o at cf -d 7 -L zh-NE",
-        "-o at cf -d -1 -r --no-sort"
-    ], `（*下面这些是高 [semantic-release](https://github.com/semantic-release/semantic-release) 搁 ${new Date().toUTCString()} 自个生成的*）`);
-    console.error("Resolved README-zh-NE.md");
     return 0;
 }
 
