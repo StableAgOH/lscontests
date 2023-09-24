@@ -1,5 +1,12 @@
 # CHANGELOG
 
+# [2.7.0](https://github.com/StableAgOH/lscontests/compare/v2.6.3...v2.7.0) (2023-09-24)
+
+
+### Features
+
+* add support for vercel ([d447579](https://github.com/StableAgOH/lscontests/commit/d447579fe7a292b71846f6d835dd07d639eae6ac))
+
 ## [2.6.3](https://github.com/StableAgOH/lscontests/compare/v2.6.2...v2.6.3) (2022-10-29)
 
 
