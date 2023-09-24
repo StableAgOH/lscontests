@@ -6,7 +6,7 @@
     "includeVersion": true,
     "out": "docs",
     "plugin": "typedoc-plugin-extras",
-    "customTitleLink": "/",
+    "titleLink": "/",
     "footerTypedocVersion": true,
     "footerDate": true,
     "footerTime": true
