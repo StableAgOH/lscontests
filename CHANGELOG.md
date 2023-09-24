@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [2.7.1](https://github.com/StableAgOH/lscontests/compare/v2.7.0...v2.7.1) (2023-09-24)
+
+
+### Bug Fixes
+
+* include locale in function ([4fe8427](https://github.com/StableAgOH/lscontests/commit/4fe8427b656f631aafbed41ae3d121b256259058))
+* langdict import ([6c31398](https://github.com/StableAgOH/lscontests/commit/6c313980ffbb0782d3d97b99df393e35c0852b5d))
+
 # [2.7.0](https://github.com/StableAgOH/lscontests/compare/v2.6.3...v2.7.0) (2023-09-24)
 
 
