@@ -1,8 +1,7 @@
 {
   "functions": {
     "api/index.ts": {
-      "maxDuration": 10,
-      "includeFiles": "src/locale/*.json"
+      "maxDuration": 10
     }
   },
   "rewrites": [

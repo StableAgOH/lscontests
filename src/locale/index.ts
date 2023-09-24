@@ -1,6 +1,8 @@
-import { readdirSync } from "fs";
+import en from "./en.json";
+import zhCN from "./zh-CN.json";
+import zhTW from "./zh-TW.json";
 
-export const langList = readdirSync(`${__dirname}`).filter(fileName => fileName.endsWith(".json")).map(fileName => fileName.replace(".json", ""));
+export const langList = ["en", "zh-CN", "zh-TW"];
 
 export type langDict = {
     runnning: string,
@@ -19,5 +21,11 @@ export type langDict = {
 export async function getLangDict(language: string): Promise<langDict>
 {
     if(!langList.includes(language)) throw new Error(`Illegal language ${language}, the allowed languages are ${langList}`);
-    return import(`./${language}.json`);
+    switch (language)
+    {
+        case "en": return en;
+        case "zh-CN": return zhCN;
+        case "zh-TW": return zhTW;
+        default: return en;
+    }
 }
