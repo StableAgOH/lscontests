@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/index.ts": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/ics",
+      "destination": "/api"
+    }
+  ]
+}

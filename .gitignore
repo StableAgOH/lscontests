@@ -106,3 +106,8 @@ dist
 temp
 docs
 .idea/
+
+.vercel
+.env.local
+
+.env*.local

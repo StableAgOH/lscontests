@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import express from "express";
 import Lscontests, { Contest } from ".";
 import { alloj } from "./lib/oj";
@@ -6,10 +5,8 @@ import { getLangDict } from "./locale";
 import { convertTimestampToArray, createEvents, EventAttributes } from "ics";
 import pangu from "pangu";
 import { randomUUID } from "crypto";
-import { Command } from "commander";
-import { bin, version } from "../package.json";
-import { readFileSync } from "fs";
 import AwaitLock from "await-lock";
+import Redis from "ioredis";
 
 const app = express();
 
@@ -35,16 +32,8 @@ const logger = () =>
     };
 };
 
-const web = readFileSync(`${__dirname}/server.html`).toString();
-
 app.set("trust proxy", true);
 app.use(logger());
-
-app.get("/", (req, res) =>
-{
-    res.set("Content-Type", "text/html");
-    res.send(web);
-});
 
 app.get("/ics", async (req, res) =>
 {
@@ -77,6 +66,33 @@ const contestsCache: {
     lastUpdate: 0
 };
 
+let redis: Redis = undefined as unknown as Redis;
+
+const cacheKey = "lsct:cache";
+
+async function exportContestCache()
+{
+    await redis.set(cacheKey, JSON.stringify(contestsCache));
+}
+
+async function importContestCache()
+{
+    redis = new Redis(process.env.REDIS_URL as string);
+    const payload = await redis.get(cacheKey);
+    if(payload)
+    {
+        const obj = JSON.parse(payload);
+        contestsCache.lastUpdate = obj.lastUpdate;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        contestsCache.contests = obj.contests.map((c: any) =>
+        {
+            c.startTime = new Date(c.startTime);
+            c.endTime = new Date(c.endTime);
+            return c;
+        });
+    }
+}
+
 const lock = new AwaitLock();
 
 function icsPostProcess(value: string)
@@ -102,6 +118,10 @@ function icsPostProcess(value: string)
 async function checkCache()
 {
     await lock.acquireAsync();
+    if(process.env.VERCEL)
+    {
+        await importContestCache();
+    }
     try
     {
         if(contestsCache.lastUpdate < Date.now() - 1000 * 60 * 5)
@@ -112,6 +132,10 @@ async function checkCache()
                 c => c.endTime.getTime() - c.startTime.getTime() < 1000 * 60 * 60 * 24 * 2
             ); // ignore too long contests
             contestsCache.lastUpdate = Date.now();
+            if(process.env.VERCEL)
+            {
+                await exportContestCache();
+            }
         }
     }
     finally
@@ -156,18 +180,4 @@ async function getIcs(lang: string, ojs: string[])
     return icsPostProcess(value);
 }
 
-const command = new Command()
-    .name(Object.keys(bin)[1])
-    .version(version)
-    .option("-h, --host, <host>", "Host to listen on", "0.0.0.0")
-    .option("-p, --port, <port>", "Port to listen on", "8080");
-command.parse();
-
-const host = command.opts().host as string;
-let port: number | string = command.opts().port as string;
-port = parseInt(port, 10);
-app.listen(port, host, () =>
-{
-    const logURL = `http://${host === "0.0.0.0" ? "127.0.0.1" : host}:${port}/`;
-    console.log(`LSCT server v${version} listening on ${logURL}`);
-});
+export = app;
