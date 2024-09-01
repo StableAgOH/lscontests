@@ -1861,11 +1861,12 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24:
     safer-buffer ">= 2.1.2 < 3"
 
 ics@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.npmjs.org/ics/-/ics-3.5.0.tgz#d63f5d22a71c6fce71f046cd8f2b1ec71a5d2731"
-  integrity sha512-4jXcwh0cyGyE9FaoHE/zFjpac0t6CIPGLQ5rPr9x/Uj3YmVDIIYLa01lpgp1GsUGdhsEwa/PgCm1/kocRItOEg==
+  version "3.7.6"
+  resolved "https://registry.yarnpkg.com/ics/-/ics-3.7.6.tgz#c263e296a0dc24c4d589d255a2fa60695c60f427"
+  integrity sha512-Z1QIWoPzyzqKUSj2Ui9vD3ca0AS+uHyiCjkROFx9PiKtJu9vMuMo6KJ4aqFmMAqn5q3fLq/5tLTJRm4zr9jjgw==
   dependencies:
     nanoid "^3.1.23"
+    runes2 "^1.1.2"
     yup "^1.2.0"
 
 ignore@^5.2.0, ignore@^5.2.4, ignore@~5.2.4:
@@ -2732,6 +2733,11 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
+
+runes2@^1.1.2:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/runes2/-/runes2-1.1.4.tgz#aa38d3d7946e147ac4718ed0fb19b22340ae5c66"
+  integrity sha512-LNPnEDPOOU4ehF71m5JoQyzT2yxwD6ZreFJ7MxZUAoMKNMY1XrAo60H1CUoX5ncSm0rIuKlqn9JZNRrRkNou2g==
 
 rxjs@^6.4.0:
   version "6.6.7"
