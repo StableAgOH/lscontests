@@ -2957,10 +2957,10 @@ package-json-from-dist@^1.0.0:
   resolved "https://registry.yarnpkg.com/package-json-from-dist/-/package-json-from-dist-1.0.0.tgz#e501cd3094b278495eb4258d4c9f6d5ac3019f00"
   integrity sha512-dATvCeZN/8wQsGywez1mzHtTlP22H8OEfPrVMLNr4/eGa+ijtLn/6M5f0dY8UKNrC2O9UCU6SSoG3qRKnt7STw==
 
-pangu@^4.0.7:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/pangu/-/pangu-4.0.7.tgz#2a40347733b004a040d011de460cc313c10391c9"
-  integrity sha512-weZKJIwwy5gjt4STGVUH9bix3BGk7wZ2ahtIypwe3e/mllsrIZIvtfLx1dPX56GcpZFOCFKmeqI1qVuB9enRzA==
+pangu@^7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/pangu/-/pangu-7.2.1.tgz#0f934681e0eadbd957eebcaafc46e821caefb1eb"
+  integrity sha512-HEWJHmYcJhGz5wGebMaKblzu709wUjzsnJzwdjaowAKQzHIHQDmWGpCbWWPx19Exnv/RaQ3UhUg4LkttWZsbCw==
 
 parent-module@^1.0.0:
   version "1.0.1"
